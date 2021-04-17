@@ -2517,6 +2517,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
+    transition: background-color 0.3s ease-in-out;
     color: #fff;
     background-color: #5b0000;
     border-color: #5b0000;
@@ -2525,15 +2526,14 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
     color: #fff;
     background-color: #a60000;
-    border-color: #4f837f;
+    border-color: transparent;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
     color: #fff;
-    background-color: #548b87;
-    border-color: #4f837f;
-    box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
+    background-color: #5b0000;
+    box-shadow: 0 0 0 0.2rem rgba(91, 0, 0, 0.5);
 }
 
 .btn-primary.disabled,
@@ -2547,8 +2547,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #4f837f;
-    border-color: #4a7b78;
+    background-color: #5b0000;
+    border-color: #5b0000;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -10324,12 +10324,10 @@ body {
         color: rgba(255, 255, 255, 0.75);
     }
     #mainNav .nav-link {
-        transition: none;
-        padding: 2rem 1.5rem;
+        transition: color 0.5s ease-in-out;
+        padding: 1.5rem 1.5rem 1.25rem;
         color: rgba(255, 255, 255, 0.75);
-    }
-    #mainNav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.75);
+        border-bottom: 0.25rem solid transparent;
     }
     #mainNav .nav-link:active {
         color: #fff;
@@ -10346,18 +10344,21 @@ body {
         border-bottom: 0.25rem solid transparent;
         transition: color 0.5s ease-in-out;
     }
-    #mainNav.navbar-shrink .nav-link:hover {
-        color: #5b0000;
+    #mainNav.navbar-shrink .nav-link:hover,
+    #mainNav .nav-link:hover {
+        color: rgb(91, 0, 0, 0.75);
         transition: color 0.5s ease-in-out;
     }
-    #mainNav.navbar-shrink .nav-link:after {
+    #mainNav.navbar-shrink .nav-link:after,
+    #mainNav .nav-link:after {
         border-bottom: 0.25rem solid;
         content: "";
         display: block;
         width: 0%;
         transition: width 0.5s ease-in-out;
     }
-    #mainNav.navbar-shrink .nav-link:hover:after {
+    #mainNav.navbar-shrink .nav-link:hover:after,
+    #mainNav .nav-link:hover:after {
         width: 100%;
     }
     #mainNav.navbar-shrink .nav-link.active {
@@ -10373,6 +10374,71 @@ body {
     }
     #mainNav.navbar-shrink .nav-link.active::after {
         width: 100%;
+    }
+    #mainNav .icon1,
+    #mainNav .icon2,
+    #mainNav .icon3,
+    #mainNav .icon4,
+    #mainNav .icon5 {
+        padding-top: calc(1.5rem - 18px);
+        border: 2px solid transparent;
+        border-radius: 999px;
+        display: block;
+        height: 36px;
+        width: 36px;
+        line-height: 1;
+        position: absolute;
+        background-color: transparent;
+    }
+    .icon1 {
+        right: calc(1rem + 46px * 4);
+    }
+    .icon2 {
+        right: calc(1rem + 46px * 3);
+    }
+    .icon3 {
+        right: calc(1rem + 46px * 2);
+    }
+    .icon4 {
+        right: calc(1rem + 46px);
+    }
+    .icon5 {
+        right: calc(1rem);
+    }
+    #mainNav .fa-facebook,
+    #mainNav .fa-twitter,
+    #mainNav .fa-instagram,
+    #mainNav .fa-youtube,
+    #mainNav .fa-envelope {
+        transition: color 0.3s ease-in-out;
+        color: rgb(255, 255, 255, 0.75);
+        background-color: transparent;
+    }
+    #mainNav .fa-facebook:hover,
+    #mainNav .fa-twitter:hover,
+    #mainNav .fa-instagram:hover,
+    #mainNav .fa-youtube:hover,
+    #mainNav .fa-envelope:hover {
+        transition: color 0.5s ease-in-out;
+        background-color: transparent;
+        color: rgb(91, 0, 0, 0.45);
+    }
+    #mainNav.navbar-shrink .fa-facebook,
+    #mainNav.navbar-shrink .fa-twitter,
+    #mainNav.navbar-shrink .fa-instagram,
+    #mainNav.navbar-shrink .fa-youtube,
+    #mainNav.navbar-shrink .fa-envelope {
+        transition: color 0.3s ease-in-out;
+        color: rgb(255, 255, 255, 1);
+    }
+    #mainNav.navbar-shrink .fa-facebook:hover,
+    #mainNav.navbar-shrink .fa-twitter:hover,
+    #mainNav.navbar-shrink .fa-instagram:hover,
+    #mainNav.navbar-shrink .fa-youtube:hover,
+    #mainNav.navbar-shrink .fa-envelope:hover {
+        transition: color 0.5s ease-in-out;
+        background-color: transparent;
+        color: rgb(91, 0, 0, 1);
     }
 }
 
@@ -10404,7 +10470,7 @@ body {
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.45));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
