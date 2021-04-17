@@ -10380,7 +10380,7 @@ body {
     #mainNav .icon3,
     #mainNav .icon4,
     #mainNav .icon5 {
-        padding-top: calc(1.5rem - 18px);
+        margin-bottom: 0.5rem;
         border: 2px solid transparent;
         border-radius: 999px;
         display: block;
