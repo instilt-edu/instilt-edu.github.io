@@ -10496,10 +10496,12 @@ body {
     .masthead h1 {
         font-size: 6.5rem;
         line-height: 6.5rem;
-        letter-spacing: 0.8rem;
+        letter-spacing: 0.7rem;
+        overflow: visible;
+        white-space: nowrap;
     }
     .masthead h2 {
-        max-width: 30rem;
+        max-width: 60rem;
         font-size: 1.25rem;
     }
 }
@@ -10712,4 +10714,16 @@ body {
 
 .footer-icon-1:hover {
     transform: translate(0, -5px);
+}
+
+.Apply-info {
+    padding-top: 2.5rem;
+    width: 1116px;
+    height: 100px + 2.5rem;
+    background-color: #000000;
+}
+
+.Apply-red {
+    text-decoration: underline !important;
+    text-decoration-color: #5b0000 !important;
 }
