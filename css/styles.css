@@ -10724,6 +10724,17 @@ body {
 }
 
 .Apply-red {
-    text-decoration: underline !important;
-    text-decoration-color: #5b0000 !important;
+    position: relative;
+    height: 0.2rem;
+    width: 24.5rem;
+    background-color: #5b0000;
+    margin-bottom: 0 !important;
+}
+
+.team-black {
+    left: 34.875rem;
+    position: relative;
+    width: 34.875rem;
+    height: 30px;
+    background-color: #000000;
 }
