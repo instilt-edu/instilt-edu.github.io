@@ -9352,7 +9352,7 @@ button.bg-black:focus {
     }
     .mb-lg-5,
     .my-lg-5 {
-        margin-bottom: 3rem !important;
+        margin-bottom: 10rem !important;
     }
     .ml-lg-5,
     .mx-lg-5 {
@@ -10512,7 +10512,7 @@ body {
 }
 
 .about-section p {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .projects-section {
