@@ -10380,7 +10380,7 @@ body {
     #mainNav .icon3,
     #mainNav .icon4,
     #mainNav .icon5 {
-        margin-bottom: 0.5rem;
+        top: 1.2rem;
         border: 2px solid transparent;
         border-radius: 999px;
         display: block;
