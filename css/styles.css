@@ -10406,35 +10406,35 @@ body {
         right: calc(1rem);
     }
     #mainNav .fa-facebook,
-    #mainNav .fa-twitter,
+    #mainNav .fa-linkedin,
     #mainNav .fa-instagram,
-    #mainNav .fa-youtube,
+    #mainNav .fa-reddit,
     #mainNav .fa-envelope {
         transition: color 0.3s ease-in-out;
         color: rgb(255, 255, 255, 0.75);
         background-color: transparent;
     }
     #mainNav .fa-facebook:hover,
-    #mainNav .fa-twitter:hover,
+    #mainNav .fa-linkedin:hover,
     #mainNav .fa-instagram:hover,
-    #mainNav .fa-youtube:hover,
+    #mainNav .fa-reddit:hover,
     #mainNav .fa-envelope:hover {
         transition: color 0.5s ease-in-out;
         background-color: transparent;
         color: rgb(91, 0, 0, 0.45);
     }
     #mainNav.navbar-shrink .fa-facebook,
-    #mainNav.navbar-shrink .fa-twitter,
+    #mainNav.navbar-shrink .fa-linkedin,
     #mainNav.navbar-shrink .fa-instagram,
-    #mainNav.navbar-shrink .fa-youtube,
+    #mainNav.navbar-shrink .fa-reddit,
     #mainNav.navbar-shrink .fa-envelope {
         transition: color 0.3s ease-in-out;
         color: rgb(255, 255, 255, 1);
     }
     #mainNav.navbar-shrink .fa-facebook:hover,
-    #mainNav.navbar-shrink .fa-twitter:hover,
+    #mainNav.navbar-shrink .fa-linkedin:hover,
     #mainNav.navbar-shrink .fa-instagram:hover,
-    #mainNav.navbar-shrink .fa-youtube:hover,
+    #mainNav.navbar-shrink .fa-reddit:hover,
     #mainNav.navbar-shrink .fa-envelope:hover {
         transition: color 0.5s ease-in-out;
         background-color: transparent;
@@ -10724,9 +10724,10 @@ body {
 }
 
 .Apply-red {
+    margin-top: 0.5rem;
     position: relative;
     height: 0.2rem;
-    width: 100%;
+    width: 35%;
     background-color: #5b0000;
     margin-bottom: 0 !important;
 }
