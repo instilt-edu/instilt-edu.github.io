@@ -10746,7 +10746,7 @@ body {
 }
 
 .what-we-do {
-    text-shadow: 5px 5px #5b0000;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.45);
     font-weight: 500;
     font-family: montserrat !important;
     line-height: 7rem;
