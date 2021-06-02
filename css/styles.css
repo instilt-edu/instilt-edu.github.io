@@ -10745,23 +10745,54 @@ body {
     }
 }
 
-.team-img {
-    z-index: 1;
-    position: relative;
-    border-radius: 50%;
-    max-width: 35%;
-    height: auto;
+.what-we-do {
+    text-shadow: 5px 5px #5b0000;
+    font-weight: 500;
+    font-family: montserrat !important;
+    line-height: 7rem;
+    text-align: center;
+    color: white;
+    font-size: 10rem;
 }
 
-.team-textbox {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 70%;
-    height: 100%;
+.form {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+.label {
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    padding-bottom: 0.5rem;
+}
+
+.input {
+    float: left;
+    width: 150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: #f8f9fa;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #f8f9fa;
+    border: 1px transparent rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    aspect-ratio: 0.9;
+}
+
+.team {
     background-color: black;
-}
-
-#team-list li+li {
-    margin-top: 10px;
+    width: 100%;
+    height: 100%;
 }
