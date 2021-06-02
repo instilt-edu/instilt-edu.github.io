@@ -10731,14 +10731,6 @@ body {
     margin-bottom: 0 !important;
 }
 
-.team-black {
-    left: 34.875rem;
-    position: relative;
-    width: 34.875rem;
-    height: 30px;
-    background-color: #000000;
-}
-
 @media screen and (max-width: 767px) and (min-width: 320px) {
     div#desktop-icons {
         display: none;
@@ -10777,7 +10769,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     background: #f8f9fa;
     padding: 10px;
 }
@@ -10795,4 +10787,11 @@ body {
     background-color: black;
     width: 100%;
     height: 100%;
+}
+
+.round-img {
+    border-radius: 50%;
+    width: 60%;
+    aspect-ratio: 1;
+    margin-top: 2rem;
 }
