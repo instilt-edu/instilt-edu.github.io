@@ -10547,7 +10547,7 @@ body {
 }
 
 .signup-section {
-    padding: 10rem 0;
+    padding-bottom: 7.5em;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -10739,13 +10739,47 @@ body {
 }
 
 .what-we-do {
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.45);
+    text-shadow: 5px 5px transparent;
     font-weight: 500;
     font-family: montserrat !important;
-    line-height: 5rem;
+    line-height: 8.1rem;
     text-align: center;
     color: white;
-    font-size: 7.5rem;
+    font-size: 5.2rem;
+}
+
+#teamabout {
+    text-shadow: 2.25px 2px transparent;
+    font-weight: 500;
+    font-family: montserrat !important;
+    line-height: 7rem;
+    text-align: center;
+    color: #700000;
+    font-size: 4.2rem;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: #700000;
+}
+
+#underabout{
+    position: absolute;
+    height: 0.2%;
+    width: 92.8%;
+    left: 3.5%;
+    margin-top: -0.5%;
+    background-color: gray;
+    color: rgb(92, 92, 92);
+}
+
+#applytext {
+    text-shadow: 5px 5px transparent;
+    font-weight: 500;
+    font-family: montserrat !important;
+    line-height: 6rem;
+    text-align: center;
+    color: #700000;
+    font-size: 4.2rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
 }
 
 .form {
