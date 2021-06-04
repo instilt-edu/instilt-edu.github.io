@@ -280,7 +280,6 @@ select,
 optgroup,
 textarea {
     margin: 0;
-    font-family: inherit;
     font-size: inherit;
     line-height: inherit;
 }
@@ -8184,7 +8183,7 @@ button.bg-black:focus {
 
 .mb-2,
 .my-2 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1.25rem !important;
 }
 
 .ml-2,
@@ -10565,6 +10564,19 @@ body {
     border: 0;
 }
 
+a[href="mailto:edu@instilt.com"]:hover{
+    text-decoration: none;
+}
+
+.concform{
+    float: left;
+    display: block;
+    clear: both;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    box-align: center;
+    justify-content: center;
+}
 .contact-section {
     padding-top: 5rem;
 }
@@ -10575,7 +10587,7 @@ body {
 }
 
 .contact-section .card h4 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: uppercase;
     letter-spacing: 0.15rem;
@@ -10781,6 +10793,18 @@ body {
     -webkit-text-stroke-color: transparent;
 }
 
+#contactext {
+    text-shadow: 5px 5px transparent;
+    font-weight: 500;
+    font-family: montserrat !important;
+    line-height: 2rem;
+    text-align: center;
+    color: #700000;
+    font-size: 2.8em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+}
+
 .form {
     font-size: 0.8rem;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10789,16 +10813,21 @@ body {
 }
 
 .label {
+    display: block;
     float: left;
-    clear: left;
-    width: 150px;
+    clear: both;
     text-align: right;
-    padding-bottom: 0.5rem;
+    padding-top: 1em;
+    padding-bottom: -5em;
+    margin-bottom: 0% !important;
 }
 
 .input {
+    display: block;
+    clear: both;
     float: left;
-    width: 150px;
+    width: 175%;
+    padding-top: 0%;
 }
 
 .grid-container {
