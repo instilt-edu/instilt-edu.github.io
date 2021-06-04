@@ -10756,7 +10756,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     line-height: 8.1rem;
     text-align: center;
     color: white;
-    font-size: 5.2rem;
+    font-size: 8vw;
 }
 
 #teamabout {
@@ -10878,8 +10878,9 @@ a[href="mailto:edu@instilt.com"]:hover{
       overflow-x: hidden;
   }
  .what-we-do{
-    font-size: 6rem;
-    margin-bottom: 1em;
+    font-size:5em;
+    margin-bottom:0.1em;
+    line-height:1;
  }
  .grid-container{
     width:100%;
@@ -10944,6 +10945,24 @@ a[href="mailto:edu@instilt.com"]:hover{
     .card-body{
         margin-top: 25%;
     }
+    .meth-step{
+        width:100%;
+        height:25%;
+    }
+    .meth-step .card-body{
+        margin:0;
+        padding:1em;
+    }
+    #contact .row{
+        flex-wrap:wrap;
+        justify-content: center;
+        width:100%;
+        height:60%;
+    }
+    #contact .card-body{
+        margin:0;
+    }
+  
 }
 
 .send-button{
@@ -10952,4 +10971,10 @@ a[href="mailto:edu@instilt.com"]:hover{
     bottom: 15%;
     left: 45%;
     position: absolute;
+}
+#presentation{
+    flex-wrap:wrap;
+}
+.meth-step{
+    width:50%;
 }
