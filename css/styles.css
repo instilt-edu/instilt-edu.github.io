@@ -10972,7 +10972,7 @@ a[href="mailto:edu@instilt.com"]:hover{
       width:100%;
   }
   .concform{
-      padding: 1% 0;
+      padding: 0.2% 0;
       
   }
   .concform label{
@@ -11038,10 +11038,17 @@ form textarea{
 #contact .row{
     margin:0 auto;
 }
+#contact{
+    padding-bottom:17%;
+}
 a.navbar-brand{
-    margin-right:-3%;
+    margin-right:-0.3%;
     margin-top:0.05% !important;
 }
+#contact{
+    width:100vw;
+}
+
 }
 
 .send-button{
