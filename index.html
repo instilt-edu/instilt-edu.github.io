@@ -178,7 +178,7 @@
                 </section>
             </section>
             <!-- Project One Row-->
-            <div class="Apply-info" id="join-us" style="margin-top: 10rem;background: transparent;">
+            <div class="Apply-info" id="join-us" style="background: transparent;">
                 <center>
                     <h4 id="applytext" class="text-black" style="background: transparent;">Join Us</h4>
                 </center>
@@ -343,7 +343,7 @@
                                     <label class="label">Your message:&nbsp;</label>
                                     <textarea name="message" class="input"></textarea>
                                 </div>
-                                <div class="concform">
+                                <div class="concform" id="submit-contact">
                                     <button type="submit" class="send-button">Send</button>
                                 </div>
                                 </form>
@@ -464,6 +464,10 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 </body>
-
+<script>
+    let textarea=document.querySelector("textarea");
+    let input=document.querySelector("form input").getBoundingClientRect().width;
+    textarea.style.width=input+"px";
+    </script>
 </html>
 
