@@ -11022,6 +11022,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     flex-wrap: nowrap;
     flex-direction: row-reverse;
     justify-content:space-around;
+    align-items: flex-start;
 }
 #desktop-icons{
     display:none;
