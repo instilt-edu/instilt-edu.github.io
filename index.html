@@ -89,8 +89,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4" style="font-size: 4em;">Our Mission</h2>
-                    <p class="text-white-50">
+                    <h2 class="text-white mb-4" style="font-size: 4rem; font-weight: 600; text-transform: uppercase; text-shadow: 2px 2px 5px rgb(0 0 0, .1);">Our Mission</h2>
+                    <p class="text-white">
                         Our mission is to level the playing field between the children that come from more fortunate backgrounds and those who don't possess the same privilege.
                     </p>
                 </div>
@@ -107,8 +107,8 @@
                     mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4 style="font-size: 3.5em;">Our Model</h4>
-                        <p class="text-black-50 mb-0">In an effort to grow and deepen the understanding of our students, we use a unique model. For our faculty, we pair up one native English speaker with another tutor proficient in the language of the students. This way students are able to enjoy the best of both worlds as they are pushed to communicate seamlessly with a qualified tutor who speaks English in their day-to-day allowing them some great outside exposure. At the same time, the other tutor is always to ensure that the students are following, maintaining a comfortable and familiar environment for the children.
+                        <h4 style="font-size: 3rem;" id="ourmodel">Our Model</h4>
+                        <p class="text-black-75 mb-0">In an effort to grow and deepen the understanding of our students, we use a unique model. For our faculty, we pair up one native English speaker with another tutor proficient in the language of the students. This way students are able to enjoy the best of both worlds as they are pushed to communicate seamlessly with a qualified tutor who speaks English in their day-to-day allowing them some great outside exposure. At the same time, the other tutor is always to ensure that the students are following, maintaining a comfortable and familiar environment for the children.
 
                         </p>
                     </div>
@@ -179,13 +179,13 @@
             </section>
             <!-- Project One Row-->
             <div class="Apply-info" id="join-us" style="background: transparent;">
-                <center>
-                    <h4 id="applytext" class="text-black" style="background: transparent;">Join Us</h4>
-                </center>
-                <center>
-                    <p class="mb-0 text-black-50" style="color: black !important;">To apply as a tutor, fill out the form below ↓</p>
+                <div>
+                    <h4 id="applytext" style="background: transparent;">Join Us</h4>
+                </div>
+                <div id="applytext-subtitle">
+                    <p class="mb-0 text-black-50" style="color: black !important; font-weight: 500;">To apply as a tutor, fill out the form below ↓</p>
                     <p class="Apply-red"></p>
-                </center>
+                </div>
             </div>
             <div class="typeform-widget" data-url="https://form.typeform.com/to/P5Ad1DrB?typeform-medium=embed-snippet" style="width:100%;height:750px;"></div>
             <script>
@@ -207,109 +207,646 @@
             </script>
         </div>
     </section>
-    <section class="projects-section bg-light" style="padding-top: 0rem !important;">
-        
-        <div class="container" id="about" style="position: relative;">
-            <div id="teamabout">Our Team</div>
-            <div id="underabout"></div>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Nilabh.png" class="round-img">
-                        <div style="color: black; ">Nilabh Agrawal</div>
-                        <p class="mb-0 text-white-50 position"><b>Founder</b></p>
-                        <p class="mb-0 text-white-50 location" >Mumbai, India</p>
+    <!--Our Team Page-->
+    <!--
+      How it works:
+      - Split into main-card <div> which are the three different rows, add more main-card <div> to add more rows 
+      - Each main-card <div> has 4 cards <div> which show up on the different pages 
+      - Click on profile pic to email the person
+      - Each person has a profile pic, name, and position title
+    -->
+    <section class="projects-section bg-light" style="padding-top: 0rem !important;" id="about">
+        <div id="teamabout">Our Team</div>
+        <div id="container">
+            <input type="radio" name="dot" id="radio1">
+            <input type="radio" name="dot" id="radio2">
+            <input type="radio" name="dot" id="radio3">            
+            <input type="radio" name="dot" id="radio4">
+            <div class="main-card first row">
+              <div class="cards">
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                     <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Nilabh.png">
+                     </a>
+                   </div>
+                   <div class="details">
+                     <div class="name">Nilabh Agrawal</div>
+                     <div class="position">Founder</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Amy.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Amy Park</div>
+                     <div class="position">Director of Academics</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                  <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Jeremy.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Jeremy Wu</div>
+                     <div class="position">Admin</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <a href="mailto:edu@instilt.com">
+                        <img src="assets/img/team/Palak.png">
+                       </a>                   
+                      </div>
+                    <div class="details">
+                      <div class="name">Palak Bahrdwaj</div>
+                      <div class="position">Outreach</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                       <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                      <div class="media-icons">
+                      
                     </div>
                 </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Amy.png" class="round-img">
-                        <div style="color: black; ">Amy Park</div>
-                        <p class="mb-0 text-white-50 position long-desc" ><b>Director of Academics</b></p>
-                        <p class="mb-0 text-white-50 location">Las Vegas, USA</p>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                    <div class="name">Person X</div>
+                    <div class="position">Position</div>
+                   </div>
+                  
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                    
+                  </div>
+                 </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                    
                     </div>
                 </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Jeremy.png" class="round-img">
-                        <div style="color: black; ">Jeremy Wu</div>
-                        <p class="mb-0 text-white-50 position" ><b>Admin</b></p>
-                        <p class="mb-0 text-white-50 location" >San Jose, USA</p>
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                     
                     </div>
                 </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Palak.png" class="round-img">
-                        <div style="color: black; ">Palak Bahrdwaj</div>
-                        <p class="mb-0 text-white-50 position" ><b>Outreach</b></p>
-                        <p class="mb-0 text-white-50 location" >Bulandshehar, India</p>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                    <div class="name">Person X</div>
+                    <div class="position">Position</div>
+                   </div>
+                 
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                      
                     </div>
                 </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Haresh.png" class="round-img">
-                        <div style="color: black;">Haresh Wedanayke</div>
-                        <p class="mb-0 text-white-50 position" ><b>Admin</b></p>
-                        <p class="mb-0 text-white-50 location" >Colombo, Sri Lanka</p>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                          <img src="assets/img/team/Placeholder_Avatar.png">
+                        </div>
+                        <div class="details">
+                          <div class="name">Person X</div>
+                          <div class="position">Position</div>
+                        </div>
+                      
                     </div>
                 </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Christabel.png" class="round-img">
-                        <div style="color: black;  ">Christabel Osei</div>
-                        <p class="mb-0 text-white-50 position" ><b>Academics</b></p>
-                        <p class="mb-0 text-white-50 location" >New York City, USA</p>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                          <img src="assets/img/team/Placeholder_Avatar.png">
+                        </div>
+                        <div class="details">
+                          <div class="name">Person X</div>
+                          <div class="position">Position</div>
+                        </div>
+                      
                     </div>
                 </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Ashaz.png" class="round-img">
-                        <div style="color: black;  ">Ashaz Hussein</div>
-                        <p class="mb-0 text-white-50 position" ><b>Outreach</b></p>
-                        <p class="mb-0 text-white-50 location" >Vizag, India</p>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
                     </div>
-                </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Aarush.png" class="round-img">
-                        <div style="color: black; ">Aarush Sachdeva</div>
-                        <p class="mb-0 text-white-50 position" ><b>Academics</b></p>
-                        <p class="mb-0 text-white-50 location" >Mumbai, India</p>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
                     </div>
-                </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Nabil.png" class="round-img">
-                        <div style="color: black; ">Nabil Sidker</div>
-                        <p class="mb-0 text-white-50 position"><b>Outreach</b></p>
-                        <p class="mb-0 text-white-50 location">New York City, USA</p>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Paloosha.png" class="round-img">
-                        <div style="color: black; ">Paloosha Sheikh</div>
-                        <p class="mb-0 text-white-50 position" ><b>Outreach</b></p>
-                        <p class="mb-0 text-white-50 location" >Srinagar, India</p>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Theaswanth.png" class="round-img">
-                        <div style="color: black; ">Theaswanth Ganesh</div>
-                        <p class="mb-0 text-white-50 position" ><b>Academics</b></p>
-                        <p class="mb-0 text-white-50 location" >Colombo, Sri Lanka</p>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="team">
-                        <img src="assets/img/team/Ayush.png" class="round-img">
-                        <div style="color: black; ">Ayush Ravichandran</div>
-                        <p class="mb-0 text-white-50 position" ><b>Academics</b></p>
-                        <p class="mb-0 text-white-50 location" >Colombo, Sri Lanka</p>
-                    </div>
-                </div>
+                  </div>
+                 </div>
+              </div>
             </div>
+            <div class="main-card second row">
+              <div class="cards">
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Haresh.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Haresh Wedanayke</div>
+                     <div class="position">Admin</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Christabel.png">
+                     </a>                   </div>
+                   <div class="details">
+                     <div class="name">Christabel Osei</div>
+                     <div class="position">Academics</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Ashaz.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Ashaz Hussein</div>
+                     <div class="position">Outreach</div>
+                   </div>
+                  
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <a href="mailto:edu@instilt.com">
+                        <img src="assets/img/team/Aarush.png">
+                      </a>                    
+                    </div>
+                    <div class="details">
+                      <div class="name">Aarush Sachdeva</div>
+                      <div class="position">Academics</div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                       <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                      <div class="media-icons">
+                      
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                    <div class="name">Person X</div>
+                    <div class="position">Position</div>
+                   </div>
+                  
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                    
+                  </div>
+                 </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                     
+                    </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                    <div class="name">Person X</div>
+                    <div class="position">Position</div>
+                   </div>
+                 
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                          <img src="assets/img/team/Placeholder_Avatar.png">
+                        </div>
+                        <div class="details">
+                          <div class="name">Person X</div>
+                          <div class="position">Position</div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                          <img src="assets/img/team/Placeholder_Avatar.png">
+                        </div>
+                        <div class="details">
+                          <div class="name">Person X</div>
+                          <div class="position">Position</div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="main-card third row">
+              <div class="cards">
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Nabil.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Nabil Sidker</div>
+                     <div class="position">Outreach</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Paloosha.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Paloosha Sheikh</div>
+                     <div class="position">Outreach</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <a href="mailto:edu@instilt.com">
+                      <img src="assets/img/team/Theaswanth.png">
+                     </a>                   
+                    </div>
+                   <div class="details">
+                     <div class="name">Theaswanth Ganesh</div>
+                     <div class="position">Academics</div>
+                   </div>
+                  
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <a href="mailto:edu@instilt.com">
+                        <img src="assets/img/team/Ayush.png">
+                       </a>                    
+                      </div>
+                    <div class="details">
+                      <div class="name">Ayush Ravichandran</div>
+                      <div class="position">Academics</div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                       <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                      <div class="media-icons">
+                      
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                    <div class="name">Person X</div>
+                    <div class="position">Position</div>
+                   </div>
+                  
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                    
+                  </div>
+                 </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                     
+                    </div>
+                </div>
+                <div class="card">
+                 <div class="content">
+                   <div class="img">
+                    <img src="assets/img/team/Placeholder_Avatar.png">
+                  </div>
+                   <div class="details">
+                    <div class="name">Person X</div>
+                    <div class="position">Position</div>
+                   </div>
+                 
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+              <div class="cards">
+                <div class="card">
+                    <div class="content">
+                      <div class="img">
+                        <img src="assets/img/team/Placeholder_Avatar.png">
+                      </div>
+                      <div class="details">
+                        <div class="name">Person X</div>
+                        <div class="position">Position</div>
+                      </div>
+                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                          <img src="assets/img/team/Placeholder_Avatar.png">
+                        </div>
+                        <div class="details">
+                          <div class="name">Person X</div>
+                          <div class="position">Position</div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                          <img src="assets/img/team/Placeholder_Avatar.png">
+                        </div>
+                        <div class="details">
+                          <div class="name">Person X</div>
+                          <div class="position">Position</div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="img">
+                      <img src="assets/img/team/Placeholder_Avatar.png">
+                    </div>
+                    <div class="details">
+                      <div class="name">Person X</div>
+                      <div class="position">Position</div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="button">
+                <label onclick="disableAutoScroll()" for="radio1" class=" active one"></label>
+                <label onclick="disableAutoScroll()" for="radio2" class="two"></label>
+                <label onclick="disableAutoScroll()" for="radio3" class="three"></label>
+                <label onclick="disableAutoScroll()" for="radio4" class="four"></label>
+            </div>
+          </div>   
         </div>
     </section>
     <!-- Signup-->
@@ -317,8 +854,6 @@
         <section class="contact-section" id="contact">
             <div class="container">
                 <div class="row">
-
-                    
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100" style="border-radius: 0 !important;  border-top-left-radius: 0.25rem !important; border-top-right-radius: 0.25rem !important; ">
                             <div class="card-body text-center" style="">
@@ -333,18 +868,18 @@
                                 <form action="https://formspree.io/f/xyylwnvk" method="POST" style="margin-top: 1rem; height: 70%;" _lpchecked="1">
                                 <div class="concform">   
                                     <label class="label">Your email:&nbsp;</label>
-                                    <input type="email" name="_replyto" class="input">
+                                    <input required type="email" name="_replyto" class="input">
                                 </div>
                                 <div class="concform">
                                     <label class="label">Your name:&nbsp;</label>
-                                    <input name="name" class="input">
+                                    <input required name="name" class="input">
                                 </div>
                                 <div class="concform">
                                     <label class="label">Your message:&nbsp;</label>
-                                    <textarea name="message" class="input"></textarea>
+                                    <textarea required name="message" class="input"></textarea>
                                 </div>
                                 <div class="concform" id="submit-contact">
-                                    <button type="submit" class="send-button">Send</button>
+                                    <button type="submit" class="btn send-button">Send</button>
                                 </div>
                                 </form>
                             </div>
@@ -395,25 +930,26 @@
 
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
+      <div class="priv-bar">
+        <ul class="social-menu-1">
+            <il class="social-item-1">
+                <a href="https://instilt.com/privacy-policy/" class="menu-text">Privacy Policy</a>
+            </il>
+            <il class="social-item-1">
+                <a href="https://instilt.com/about/" class="menu-text">About Us</a>
+            </il>
+            <il class="social-item-1">
+                <a href="https://instilt.com/contact/" class="menu-text">Contact Us</a>
+            </il>
+            <il class="social-item-1">
+                <a href="https://instilt.com/" class="menu-text" style="cursor: pointer;">Main Page</a>
+            </il>
+        </ul>
+    </div>
         <div class="gap-container">
             <div class="center-part">
                 <div class="populated">
-                    <div class="priv-bar">
-                        <ul class="social-menu-1">
-                            <il class="social-item-1">
-                                <a href="https://instilt.com/privacy-policy/" class="menu-text">Privacy Policy</a>
-                            </il>
-                            <il class="social-item-1">
-                                <a href="https://instilt.com/about/" class="menu-text">About Us</a>
-                            </il>
-                            <il class="social-item-1">
-                                <a href="https://instilt.com/contact/" class="menu-text">Contact Us</a>
-                            </il>
-                            <il class="social-item-1">
-                                <a href="https://instilt.com/" class="menu-text" style="cursor: pointer;">Main Page</a>
-                            </il>
-                        </ul>
-                    </div>
+                    
                     <div class="bottom-text">
                         <p style="text-align: left;font-size:17px;font-weight: 200;">All articles published here, present the author’s own opinions. We do not intend to hurt the sentiment of any groups/individuals. We respect all opinions and hope to live in a society that respects the views of all and upholds
                             free speech.</p>
@@ -425,7 +961,7 @@
                 </div>
             </div>
             <div class="off-center">
-                <div class="populated">
+                <div class="populated" id="right-footer">
                     <a href="https://instilt.com/">
                         <img class="footer-logo" src="https://instilt.com/wp-content/uploads/2021/02/logoogogogogogogo-1-150x150.png">
                     </a>

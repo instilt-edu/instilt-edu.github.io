@@ -54,3 +54,26 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+// Auto scrolling team members page
+ 
+var counter = 1;
+var isDisabled = false;
+setInterval(function() {
+    if(!isDisabled) {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4) {
+            counter = 1;
+        } 
+    }
+}, 10000); 
+
+
+function disableAutoScroll() {
+    isDisabled = true;
+    setTimeout(function() {
+        isDisabled = false;
+        counter = 1;
+    }, 15000);
+}
