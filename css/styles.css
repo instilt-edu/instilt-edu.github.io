@@ -10496,8 +10496,14 @@ body {
     }
 }
 
+#mission-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .about-section {
-    padding-top: 10rem;
+    padding: 12vh 0;
     background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
@@ -10506,7 +10512,7 @@ body {
 }
 
 .projects-section {
-    padding: 10rem 0;
+    padding: 12vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10549,7 +10555,6 @@ body {
 }
 
 .signup-section {
-    padding-bottom: 7.5em;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -10582,7 +10587,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     justify-content: center;
 }
 .contact-section {
-    padding-top: 5rem;
+    padding: 12vh 0;
 }
 
 .contact-section .card {
@@ -10731,7 +10736,6 @@ a[href="mailto:edu@instilt.com"]:hover{
 }
 
 .Apply-info {
-    padding-top: 2.5rem;
     width: 100%;
     height: 100px + 2.5rem;
     background-color: #000000;
@@ -10760,13 +10764,13 @@ a[href="mailto:edu@instilt.com"]:hover{
     color: white;
     text-transform: uppercase;
     font-size: 5rem;
-    margin-bottom: 40px;
+    margin-bottom: 75px;
 }
 
 #teamabout {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-top: 12vh;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -10777,8 +10781,6 @@ a[href="mailto:edu@instilt.com"]:hover{
     text-align: center;
     color: #700000;
     font-size: 5rem;
-    margin-top: 80px;
-    border-bottom: #33363B 4px dashed;
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: #700000;
 }
@@ -10842,7 +10844,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     display: block;
     clear: both;
     float: left;
-    width: 175%;
+    width: 100% !important;
     padding-top: 0%;
 }
 
@@ -10918,9 +10920,6 @@ a[href="mailto:edu@instilt.com"]:hover{
      position: relative;
      padding: 0.1em;
  }
- .signup-section{
-     padding:0.3em;
- }
  .projects-section{
      padding:0.3em 0;
  }
@@ -10979,11 +10978,9 @@ a[href="mailto:edu@instilt.com"]:hover{
         margin:0;
     }
   #submit-contact{
-      width:100%;
       position:relative;
       height:20%;
-      padding:2% 0;
-    
+      padding:5% 0;
   }
   .input{
       width:100%;
@@ -10996,7 +10993,6 @@ a[href="mailto:edu@instilt.com"]:hover{
       padding-bottom: 1.7%;
   }
   button.send-button{
-      position: static;
       margin:1% auto;
   }
   form{
@@ -11032,10 +11028,6 @@ a[href="mailto:edu@instilt.com"]:hover{
     padding-top:25%;
     padding-bottom: 10%;
 }
-#join-us{
-    margin-top:7vh !important;
-    padding:0;
-}
 
 #mainNav{
     flex-wrap: nowrap;
@@ -11046,9 +11038,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 #desktop-icons{
     display:none;
 }
-#method{
-    padding-bottom:20%;
-}
+
 footer{
     height:160vh;
 }
@@ -11074,16 +11064,12 @@ a.navbar-brand{
 	text-transform: uppercase;
 	text-decoration: none;
 	background: #ffffff;
-	padding: 20px;
+	padding: 10px;
 	border: 4px solid #494949 !important;
 	display: inline-block;
 	transition: all 0.4s ease 0s;
-    width: 200px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    width: 50%;
+    margin-top: 40px;
 }
 
 .send-button:hover {
@@ -11100,16 +11086,19 @@ a.navbar-brand{
     width:50%;
 }
 #join-us{
-    margin-top: 80px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: 600;
+}
+
+#join-us-page {
+    padding-top: 12vh;
 }
 
 
 #container{
     width: 100%;
     overflow: hidden;
-    padding: 80px 0px;
+    padding-top: 40px;
 
   }
 
@@ -11141,7 +11130,7 @@ a.navbar-brand{
     display: flex;
     flex-wrap: wrap;
     margin: 0 40px;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .main-card .cards .card{
     width: calc(100% / 4 - 30px);
@@ -11150,7 +11139,7 @@ a.navbar-brand{
     align-items: center;
     justify-content: flex-start;
     background: #f8f9fa;
-    padding: 30px;
+    padding: 20px 30px;
     transition: all 0.4s ease;
   }
   
@@ -11164,8 +11153,8 @@ a.navbar-brand{
     padding: 0 40px;
   }
   .cards .card .content .img{
-    height: 15rem;
-    width: 15rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 50%;
     background: #700000;
     margin-bottom: 14px;
@@ -11237,17 +11226,17 @@ a.navbar-brand{
    width: 100%;
    display: flex;
    justify-content: center;
-   margin: 40px 0;
+   margin: 50px 0 50px -5px;
  }
 
 
 
  .button label{
-   height: 20px;
-   width: 20px;
-   border-radius: 10px;
-   border: 2px solid #700000;
-   margin: 0 10px;
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   border: 4px solid #700000;
+   margin: 0 20px;
    cursor: pointer;
    transition: all 0.5s ease;
  }
