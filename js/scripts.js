@@ -74,6 +74,5 @@ function disableAutoScroll() {
     isDisabled = true;
     setTimeout(function() {
         isDisabled = false;
-        counter = 1;
     }, 15000);
 }

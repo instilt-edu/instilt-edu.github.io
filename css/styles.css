@@ -11150,7 +11150,7 @@ a.navbar-brand{
     align-items: center;
     justify-content: flex-start;
     background: #f8f9fa;
-    padding: 30px;
+    padding: 20px 30px;
     transition: all 0.4s ease;
   }
   
@@ -11164,8 +11164,8 @@ a.navbar-brand{
     padding: 0 40px;
   }
   .cards .card .content .img{
-    height: 15rem;
-    width: 15rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 50%;
     background: #700000;
     margin-bottom: 14px;
