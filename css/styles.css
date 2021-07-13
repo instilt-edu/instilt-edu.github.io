@@ -484,6 +484,10 @@ small,
     font-weight: 400;
 }
 
+@media screen {
+    
+}
+
 mark,
 .mark {
     padding: 0.2em;
@@ -4334,7 +4338,7 @@ input[type=button].btn-block {
 
 .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 10px 20px;
     font-weight: 600;
 }
 
@@ -4458,6 +4462,7 @@ input[type=button].btn-block {
     display: flex;
     flex-direction: column;
     padding-left: 0;
+    padding-top: 10px;
     margin-bottom: 0;
     list-style: none;
 }
@@ -4487,10 +4492,12 @@ input[type=button].btn-block {
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
-    line-height: 1;
+    font-family: "Montserrat", Sans-serif;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+    display: flex;
+    align-items: center;   
 }
 
 .navbar-toggler:hover,
@@ -4608,7 +4615,7 @@ input[type=button].btn-block {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1300px) {
     .navbar-expand-lg {
         flex-flow: row nowrap;
         justify-content: flex-start;
@@ -4872,8 +4879,15 @@ input[type=button].btn-block {
 .card-body {
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem;
+    padding: 3.5rem 5rem 3.5rem 5rem;
 }
+
+@media only screen and (max-width: 990px) {
+    .card-body {
+        padding: 2rem 2.5rem; 
+    }
+  }
+  
 
 .card-title {
     margin-bottom: 0.75rem;
@@ -9351,7 +9365,7 @@ button.bg-black:focus {
     }
     .mb-lg-5,
     .my-lg-5 {
-        margin-bottom: 10rem !important;
+        margin-bottom: 12vh !important;
     }
     .ml-lg-5,
     .mx-lg-5 {
@@ -10309,13 +10323,15 @@ body {
     background-color: transparent;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1300px) {
     #mainNav {
         padding-top: 0;
         padding-bottom: 0;
         border-bottom: none;
         background-color: transparent;
         transition: background-color 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
     }
     #mainNav .navbar-brand {
         position: absolute;
@@ -10369,7 +10385,7 @@ body {
     #mainNav .icon3,
     #mainNav .icon4,
     #mainNav .icon5 {
-        top: 1.2rem;
+        top: 1.6rem;
         border: 2px solid transparent;
         border-radius: 999px;
         display: block;
@@ -10458,7 +10474,6 @@ body {
 .masthead h1 {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 2.5rem;
-    line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: rgba(255, 255, 255, 0.9);
     -webkit-text-fill-color: transparent;
@@ -10473,7 +10488,7 @@ body {
 
 @media (min-width: 768px) {
     .masthead h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         line-height: 4rem;
     }
 }
@@ -10529,6 +10544,7 @@ body {
 
 .projects-section .featured-text {
     padding: 2rem;
+    margin-left: 20px;
 }
 
 @media (min-width: 992px) {
@@ -10568,7 +10584,7 @@ body {
     height: auto;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 80%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 0.15rem;
     border: 0;
 }
@@ -10598,7 +10614,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 .contact-section .card h4 {
     font-size: 1rem;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 0.15rem;
 }
 
@@ -10694,11 +10710,10 @@ a[href="mailto:edu@instilt.com"]:hover{
 }
 
 .bottom-text {
-    margin-bottom: 20px;
+    margin: 20px 40px;
     font-family: "Montserrat", Sans-serif;
     font-weight: 400;
-    width: 100%;
-    position: relative;
+    
 }
 
 .off-center {
@@ -10762,22 +10777,22 @@ a[href="mailto:edu@instilt.com"]:hover{
     font-family: montserrat !important;
     text-align: center;
     color: white;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 5rem;
-    margin-bottom: 75px;
+    margin: 0 20px 75px 20px;
 }
 
 #teamabout {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px dashed #00000070;
     font-weight: 600;
     padding-top: 12vh;
+    padding-bottom: 20px;
     width: 80%;
+    line-height: 1;
     display: flex;
     justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 0px;
     font-family: montserrat !important;
-    line-height: 7rem;
     text-align: center;
     color: #700000;
     font-size: 5rem;
@@ -10787,9 +10802,10 @@ a[href="mailto:edu@instilt.com"]:hover{
 
 #ourmodel {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
     font-weight: 600;
     padding-bottom: 20px; 
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 #ourmodel p {
@@ -10805,7 +10821,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     font-family: montserrat !important;
     text-align: center;
     color: #700000;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 5rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: transparent;
@@ -10813,7 +10829,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 
 #contactext {
     font-weight: 600;
-    text-transform: uppercase !important;
+    text-transform: capitalize !important;
     font-family: montserrat !important;
     line-height: 2rem;
     text-align: center;
@@ -10826,7 +10842,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 .form {
     font-size: 0.8rem;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 0.15rem;
 }
 
@@ -10879,12 +10895,25 @@ a[href="mailto:edu@instilt.com"]:hover{
     margin-top: 1rem;
     font-size:1.5rem;
  }
-.name{
-    font-size: 1.2rem; color:black !important; color:black !important;
-}
-.position{
-    font-size: 1rem; color:black !important; color:black !important;
-}
+
+ @media screen and (max-width: 1300px) {
+    a.navbar-brand{
+        margin-right:-0.3%;
+        margin-top:0.05% !important;
+    }
+    #mainNav{
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content:space-around;
+        align-items: baseline;
+    }
+    #desktop-icons{
+        display:none;
+    }
+ }
+
+ 
+ 
 @media screen and (max-width: 850px) {
   footer,body{
     overflow-x:hidden;
@@ -10896,8 +10925,7 @@ a[href="mailto:edu@instilt.com"]:hover{
       overflow-x: hidden;
   }
  .what-we-do{
-    font-size:5em;
-    margin-bottom:0.1em;
+    font-size: 4rem;
     line-height:1;
  }
  .grid-container{
@@ -10937,14 +10965,7 @@ a[href="mailto:edu@instilt.com"]:hover{
  #about{
      padding:3em 0.2em;
  }
- .location{
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width:100%;
-    text-align: center;;
-
- }
+ 
  .long-desc{
      display: block;
      width:90%;
@@ -10957,26 +10978,18 @@ a[href="mailto:edu@instilt.com"]:hover{
         overflow:hidden;
         height: 40vh;
     }
-    .card-body{
-        margin-top: 25%;
-    }
     .meth-step{
         width:100%;
         height:25%;
     }
-    .meth-step .card-body{
-        margin:0;
-        padding:1em;
-    }
+
     #contact .row{
         flex-wrap:wrap;
         justify-content: center;
         width:100%;
         height:60%;
     }
-    #contact .card-body{
-        margin:0;
-    }
+
   #submit-contact{
       position:relative;
       height:20%;
@@ -11012,9 +11025,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     flex-direction: column;
     
  }
- div.priv-bar{
-     padding:3% 0;
- }
+
  div.populated{
     margin:auto;
  }
@@ -11035,13 +11046,8 @@ a[href="mailto:edu@instilt.com"]:hover{
     justify-content:space-around;
     align-items: baseline;
 }
-#desktop-icons{
-    display:none;
-}
 
-footer{
-    height:160vh;
-}
+
 form textarea{
     margin-top:1%;
 }
@@ -11051,21 +11057,19 @@ form textarea{
 #contact{
     padding-bottom:17%;
 }
-a.navbar-brand{
-    margin-right:-0.3%;
-    margin-top:0.05% !important;
-}
 
 
 }
 
 .send-button{
-    color: #494949 !important;
+    color: #212529 !important;
 	text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
 	text-decoration: none;
 	background: #ffffff;
 	padding: 10px;
-	border: 4px solid #494949 !important;
+	border: 2px solid #700000 !important;
 	display: inline-block;
 	transition: all 0.4s ease 0s;
     width: 50%;
@@ -11077,10 +11081,6 @@ a.navbar-brand{
 	background: #700000;
 	border-color: #700000 !important;
 	transition: all 0.4s ease 0s;
-}
-
-#presentation{
-    flex-wrap:wrap;
 }
 .meth-step{
     width:50%;
@@ -11102,17 +11102,18 @@ a.navbar-brand{
 
   }
 
-  /* WIDTH IS 100% * NUMBER OF SECTIONS */
 
 
   #container .main-card{
     display: flex;
-    justify-content: space-evenly;
-    width: 400%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     transition: 1s;
   }
 
-  /* ADD ONE MORE CHECKED RULESET BY INCREASING MARGIN-LEFT BY -100% FOR EVERY NEW SECTION */
+
+/* 
 
   #radio2:checked ~ .main-card{
     margin-left: -100%;
@@ -11122,26 +11123,43 @@ a.navbar-brand{
   }
   #radio4:checked ~ .main-card{
     margin-left: -300%;
-  }
+  } */
 
 
-  #container .main-card .cards{
-    width: calc(100% / 2 - 10px);
+  .main-card .cards{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     margin: 0 40px;
-    justify-content: space-evenly;
   }
+
   .main-card .cards .card{
-    width: calc(100% / 4 - 30px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     background: #f8f9fa;
-    padding: 20px 30px;
+    padding: 20px;
     transition: all 0.4s ease;
   }
+
+  .cards.page-1 {
+      display: flex;
+  }
+
+  .cards.page-2 {
+    display: none;
+ }
+
+  .cards.page-3 {
+    display: none;
+}
+
+  .cards.page-4 {
+    display: none;
+}
+
   
   .cards .card .content{
     width: min-content;
@@ -11153,8 +11171,8 @@ a.navbar-brand{
     padding: 0 40px;
   }
   .cards .card .content .img{
-    height: 14rem;
-    width: 14rem;
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
     background: #700000;
     margin-bottom: 14px;
@@ -11179,15 +11197,23 @@ a.navbar-brand{
   }
 
   .card .content .name{
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    color: black;
     font-weight: bold;
     letter-spacing: -1px;
+    margin-bottom: 10px;
   }
   .card .content .position{
-    font-size: 1.2rem;
-    color: #700000;
-    line-height: 20px;
-    letter-spacing: 0px;
+    font-size: .9rem;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .card .content .location{
+    font-size: .9rem;
+    color: #000;
+    font-style: italic;
+    margin-bottom: 10px;
   }
 
   .card .content .details {
@@ -11197,6 +11223,36 @@ a.navbar-brand{
       text-align: center;
       justify-content: flex-start;
       flex-direction: column;
+  }
+  
+
+
+  @media only screen and (min-width: 1600px) {
+    .cards .card .content .img{
+        height: 11.5rem;
+        width: 11.5rem;
+      }
+
+    .main-card .cards{
+        margin: 0 125px;
+      }
+
+
+    .cards .card .content{
+        padding: 0 20px;
+    }
+
+    .card .content .name{
+        font-size: 1.1rem;
+    }
+
+    .card .content .position{
+        font-size: .875rem;
+    }
+    
+    .card .content .location{
+        font-size: .875rem;
+    }
   }
 
   .card .content .media-icons{
@@ -11232,10 +11288,10 @@ a.navbar-brand{
 
 
  .button label{
-   height: 25px;
-   width: 25px;
+   height: 20px;
+   width: 20px;
    border-radius: 50%;
-   border: 4px solid #700000;
+   border: 2px solid #700000;
    margin: 0 20px;
    cursor: pointer;
    transition: all 0.5s ease;
@@ -11316,197 +11372,160 @@ a.navbar-brand{
    }
  }
 
+ #our-mission {
+    font-size: 4rem; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    text-shadow: 2px 2px 5px rgb(0 0 0, .1);
+ }
+
+ #logo-image { 
+    height: 20rem; 
+    width: 20rem;
+ }
+
+ #right-footer {
+     margin: 30px;
+ }
+
+ #join-us-subtitle {
+     text-align: center;
+     padding-bottom: 5px;
+     border-bottom: 3px solid #700000;
+ }
+
+ @media only screen and (min-width: 1300px) {
+    .nav-link {
+        padding: 10px;
+    }
+ }
 
 
 
-  /*  #container{
-    width: 100%;
-    overflow: hidden;
-    padding: 80px 0px;
+ @media only screen and (max-width: 992px) {
+    .method-about {
+        font-size: 11px; 
+    }
+    #title {
+        font-size: 3.5rem;
+    }
+    #subtitle {
+        font-size: 15px;
+    }
+    #mission-subtitle {
+        font-size: 15px;
+    }
+    #logo-image { 
+        height: 18rem; 
+        width: 18rem;
+     }
+     #join-us-subtitle {
+         font-size: 15px;
+     }
+     #presentation {
+        flex-wrap: wrap;
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px) {
+    .method-about {
+        font-size: 12px; 
+    }
+    .what-we-do {
+        font-size: 4.25rem;
+    }
+    #applytext {
+        font-size: 4.25rem;
+    }
+    #teamabout {
+        font-size: 4.25rem;
+    }
+    #our-mission {
+        font-size: 4.25rem;
+    }
+    #logo-image { 
+        height: 15rem; 
+        width: 15rem;
+     }
+     .menu-text {
+         padding-top: 5px;
+         padding-bottom: 5px;
+     }
+     .priv-bar {
+         margin-bottom: 0;
+         padding-top: 20px;
+     }
+     .send-button {
+         font-size: 15px;
+     }
+     .flex-container-form {
+         margin-bottom: 10px;
+         flex: none;
+         max-width: none;
+     }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    #ourmodel-subtitle {
+        font-size: 14px;
+    }
+  } 
+
+  @media only screen and (max-width: 575px) {
+    .card-body {
+        padding: 2rem;
+    }
+    .what-we-do {
+        font-size: 3.5rem;
+    }
+    #applytext {
+        font-size: 3.5rem;
+    }
+    #ourmodel {
+        font-size: 3.5rem;
+    }
+    #teamabout {
+        font-size: 3.5rem;
+    }
+    #our-mission {
+        font-size: 3.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+      .cards .card .content .img {
+          height: 13rem;
+          width:  13rem;
+      }
+
+      .card .content .name {
+          font-size: 1.2rem;
+      }
+      .card .content .position {
+        font-size: .95rem;
+    }
+    
+    .card .content .location {
+        font-size: .95rem;
+    }
 
   }
 
-
-
-  #container .main-card{
-    display: flex;
-    justify-content: space-evenly;
-    width: 400%;
-    margin: 40px 0px;
-    transition: 1s;
+  @media only screen and (max-width: 575px) {
+    .card .content .name {
+        font-size: 1.3rem;
+    }
+    .card .content .position {
+      font-size: 1rem;
   }
-
-  #two:checked ~ .main-card{
-    margin-left: -100%;
-  }
-  #three:checked ~ .main-card{
-    margin-left: -200%;
-  }
-  #four:checked ~ .main-card{
-    margin-left: -300%;
-  }
-
-
-  #container .main-card .cards{
-    width: calc(100% / 2 - 10px);
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 40px;
-    justify-content: space-between;
-  }
-  .main-card .cards .card{
-    width: calc(100% / 3 - 30px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background: #fff;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-    transition: all 0.4s ease;
-  }
-  .main-card .cards .card:hover{
-    transform: translateY(-15px);
-  }
-  .cards .card .content{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .cards .card .content .img{
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
-    padding: 3px;
-    background: #700000;
-    margin-bottom: 14px;
-  }
-  .card .content .img img{
-    height: 100%;
-    width: 100%;
-    border: 3px solid #ffff;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .card .content .position{
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  .card .content .location{
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: #700000;
-  }
-  .card .content .media-icons{
-    margin-top: 10px;
-    display: flex;
   
-  }
-  .media-icons a{
-    text-align: center;
-    line-height: 33px;
-    height: 35px;
-    width: 35px;
-    margin: 0 4px;
-    font-size: 1.25rem;
-    color: #FFF;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    background: #700000;
-    transition: all 0.3s ease;
-  }
-  .media-icons a:hover{
-    color: #700000;
-    background-color: #fff;
-    border-color: #700000;
-  }
-   #container .button{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-  }
-  .button label{
-    height: 15px;
-    width: 15px;
-    border-radius: 20px;
-    background: #700000;
-    margin: 0 4px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-  }
-  .button label.active{
-    width: 35px;
+  .card .content .location {
+      font-size: 1rem;
   }
 
+}
 
-  #one:checked ~ .button .one{
-    width: 35px;
-  }
-  #one:checked ~ .button .two{
-    width: 15px;
-  }
-  #one:checked ~ .button .three{
-    width: 15px;
-  }
-  #one:checked ~ .button .four{
-    width: 15px;
-  }
-  #two:checked ~ .button .one{
-    width: 15px;
-  }
-  #two:checked ~ .button .two{
-    width: 35px;
-  }
-  #two:checked ~ .button .three{
-    width: 15px;
-  }
-  #two:checked ~ .button .four{
-    width: 15px;
-  }
-  #three:checked ~ .button .one{
-    width: 15px;
-  }
-  #three:checked ~ .button .two{
-    width: 15px;
-  }
-  #three:checked ~ .button .three{
-    width: 35px;
-  }
-  #three:checked ~ .button .four{
-    width: 15px;
-  }
-  #four:checked ~ .button .one{
-    width: 15px;
-  }
-  #four:checked ~ .button .two{
-    width: 15px;
-  }
-  #four:checked ~ .button .three{
-    width: 15px;
-  }
-  #four:checked ~ .button .four{
-    width: 35px;
-  }
-  input[type="radio"]{
-    display: none;
-  }
-  @media (max-width: 768px) {
-    .main-card .cards .card{
-      margin: 20px 0 10px 0;
-      width: calc(100% / 2 - 10px);
-    }
-  }
-  @media (max-width: 600px) {
-    .main-card .cards .card{
-      margin: 20px 0 10px 0;
-      width: 100%;
-    }
-  }
 
-  */
   
