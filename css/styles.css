@@ -10922,7 +10922,6 @@ a[href="mailto:edu@instilt.com"]:hover{
   footer,body{
     overflow-x:hidden;
     width:100vw;
-     /* The width is 100%, when the viewport is 800px or smaller */
   }
   
   body section{
@@ -11115,19 +11114,6 @@ form textarea{
     flex-wrap: wrap;
     transition: 1s;
   }
-
-
-/* 
-
-  #radio2:checked ~ .main-card{
-    margin-left: -100%;
-  }
-  #radio3:checked ~ .main-card{
-    margin-left: -200%;
-  }
-  #radio4:checked ~ .main-card{
-    margin-left: -300%;
-  } */
 
 
   .main-card .cards{
