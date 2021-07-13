@@ -86,6 +86,7 @@ function setTimeoutAutoScroll() {
     }, 10000);
 }
 
+// Show next page of team members 
 
 function showPage(pageNumber) {
     var cards = document.getElementsByClassName("cards");
