@@ -10779,7 +10779,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     color: white;
     text-transform: capitalize;
     font-size: 5rem;
-    margin-bottom: 75px;
+    margin: 0 20px 75px 20px;
 }
 
 #teamabout {
@@ -11102,17 +11102,18 @@ form textarea{
 
   }
 
-  /* WIDTH IS 100% * NUMBER OF SECTIONS */
 
 
   #container .main-card{
     display: flex;
-    justify-content: space-around;
-    width: 400%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     transition: 1s;
   }
 
-  /* ADD ONE MORE CHECKED RULESET BY INCREASING MARGIN-LEFT BY -100% FOR EVERY NEW SECTION */
+
+/* 
 
   #radio2:checked ~ .main-card{
     margin-left: -100%;
@@ -11122,14 +11123,17 @@ form textarea{
   }
   #radio4:checked ~ .main-card{
     margin-left: -300%;
-  }
+  } */
 
 
-  #container .main-card .cards{
+  .main-card .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 40px;
   }
+
   .main-card .cards .card{
     display: flex;
     flex-direction: column;
@@ -11139,6 +11143,23 @@ form textarea{
     padding: 20px;
     transition: all 0.4s ease;
   }
+
+  .cards.page-1 {
+      display: flex;
+  }
+
+  .cards.page-2 {
+    display: none;
+ }
+
+  .cards.page-3 {
+    display: none;
+}
+
+  .cards.page-4 {
+    display: none;
+}
+
   
   .cards .card .content{
     width: min-content;
@@ -11150,8 +11171,8 @@ form textarea{
     padding: 0 40px;
   }
   .cards .card .content .img{
-    height: 10rem;
-    width: 10rem;
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
     background: #700000;
     margin-bottom: 14px;
@@ -11183,13 +11204,13 @@ form textarea{
     margin-bottom: 10px;
   }
   .card .content .position{
-    font-size: .85rem;
+    font-size: .9rem;
     color: #000;
     margin-bottom: 10px;
   }
 
   .card .content .location{
-    font-size: .85rem;
+    font-size: .9rem;
     color: #000;
     font-style: italic;
     margin-bottom: 10px;
@@ -11204,26 +11225,33 @@ form textarea{
       flex-direction: column;
   }
   
-  @media only screen and (max-width: 1600px) {
+
+
+  @media only screen and (min-width: 1600px) {
     .cards .card .content .img{
-        height: 10rem;
-        width: 10rem;
+        height: 11.5rem;
+        width: 11.5rem;
       }
+
+    .main-card .cards{
+        margin: 0 125px;
+      }
+
 
     .cards .card .content{
         padding: 0 20px;
     }
 
     .card .content .name{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .card .content .position{
-        font-size: .8rem;
+        font-size: .875rem;
     }
     
     .card .content .location{
-        font-size: .8rem;
+        font-size: .875rem;
     }
   }
 
@@ -11402,7 +11430,7 @@ form textarea{
 
   @media only screen and (max-width: 850px) {
     .method-about {
-        font-size: 10px; 
+        font-size: 12px; 
     }
     .what-we-do {
         font-size: 4.25rem;
@@ -11465,6 +11493,39 @@ form textarea{
         font-size: 3.5rem;
     }
   }
+
+  @media only screen and (max-width: 1050px) {
+      .cards .card .content .img {
+          height: 13rem;
+          width:  13rem;
+      }
+
+      .card .content .name {
+          font-size: 1.2rem;
+      }
+      .card .content .position {
+        font-size: .95rem;
+    }
+    
+    .card .content .location {
+        font-size: .95rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 575px) {
+    .card .content .name {
+        font-size: 1.3rem;
+    }
+    .card .content .position {
+      font-size: 1rem;
+  }
+  
+  .card .content .location {
+      font-size: 1rem;
+  }
+
+}
 
 
   

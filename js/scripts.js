@@ -62,6 +62,7 @@ var isDisabled = false;
 // setInterval(function() {
 //     if(!isDisabled) {
 //         document.getElementById('radio' + counter).checked = true;
+//         showPage(counter);
 //         counter++;
 //         if(counter > 4) {
 //             counter = 1;
@@ -83,4 +84,17 @@ function setTimeoutAutoScroll() {
     setTimeout(function() {
         isDisabled = false;
     }, 10000);
+}
+
+
+function showPage(pageNumber) {
+    var cards = document.getElementsByClassName("cards");
+    console.log(cards);
+    for(var i = 0; i < cards.length; i++) {
+        if(cards.item(i).classList.contains("page-" + pageNumber)) {
+            cards.item(i).style.display = "flex";
+        } else {
+            cards.item(i).style.display = "none";
+        }
+    }
 }
