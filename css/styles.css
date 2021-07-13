@@ -10544,6 +10544,7 @@ body {
 
 .projects-section .featured-text {
     padding: 2rem;
+    margin-left: 20px;
 }
 
 @media (min-width: 992px) {
@@ -11081,10 +11082,6 @@ form textarea{
 	border-color: #700000 !important;
 	transition: all 0.4s ease 0s;
 }
-
-#presentation{
-    flex-wrap:wrap;
-}
 .meth-step{
     width:50%;
 }
@@ -11377,7 +11374,7 @@ form textarea{
 
 
 
- @media only screen and (max-width: 990px) {
+ @media only screen and (max-width: 992px) {
     .method-about {
         font-size: 11px; 
     }
@@ -11397,6 +11394,9 @@ form textarea{
      #join-us-subtitle {
          font-size: 15px;
      }
+     #presentation {
+        flex-wrap: wrap;
+    }
     
   }
 
