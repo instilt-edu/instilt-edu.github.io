@@ -11122,14 +11122,14 @@ form textarea{
     flex-direction: row;
     justify-content: center;
     margin: 0 40px;
-    animation: slideinleft ease-in-out .7s;
+    animation: slideinleft ease-in-out .9s;
   }
 
   
 
   @keyframes slideinleft {
       from {
-          opacity: 0.25;
+          opacity: 0;
           transform: translateX(5%);
       }
       to {
@@ -11140,7 +11140,7 @@ form textarea{
 
   @keyframes slideindown{
     from {
-        opacity: 0.25;
+        opacity: 0;
         transform: translateY(-25%);
     }
     to {
