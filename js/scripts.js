@@ -55,46 +55,174 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
-// Auto scrolling team members page
- 
-var counter = 1;
-var isDisabled = false;
-setInterval(function() {
-    if(!isDisabled) {
-        document.getElementById('radio' + counter).checked = true;
-        showPage(counter);
-        counter++;
-        if(counter > 4) {
-            counter = 1;
-        } 
-    }
-}, 10000); 
+// Team Member Object
 
+var data = [
+    {
+        "id": "1",
+        "name" : "Nilabh Agrawal",
+        "position" : "Founder",
+        "location" : "Mumbai, India",
+        "image" : "assets/img/team/Nilabh.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "2",
+        "name" : "Amy Park",
+        "position" : "Director of Academics",
+        "location" : "Las Vegas, USA",
+        "image" : "assets/img/team/Amy.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "3",
+        "name" : "Jeremy Wu",
+        "position" : "Admin",
+        "location" : "San Jose, USA",
+        "image" : "assets/img/team/Jeremy.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "4",
+        "name" : "Palak Bahrdwaj",
+        "position" : "Outreach",
+        "location" : "Bulandshehar, India",
+        "image" : "assets/img/team/Palak.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "5",
+        "name" : "Paloosha Sheikh",
+        "position" : "Outreach",
+        "location" : "Srinagar, India",
+        "image" : "assets/img/team/Paloosha.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "6",
+        "name" : "Theaswanth Ganesh",
+        "position" : "Academics",
+        "location" : "Colombo, Sri Lanka",
+        "image" : "assets/img/team/Theaswanth.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "7",
+        "name" : "Haresh Wedanayke",
+        "position" : "Admin",
+        "location" : "Colombo, Sri Lanka",
+        "image" : "assets/img/team/Haresh.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "8",
+        "name" : "Christabel Osei",
+        "position" : "Academics",
+        "location" : "New York City, USA",
+        "image" : "assets/img/team/Christabel.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "9",
+        "name" : "Ashaz Hussein",
+        "position" : "Outreach",
+        "location" : "Vizag, India",
+        "image" : "assets/img/team/Ashaz.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "10",
+        "name" : "Ayush Ravichandran",
+        "position" : "Academics",
+        "location" : "Colombo, Sri Lanka",
+        "image" : "assets/img/team/Ayush.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "11",
+        "name" : "Nabil Sidker",
+        "position" : "Outreach",
+        "location" : "New York City, USA",
+        "image" : "assets/img/team/Nabil.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "12",
+        "name" : "Ashaz Hussein",
+        "position" : "Outreach",
+        "location" : "Vizag, India",
+        "image" : "assets/img/team/Ashaz.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "13",
+        "name" : "Ayush Ravichandran",
+        "position" : "Academics",
+        "location" : "Colombo, Sri Lanka",
+        "image" : "assets/img/team/Ayush.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "14",
+        "name" : "Nabil Sidker",
+        "position" : "Outreach",
+        "location" : "New York City, USA",
+        "image" : "assets/img/team/Nabil.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "15",
+        "name" : "Ashaz Hussein",
+        "position" : "Outreach",
+        "location" : "Vizag, India",
+        "image" : "assets/img/team/Ashaz.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "16",
+        "name" : "Ayush Ravichandran",
+        "position" : "Academics",
+        "location" : "Colombo, Sri Lanka",
+        "image" : "assets/img/team/Ayush.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "17",
+        "name" : "Haresh Wedanayke",
+        "position" : "Admin",
+        "location" : "Colombo, Sri Lanka",
+        "image" : "assets/img/team/Haresh.png",
+        "email" : "edu@instilt.com"
+    },
+    {
+        "id": "18",
+        "name" : "Christabel Osei",
+        "position" : "Academics",
+        "location" : "New York City, USA",
+        "image" : "assets/img/team/Christabel.png",
+        "email" : "edu@instilt.com"
+    },
+]
 
-function disableAutoScroll() {
-    isDisabled = true;
+// Display team members by generating html
+
+data.forEach((member) => {
+    var div = document.createElement("div");
+    div.setAttribute('class', `team-card`);
+    div.setAttribute('id', `${member.id}`);
+    div.innerHTML = document.getElementById("teams-page-content").innerHTML;
+
+    div.innerHTML = div.innerHTML
+        .replace(/{NAME}/g, member.name)
+        .replace(/{POSITION}/g,  member.position)
+        .replace(/{LOCATION}/g,  member.location);
+
+    
+    document.getElementById("main-card").appendChild(div);
+});
+
+for(var i = 0; i < data.length; i++) {
+    document.getElementById(`${data[i].id}`).querySelector("#team-email").href =  `mailto:${data[i].email}`;
+    document.getElementById(`${data[i].id}`).querySelector("#team-image").src = `${data[i].image}`;
 }
 
-function enableAutoScroll() {
-    isDisabled = false;
-}
-
-function setTimeoutAutoScroll() {
-    isDisabled = true;
-    setTimeout(function() {
-        isDisabled = false;
-    }, 10000);
-}
-
-// Show next page of team members 
-
-function showPage(pageNumber) {
-    var cards = document.getElementsByClassName("cards");
-    for(var i = 0; i < cards.length; i++) {
-        if(cards.item(i).classList.contains("page-" + pageNumber)) {
-            cards.item(i).style.display = "flex";
-        } else {
-            cards.item(i).style.display = "none";
-        }
-    }
-}
