@@ -136,7 +136,7 @@ var data = [
         "email": "theaswanthganesh@gmail.com",
         "division": "Admin",
         "location": "Colombo, Sri Lanka",
-        "image": "assets/img/team/Theaswanth Ganesh.png"
+        "image": "assets/img/team/Theaswanth.png"
     },
     {
         "id": 10,
