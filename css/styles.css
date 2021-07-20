@@ -1931,6 +1931,11 @@ pre code {
     .table-responsive-sm>.table-bordered {
         border: 0;
     }
+
+    .col-md-4 .card .card-body img {
+        width: 350px !important; 
+        height: 350px !important;
+    }
 }
 
 #margin-bottom-10 {
@@ -1954,6 +1959,11 @@ pre code {
     }
     .table-responsive-md>.table-bordered {
         border: 0;
+    }
+
+    .card .card-body img {
+        width: 450px !important; 
+        height: 450px !important;
     }
 }
 
@@ -4919,7 +4929,11 @@ input[type=button].btn-block {
 
 @media only screen and (max-width: 990px) {
     .card-body {
-        padding: 2rem 2.5rem; 
+        padding: 2rem 2.5rem !important; 
+    }
+    .card-body img {
+        width: 300px !important;
+        height: 300px !important;
     }
   }
   
@@ -10834,6 +10848,36 @@ a[href="mailto:edu@instilt.com"]:hover{
     text-transform: capitalize;
 }
 
+.method-heading {
+    font-weight: 600;
+    font-family: montserrat !important;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.method-about {
+    margin: 10px;
+}
+
+#learning::selection, #learning-about::selection {
+    background-color: #FFE9BC;
+}
+
+#curriculum::selection, #curriculum-about::selection {
+    background-color: #E4f8ea;
+}
+
+#interactive::selection, #interactive-about::selection {
+    background-color: #ffcca798;
+}
+
+#application::selection, #application-about::selection {
+    background-color: #F5E1FD;
+}
+
+
+
 .what-we-do {
     color: white;
     margin-bottom: 75px;
@@ -10842,6 +10886,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 #teamabout {
     border-bottom: 2px dashed #00000070;
     padding-top: 6vh;
+    margin-bottom: 4rem;
     margin-right: 20px;
     margin-left: 20px;
     padding-bottom: 20px;
@@ -11033,7 +11078,6 @@ a[href="mailto:edu@instilt.com"]:hover{
     }
     .meth-step{
         width:100%;
-        height:25%;
     }
 
     #contact .row{
@@ -11165,14 +11209,11 @@ form textarea{
 
 #main-card {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 
-#container{
-    padding-top: 40px;
-  }
   
   .img {
     display: flex;
@@ -11197,7 +11238,7 @@ form textarea{
     background-color: #ffcccb;
   }
 
-  .content .position{
+  .content .division{
     font-size: .95rem;
     color: #3d4852;
     margin-bottom: .95rem;
@@ -11224,7 +11265,7 @@ form textarea{
         font-size: .875rem;
         margin-bottom: 0.5rem;
       }
-      .content .position{
+      .content .division{
         font-size: .75rem;
         margin-bottom: .75rem;
       }
@@ -11241,6 +11282,13 @@ form textarea{
       #join-us-subtitle {
           font-size: 14px;
       }
+      #ourmodel-subtitle {
+        font-size: .875rem !important;
+    }
+  }
+
+  #ourmodel-subtitle { 
+      text-align: left;
   }
 
   
@@ -11253,13 +11301,18 @@ form textarea{
     .content .name{
         font-size: .825rem;
       }
-      .content .position{
+      .content .division{
         font-size: .675rem;
       }
     
       .content .location{
         font-size: .675rem;
       }
+
+      .row .col-md-4 .card .card-body img {
+        width: 250px !important; 
+        height: 250px !important;
+    }
   }
 
   @media only screen and (min-width: 1650px) {
@@ -11325,6 +11378,8 @@ form textarea{
     flex-wrap: wrap;
 }
 
+
+
  
 
 
@@ -11382,6 +11437,11 @@ form textarea{
          flex: none;
          max-width: none;
      }
+
+     #ourmodel-subtitle { 
+        text-align: center !important;
+    }
+    
      
   }
 
