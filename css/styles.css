@@ -10624,7 +10624,7 @@ body {
 
 @media (min-width: 992px) {
     .projects-section .featured-text {
-        padding: 0 0 0 2rem;
+        padding: 2rem 0;
     }
 }
 
@@ -10905,7 +10905,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 
 .what-we-do {
     color: white;
-    margin-bottom: 75px;
+    margin-bottom: 40px;
 }
 
 #teamabout {
@@ -11313,7 +11313,7 @@ form textarea{
   }
 
   #ourmodel-subtitle { 
-      text-align: left;
+      text-align: center;
   }
 
   
@@ -11401,6 +11401,7 @@ form textarea{
 
  #presentation {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
