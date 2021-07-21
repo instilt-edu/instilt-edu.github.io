@@ -10860,19 +10860,44 @@ a[href="mailto:edu@instilt.com"]:hover{
     margin: 10px;
 }
 
-#learning::selection, #learning-about::selection {
+
+.highlight-orange {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
+    padding: 0 5px;
+}
+
+.highlight-purple {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #F5E1FD 65%);
+    padding: 0 5px;
+}
+
+.highlight-yellow {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFE9BC 65%);
+    padding: 0 5px;
+}
+
+.highlight-green {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #E4f8ea 65%);
+  padding: 0 5px;
+} 
+
+#interactive span::selection, #learning span::selection, #application span::selection, #curriculum span::selection {
+    user-select: none;
+}
+
+#learning-about::selection {
     background-color: #FFE9BC;
 }
 
-#curriculum::selection, #curriculum-about::selection {
+#curriculum-about::selection {
     background-color: #E4f8ea;
 }
 
-#interactive::selection, #interactive-about::selection {
-    background-color: #ffcca798;
+#interactive-about::selection {
+    background-color: #FFD0AE;
 }
 
-#application::selection, #application-about::selection {
+#application-about::selection {
     background-color: #F5E1FD;
 }
 
