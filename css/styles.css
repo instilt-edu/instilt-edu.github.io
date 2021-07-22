@@ -608,35 +608,34 @@ pre code {
 .container-md,
 .container-sm {
     width: 100%;
-    padding-right: 0.75rem;
-    padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
 }
 
-@media (min-width: 576px) {
-    .container-sm,
-    .container {
-        max-width: 540px;
-    }
-}
+
+/* ADJUSTED MAX-WIDTH */
+
 
 @media (min-width: 768px) {
     .container-md,
     .container-sm,
     .container {
-        max-width: 720px;
+        max-width: 768px;
     }
 }
+
+/* ADJUSTED MAX-WIDTHS */
 
 @media (min-width: 992px) {
     .container-lg,
     .container-md,
     .container-sm,
     .container {
-        max-width: 960px;
+        max-width: 992px;
     }
 }
+
+/* ADJUSTED MAX-WIDTHS */
 
 @media (min-width: 1200px) {
     .container-xl,
@@ -644,7 +643,7 @@ pre code {
     .container-md,
     .container-sm,
     .container {
-        max-width: 1140px;
+        max-width: 1200px;
     }
 }
 
@@ -1113,6 +1112,8 @@ pre code {
     }
 }
 
+
+
 @media (min-width: 768px) {
     .col-md {
         flex-basis: 0;
@@ -1279,6 +1280,7 @@ pre code {
     }
 }
 
+
 @media (min-width: 992px) {
     .col-lg {
         flex-basis: 0;
@@ -1444,6 +1446,8 @@ pre code {
         margin-left: 91.6666666667%;
     }
 }
+
+
 
 @media (min-width: 1200px) {
     .col-xl {
@@ -1927,6 +1931,23 @@ pre code {
     .table-responsive-sm>.table-bordered {
         border: 0;
     }
+
+    .col-md-4 .card .card-body img {
+        width: 350px !important; 
+        height: 350px !important;
+    }
+}
+
+#margin-bottom-10 {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 850px) {
+    #margin-bottom-10 {
+        margin-bottom: 10px;
+        flex: none;
+        max-width: none;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -1938,6 +1959,11 @@ pre code {
     }
     .table-responsive-md>.table-bordered {
         border: 0;
+    }
+
+    .card .card-body img {
+        width: 450px !important; 
+        height: 450px !important;
     }
 }
 
@@ -4849,6 +4875,25 @@ input[type=button].btn-block {
     background-clip: border-box;
 }
 
+.team-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    padding: 1.25rem 1rem;
+    border-radius: .375rem;
+    transition: all 0.15s;
+}
+
+
+@media (min-width: 1200px) {
+    .team-card:hover {
+        cursor: default;
+        box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+        transition: all 0.15s;
+    }
+}
+
 .card>hr {
     margin-right: 0;
     margin-left: 0;
@@ -4884,7 +4929,11 @@ input[type=button].btn-block {
 
 @media only screen and (max-width: 990px) {
     .card-body {
-        padding: 2rem 2.5rem; 
+        padding: 2rem 2.5rem !important; 
+    }
+    .card-body img {
+        width: 300px !important;
+        height: 300px !important;
     }
   }
   
@@ -9365,7 +9414,7 @@ button.bg-black:focus {
     }
     .mb-lg-5,
     .my-lg-5 {
-        margin-bottom: 12vh !important;
+        margin-bottom: 6vh !important;
     }
     .ml-lg-5,
     .mx-lg-5 {
@@ -10460,24 +10509,24 @@ body {
 
 .masthead {
     position: relative;
-    
     width: 100%;
     height: auto;
     min-height: 35rem;
-    padding: 15rem 0;
+    padding: 15rem 20px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.75) 80%, #000000 100%), url("../assets/img/bg-masthead.jpg");
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 
 
 .masthead h1 {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 2.5rem;
+    font-size: 3.4rem;
     letter-spacing: 0.8rem;
     background: rgba(255, 255, 255, 0.9);
     -webkit-text-fill-color: transparent;
@@ -10486,15 +10535,36 @@ body {
 }
 
 .masthead h2 {
-    max-width: 20rem;
-    font-size: 1rem;
+    font-size: .95rem;
 }
+
+
+@media (min-width: 568px) {
+    .masthead h1 {
+        font-size: 4rem;
+    }
+
+    .masthead h2 {
+        font-size: 1.05rem;
+    }
+
+    #logo-image { 
+        height: 20rem !important; 
+        width: 20rem !important;
+     }
+}
+
 
 @media (min-width: 768px) {
     .masthead h1 {
         font-size: 5rem;
         line-height: 4rem;
     }
+
+    .masthead h2 {
+        font-size: 1.2rem;
+    }
+    
 }
 
 @media (min-width: 992px) {
@@ -10522,8 +10592,9 @@ body {
 }
 
 .about-section {
-    padding: 12vh 0;
+    padding: 6vh 20px;
     background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+
 }
 
 .about-section p {
@@ -10547,14 +10618,13 @@ body {
 }
 
 .projects-section .featured-text {
-    padding: 2rem;
-    margin-left: 20px;
+    padding: 2rem 0;
+    margin: 0 20px;
 }
 
 @media (min-width: 992px) {
     .projects-section .featured-text {
-        padding: 0 0 0 2rem;
-        border-left: 0.5rem solid #5b0000;
+        padding: 2rem 0;
     }
 }
 
@@ -10607,7 +10677,8 @@ a[href="mailto:edu@instilt.com"]:hover{
     justify-content: center;
 }
 .contact-section {
-    padding: 12vh 0;
+    padding: 6vh 0;
+    margin: 0 20px;
 }
 
 .contact-section .card {
@@ -10754,12 +10825,6 @@ a[href="mailto:edu@instilt.com"]:hover{
     transform: translate(0, -5px);
 }
 
-.Apply-info {
-    width: 100%;
-    height: 100px + 2.5rem;
-    background-color: #000000;
-}
-
 .Apply-red {
     margin-top: 0.5rem;
     position: relative;
@@ -10775,41 +10840,102 @@ a[href="mailto:edu@instilt.com"]:hover{
     }
 }
 
-.what-we-do {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.33);
+.heading {
     font-weight: 600;
     font-family: montserrat !important;
     text-align: center;
-    color: white;
-    text-transform: capitalize;
     font-size: 5rem;
-    margin: 0 20px 75px 20px;
+    text-transform: capitalize;
+}
+
+.method-heading {
+    font-weight: 600;
+    font-family: montserrat !important;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.method-about {
+    margin: 10px;
+}
+
+
+.highlight-orange {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
+    padding: 0 5px;
+}
+
+.highlight-purple {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #F5E1FD 65%);
+    padding: 0 5px;
+}
+
+.highlight-yellow {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFE9BC 65%);
+    padding: 0 5px;
+}
+
+.highlight-green {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #E4f8ea 65%);
+  padding: 0 5px;
+} 
+
+#interactive span::selection, #learning span::selection, #application span::selection, #curriculum span::selection {
+    user-select: none;
+}
+
+#learning-about::selection {
+    background-color: #FFE9BC;
+}
+
+#curriculum-about::selection {
+    background-color: #E4f8ea;
+}
+
+#interactive-about::selection {
+    background-color: #FFD0AE;
+}
+
+#application-about::selection {
+    background-color: #F5E1FD;
+}
+
+
+
+.what-we-do {
+    color: white;
+    margin-bottom: 40px;
 }
 
 #teamabout {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 2px dashed #00000070;
-    font-weight: 600;
-    padding-top: 12vh;
+    padding-top: 6vh;
+    margin-bottom: 4rem;
+    margin-right: 20px;
+    margin-left: 20px;
     padding-bottom: 20px;
-    width: 80%;
     line-height: 1;
     display: flex;
     justify-content: center;
-    font-family: montserrat !important;
-    text-align: center;
     color: #700000;
-    font-size: 5rem;
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: #700000;
 }
 
 #ourmodel {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: montserrat !important;
     text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
     font-weight: 600;
     padding-bottom: 20px; 
-    text-transform: capitalize;
+}
+
+
+
+#mission-subtitle {
+    margin: 40px 0;
 }
 
 #ourmodel p {
@@ -10820,13 +10946,8 @@ a[href="mailto:edu@instilt.com"]:hover{
 
 
 #applytext {
-    text-shadow: 2px 2px 5px rgb(0 0 0, .1);
-    font-weight: 600;
-    font-family: montserrat !important;
-    text-align: center;
     color: #700000;
-    text-transform: capitalize;
-    font-size: 5rem;
+    margin-bottom: 20px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: transparent;
 }
@@ -10838,7 +10959,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     line-height: 2rem;
     text-align: center;
     color: #700000;
-    font-size: 2rem;
+    font-size: 1.8rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: transparent;
 }
@@ -10917,7 +11038,6 @@ a[href="mailto:edu@instilt.com"]:hover{
  }
 
  
- 
 @media screen and (max-width: 850px) {
   footer,body{
     overflow-x:hidden;
@@ -10927,7 +11047,7 @@ a[href="mailto:edu@instilt.com"]:hover{
   body section{
       overflow-x: hidden;
   }
- .what-we-do{
+ .heading{
     font-size: 4rem;
     line-height:1;
  }
@@ -10983,7 +11103,6 @@ a[href="mailto:edu@instilt.com"]:hover{
     }
     .meth-step{
         width:100%;
-        height:25%;
     }
 
     #contact .row{
@@ -11041,6 +11160,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 #presentation{
     padding-top:25%;
     padding-bottom: 10%;
+    flex-wrap: wrap;
 }
 
 #mainNav{
@@ -11062,6 +11182,13 @@ form textarea{
 }
 
 
+}
+
+
+@media screen and (max-width: 600px) {
+    .heading {
+        font-size: 3.5rem;
+    }
 }
 
 .send-button{
@@ -11088,194 +11215,133 @@ form textarea{
 .meth-step{
     width:50%;
 }
-#join-us{
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    font-weight: 600;
+
+#join-us {
+    margin: 0 20px;
 }
 
 #join-us-page {
-    padding-top: 12vh;
+    padding-top: 6vh;
 }
 
 
-#container{
-    width: 100%;
-    overflow: hidden;
-    padding-top: 40px;
+#join-us-subtitle {
+    text-align: center;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #700000;
+}
 
+#main-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+  
+  .img {
+    display: flex;
+    justify-content: center;  
+}
+
+  .img img{
+    width: 150px;
+    border-radius: 50%;
   }
 
 
-
-  #container .main-card{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    transition: 1s;
+.content .name{
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000;
   }
 
+  .red-highlight::selection {
+    background-color: #ffcccb;
+  }
 
-  .main-card .cards{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 40px;
-    animation: slideinleft ease-in-out .9s;
+  .content .division{
+    font-size: .95rem;
+    color: #3d4852;
+    margin-bottom: .95rem;
+  }
+
+  .content .location{
+    font-size: .95rem;
+    color: #3d4852;
+    font-style: italic;
+    margin-bottom: .95rem;
+}
+
+  .content .details {
+      text-align: center;
   }
 
   
+  @media(max-width: 576px) {
+    .img img{
+        width: 110px;
+      } 
 
-  @keyframes slideinleft {
-      from {
-          opacity: 0;
-          transform: translateX(5%);
+      .content .name{
+        font-size: .875rem;
+        margin-bottom: 0.5rem;
       }
-      to {
-          opacity: 1;
-          transform: translateX(0%);
+      .content .division{
+        font-size: .75rem;
+        margin-bottom: .75rem;
       }
-  }
+    
+      .content .location{
+        font-size: .75rem;
+        margin-bottom: .75rem;
+      }
 
-  @keyframes slideindown{
-    from {
-        opacity: 0;
-        transform: translateY(-25%);
+      .team-card {
+        width: 50%;
+      }
+
+      #join-us-subtitle {
+          font-size: 14px;
+      }
+      #ourmodel-subtitle {
+        font-size: .875rem !important;
     }
-    to {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
-
-  .main-card .cards .card{
-    display: flex;
-    width: calc(100% / 5 - 10px);
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: #f8f9fa;
-    padding: 20px;
-    transition: all 0.4s ease;
   }
 
-  .cards.page-1 {
-      display: flex;
+  #ourmodel-subtitle { 
+      text-align: center;
   }
 
-  .cards.page-2 {
-    display: none;
+  
+ #logo-image { 
+    height: 18rem; 
+    width: 18rem;
  }
 
-  .cards.page-3 {
-    display: none;
-}
+  @media(max-width: 380px) {
+    .content .name{
+        font-size: .825rem;
+      }
+      .content .division{
+        font-size: .675rem;
+      }
+    
+      .content .location{
+        font-size: .675rem;
+      }
 
-  .cards.page-4 {
-    display: none;
-}
-
-  
-  .cards .card .content{
-    width: min-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    padding: 0 40px;
+      .row .col-md-4 .card .card-body img {
+        width: 250px !important; 
+        height: 250px !important;
+    }
   }
-  .cards .card .content .img{
-    height: 10.5rem;
-    width: 10.5rem;
-    border-radius: 50%;
-    background: #700000;
-    margin-bottom: 14px;
-    margin: 0 10px;
-    transition: all 0.4s ease;
-  }
-
-  .card .content .img img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    position: relative;
-    transition: all 0.4s ease;
-  }
-
-  .card .content .img img:hover {
-    box-shadow: 0 2px 30px rgba(0,0,0,.33);
-    cursor: pointer;
-    transform: scale(1.1);
-    filter: saturate(110%);
-  }
-
-  .card .content .name{
-    font-size: 1.1rem;
-    color: black;
-    font-weight: bold;
-    letter-spacing: -1px;
-    margin-bottom: 10px;
-  }
-  .card .content .position{
-    font-size: .9rem;
-    color: #000;
-    margin-bottom: 10px;
-  }
-
-  .card .content .location{
-    font-size: .9rem;
-    color: #000;
-    font-style: italic;
-    margin-bottom: 10px;
-  }
-
-  .card .content .details {
-      display: flex;
-      width: 100%;
-      margin-top: 25px;
-      text-align: center;
-      justify-content: flex-start;
-      flex-direction: column;
-  }
-  
-
 
   @media only screen and (min-width: 1650px) {
-    .cards .card .content .img{
-        height: 11.5rem;
-        width: 11.5rem;
-      }
 
-    .main-card .cards{
-        margin: 0 125px;
-      }
-
-
-    .cards .card .content{
-        padding: 0 20px;
-    }
-
-    .card .content .name{
-        font-size: 1.1rem;
-    }
-
-    .card .content .position{
-        font-size: .875rem;
-    }
-    
-    .card .content .location{
-        font-size: .875rem;
-    }
-  }
-
-  .card .content .media-icons{
-    margin-top: 10px;
-    display: flex;
-  
-  }
   .media-icons a{
     text-align: center;
     line-height: 33px;
@@ -11294,12 +11360,12 @@ form textarea{
     background-color: #fff;
     border-color: #700000;
   }
-  #container .button{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   margin: 50px 0 50px -5px;
- }
+    #container .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px -5px;
+    }
 
 
 
@@ -11319,55 +11385,6 @@ form textarea{
     background: #700000;
 }
 
- #radio1:checked ~ .button .one{
-    background: #700000;
- }
- #radio1:checked ~ .button .two{
-    background: none;
-}
- #radio1:checked ~ .button .three{
-    background: none;
-}
- #radio1:checked ~ .button .four{
-    background: none;
-}
- #radio2:checked ~ .button .one{
-    background: none;
-}
- #radio2:checked ~ .button .two{
-    background: #700000;
- }
- #radio2:checked ~ .button .three{
-    background: none;
-}
- #radio2:checked ~ .button .four{
-    background: none;
-}
- #radio3:checked ~ .button .one{
-    background: none;
-}
- #radio3:checked ~ .button .two{
-    background: none;
-}
- #radio3:checked ~ .button .three{
-    background: #700000;
- }
- #radio3:checked ~ .button .four{
-    background: none;
-}
- #radio4:checked ~ .button .one{
-    background: none;
-}
- #radio4:checked ~ .button .two{
-    background: none;
-}
- #radio4:checked ~ .button .three{
-    background: none;
-}
- #radio4:checked ~ .button .four{
-    background: #700000;
- }
-
  .button label:hover  {
     background: #7000005b !important;
 }
@@ -11375,43 +11392,22 @@ form textarea{
  input[type="radio"]{
    display: none;
  }
- @media (max-width: 1150px) {
-   .main-card .cards .card{
-     margin: 20px 0 10px 0;
-     width: calc(100% / 2 - 10px);
-   }
- }
- @media (max-width: 600px) {
-   .main-card .cards .card{
-     margin: 20px 0 10px 0;
-   }
- }
 
- #our-mission {
-    font-size: 4rem; 
-    font-weight: 600; 
-    text-transform: capitalize; 
-    text-shadow: 2px 2px 5px rgb(0 0 0, .1);
- }
 
- #logo-image { 
-    height: 20rem; 
-    width: 20rem;
- }
 
  #right-footer {
      margin: 30px;
  }
 
- #title {
-     animation: slideindown 0.66s ease-in-out;
- }
+ #presentation {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
- #join-us-subtitle {
-     text-align: center;
-     padding-bottom: 5px;
-     border-bottom: 3px solid #700000;
- }
+
+
+ 
+
 
  @media only screen and (min-width: 1300px) {
     .nav-link {
@@ -11419,23 +11415,9 @@ form textarea{
     }
  }
 
- @media only screen and (max-width: 1150px) {
-    .cards .card .content .img {
-        height: 14.5rem;
-        width:  14.5rem;
-    }
 
-    .card .content .name {
-        font-size: 1.3rem;
-    }
-    .card .content .position {
-      font-size: 1.1rem;
-  }
-  
-  .card .content .location {
-      font-size: 1.1rem;
-  }
-}
+
+
 
  @media only screen and (max-width: 992px) {
     .method-about {
@@ -11450,39 +11432,21 @@ form textarea{
     #mission-subtitle {
         font-size: 15px;
     }
-    #logo-image { 
-        height: 18rem; 
-        width: 18rem;
-     }
+   
      #join-us-subtitle {
          font-size: 15px;
      }
-     #presentation {
-        flex-wrap: wrap;
-    }
-    
+      
   }
 
   @media only screen and (max-width: 850px) {
     .method-about {
         font-size: 12px; 
     }
-    .what-we-do {
+    .heading {
         font-size: 4.25rem;
     }
-    #applytext {
-        font-size: 4.25rem;
-    }
-    #teamabout {
-        font-size: 4.25rem;
-    }
-    #our-mission {
-        font-size: 4.25rem;
-    }
-    #logo-image { 
-        height: 15rem; 
-        width: 15rem;
-     }
+  
      .menu-text {
          padding-top: 5px;
          padding-bottom: 5px;
@@ -11499,31 +11463,14 @@ form textarea{
          flex: none;
          max-width: none;
      }
-    
-  }
 
- 
-  
-   
-
-  @media only screen and (max-width: 1050px) {
-      .cards .card .content .img {
-          height: 13rem;
-          width:  13rem;
-      }
-
-      .card .content .name {
-          font-size: 1.2rem;
-      }
-      .card .content .position {
-        font-size: .95rem;
+     #ourmodel-subtitle { 
+        text-align: center !important;
     }
     
-    .card .content .location {
-        font-size: .95rem;
-    }
-
+     
   }
+
 
   @media only screen and (max-width: 600px) {
     #ourmodel-subtitle {
@@ -11532,139 +11479,18 @@ form textarea{
     .card-body {
         padding: 2rem;
     }
-    .what-we-do {
-        font-size: 3.5rem;
-    }
-    #applytext {
-        font-size: 3.5rem;
-    }
     #ourmodel {
         font-size: 3.5rem;
     }
-    #teamabout {
-        font-size: 3.5rem;
+
+   
+
+    .button label {
+        height: 15px;
+        width: 15px;
+        margin: 0 15px;
     }
-    #our-mission {
-        font-size: 3.5rem;
-    }
-    .card .content .name {
-        font-size: 1rem;
-    }
-    .card .content .position {
-      font-size: .8rem;
   }
-  
-  .card .content .location {
-      font-size: .8rem;
-  }
-
-  .cards {
-      margin: 0 10px;
-  }
-
-  .cards .card .content .img {
-      height: 10rem;
-      width: 10rem;
-  }
-
-  .button label {
-      height: 15px;
-      width: 15px;
-      margin: 0 15px;
-  }
-}
-
-@media only screen and (max-width: 485px) {
-    .card .content .name {
-        font-size: .9rem;
-    }
-    .card .content .position {
-      font-size: .7rem;
-  }
-  
-  .card .content .location {
-      font-size: .7rem;
-  }
-
-  .cards .card .content .img {
-      height: 8.2rem;
-      width: 8.2rem;
-  }
-
-  .main-card .cards {
-    margin: 0 10px;
-}
-}
-
-
-
-@media only screen and (min-width: 1950px) {
-    .cards {
-        margin: 0 175px !important;
-    }
-    .cards .card .content .img {
-        height: 13.5rem;
-        width:  13.5rem;
-    }
-
-    .card .content .name {
-        font-size: 1.3rem;
-    }
-    .card .content .position {
-      font-size: 1rem;
-  }
-  
-  .card .content .location {
-      font-size: 1rem;
-  }
-
-}
-
-
-@media only screen and (min-width: 2170px) {
-    .cards {
-        margin: 0 200px !important;
-    }
-    .cards .card .content .img {
-        height: 14rem;
-        width:  14rem;
-    }
-
-    .card .content .name {
-        font-size: 1.4rem;
-    }
-    .card .content .position {
-      font-size: 1.1rem;
-  }
-  
-  .card .content .location {
-      font-size: 1.1rem;
-  }
-
-}
-
-
-
-@media only screen and (min-width: 2415px) {
-    .cards {
-        margin: 0 225px !important;
-    }
-    .cards .card .content .img {
-        height: 15rem;
-        width:  15rem;
-    }
-
-    .card .content .name {
-        font-size: 1.5rem;
-    }
-    .card .content .position {
-      font-size: 1.2rem;
-  }
-  
-  .card .content .location {
-      font-size: 1.2rem;
-  }
-
 }
 
 
