@@ -665,6 +665,5 @@ for(var i = 0; i < data.length; i++) {
     document.getElementById(`${data[i].id}`).querySelector("#team-image").src = `${data[i].image}`;
 }
 
-// REMOVE ALL IMAGE ERRORS - TURN OFF FOR DEBUGGING
 
 
