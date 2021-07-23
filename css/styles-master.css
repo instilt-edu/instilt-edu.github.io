@@ -1965,6 +1965,11 @@ pre code {
         width: 450px !important; 
         height: 450px !important;
     }
+
+    .projects-section .featured-text {
+        padding: 2.5rem 20px !important;
+        font-size: .95rem !important;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -4550,7 +4555,7 @@ input[type=button].btn-block {
     .navbar-expand-sm>.container-xl {
         padding-right: 0;
         padding-left: 0;
-    }
+    }@mo
 }
 
 @media (min-width: 576px) {
@@ -6991,7 +6996,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #fafafa !important;
 }
 
 a.bg-light:hover,
@@ -10125,9 +10130,6 @@ button.bg-black:focus {
     font-style: italic !important;
 }
 
-.text-white {
-    color: #fff !important;
-}
 
 .text-primary {
     color: #5b0000 !important;
@@ -10397,7 +10399,7 @@ body {
         color: #fff;
     }
     #mainNav.navbar-shrink {
-        background-color: #33363B;
+        background-color: #222222;
     }
     #mainNav.navbar-shrink .navbar-brand {
         color: #FFFFFF;
@@ -10516,12 +10518,45 @@ body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.75) 80%, #000000 100%), url("../assets/img/bg-masthead.jpg");
 
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
+    overflow: hidden;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 45% !important;
+    bottom: 45% !important;
+    width: 6% !important;
+    background: #700000;
+}
+
+.carousel-item img {
+    filter: brightness(90%);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carousel-indicators li {
+    height: 4px !important;
+    margin: 0 5px !important;
+}
+
+#myCarousel {
+    margin: 0 20px;
+    box-shadow: rgb(111 100 100 / 20%) 0px 7px 29px 0px;
+}
 
 
 .masthead h1 {
@@ -10593,7 +10628,8 @@ body {
 
 .about-section {
     padding: 6vh 20px;
-    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: #fafafa;
+    /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
 
 }
 
@@ -10602,7 +10638,7 @@ body {
 }
 
 .projects-section {
-    padding: 6vh 0;
+    padding: 6vh 0 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10618,13 +10654,20 @@ body {
 }
 
 .projects-section .featured-text {
-    padding: 2rem 0;
-    margin: 0 20px;
+    padding: 4rem 20px 0 20px;
+    font-size: 1.05rem;
 }
 
 @media (min-width: 992px) {
     .projects-section .featured-text {
-        padding: 2rem 0;
+        padding: 4rem 20px 0 20px;
+        font-size: 1.1rem;
+    }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 30px;
+        height: 30px;
+        padding: 5px
     }
 }
 
@@ -10644,13 +10687,7 @@ body {
     }
 }
 
-.signup-section {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
+
 
 .signup-section .form-inline input {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -10677,13 +10714,17 @@ a[href="mailto:edu@instilt.com"]:hover{
     justify-content: center;
 }
 .contact-section {
-    padding: 6vh 0;
-    margin: 0 20px;
+    padding: 6vh 20px;
+    /* LIGHT BACKGROUND STRIP COLOR CHANGE */
+    /* background-color: #f5f7f8; */
+    background-color: #fafafa;
 }
 
 .contact-section .card {
     border: 0;
     border-bottom: 0.25rem solid #5b0000;
+    box-shadow: rgba(111, 100, 100, 0.2) 0px 7px 29px 0px;    
+    border-radius: 5px 5px 0 0;
 }
 
 .contact-section .card h4 {
@@ -10841,6 +10882,7 @@ a[href="mailto:edu@instilt.com"]:hover{
 }
 
 .heading {
+    color: #700000 !important;
     font-weight: 600;
     font-family: montserrat !important;
     text-align: center;
@@ -10881,6 +10923,11 @@ a[href="mailto:edu@instilt.com"]:hover{
   padding: 0 5px;
 } 
 
+.highlight-blue {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #afd0f09f 65%);
+    padding: 0 5px;
+}
+
 #interactive span::selection, #learning span::selection, #application span::selection, #curriculum span::selection {
     user-select: none;
 }
@@ -10898,23 +10945,21 @@ a[href="mailto:edu@instilt.com"]:hover{
 }
 
 #application-about::selection {
-    background-color: #F5E1FD;
+    /* PURPLE */
+    /* background-color: #F5E1FD; */
+    /* BLUE */
+    background-color: #afd0f09f;
 }
 
 
 
 .what-we-do {
-    color: white;
+    color: #700000;
     margin-bottom: 40px;
 }
 
 #teamabout {
-    border-bottom: 2px dashed #00000070;
-    padding-top: 6vh;
-    margin-bottom: 4rem;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-bottom: 20px;
+    padding: 6vh 20px 4rem 20px;
     line-height: 1;
     display: flex;
     justify-content: center;
@@ -10927,15 +10972,15 @@ a[href="mailto:edu@instilt.com"]:hover{
     font-family: montserrat !important;
     text-align: center;
     text-transform: capitalize;
-    font-size: 3rem;
     font-weight: 600;
-    padding-bottom: 20px; 
+    margin: 20px 20px 40px 20px;
 }
 
 
 
 #mission-subtitle {
     margin: 40px 0;
+    color: #212529;
 }
 
 #ourmodel p {
@@ -11031,6 +11076,7 @@ a[href="mailto:edu@instilt.com"]:hover{
         flex-direction: row-reverse;
         justify-content:space-around;
         align-items: baseline;
+        box-shadow: rgb(149 157 165 / 25%) 0px 8px 24px;
     }
     #desktop-icons{
         display:none;
@@ -11154,12 +11200,10 @@ a[href="mailto:edu@instilt.com"]:hover{
  div.off-center{
     width:100%;
  }
-#presentation iframe{
+/* #presentation #myCarousel{
     height:30vh;
-}
+} */
 #presentation{
-    padding-top:25%;
-    padding-bottom: 10%;
     flex-wrap: wrap;
 }
 
@@ -11168,6 +11212,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     flex-direction: row-reverse;
     justify-content:space-around;
     align-items: baseline;
+    box-shadow: rgb(149 157 165 / 25%) 0px 8px 24px;
 }
 
 
@@ -11265,13 +11310,13 @@ form textarea{
 
   .content .division{
     font-size: .95rem;
-    color: #3d4852;
+    color: #212529;
     margin-bottom: .95rem;
   }
 
   .content .location{
     font-size: .95rem;
-    color: #3d4852;
+    color: #212529;
     font-style: italic;
     margin-bottom: .95rem;
 }
@@ -11308,7 +11353,7 @@ form textarea{
           font-size: 14px;
       }
       #ourmodel-subtitle {
-        font-size: .875rem !important;
+        font-size: .8rem !important;
     }
   }
 
@@ -11320,6 +11365,8 @@ form textarea{
  #logo-image { 
     height: 18rem; 
     width: 18rem;
+    box-shadow: rgba(111, 100, 100, 0.2) 0px 7px 29px 0px;    
+    border-radius: 50%;
  }
 
   @media(max-width: 380px) {
@@ -11491,6 +11538,24 @@ form textarea{
         margin: 0 15px;
     }
   }
+}
+
+/* TURN OFF FOR LIGHT MODE */
+
+#contact {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.about-section {
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.text-white {
+    color: white !important;
 }
 
 
