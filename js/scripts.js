@@ -468,7 +468,7 @@ var data = [
     },
     {
         "id": 51,
-        "name": "Yaashna Dhingra",
+        "name": "Yaashna",
         "email": "yaashnadhingraa@gmail.com",
         "division": "Tutor",
         "location": "Barcelona, Spain",
