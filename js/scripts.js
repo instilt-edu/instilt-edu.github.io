@@ -142,7 +142,7 @@ var data = [
         "id": 10,
         "name": "Ashaz Hussain",
         "email": "ashazhussain1609@gmail.com",
-        "division": "Admin",
+        "division": "Outreach",
         "location": "Vizag, India",
         "image": "assets/img/team/Ashaz Hussain.png"
     },
@@ -204,11 +204,11 @@ var data = [
     },
     {
         "id": 18,
-        "name": "Priyanka Karamchandini",
+        "name": "Priyanka Karamchandani",
         "email": "khushikaramchandani@gmail.com",
         "division": "Outreach",
         "location": "Dubai, UAE",
-        "image": "assets/img/team/Priyanka Karamchandini.png"
+        "image": "assets/img/team/Priyanka Karamchandani.png"
     },
     {
         "id": 19,
@@ -472,7 +472,7 @@ var data = [
         "email": "yaashnadhingraa@gmail.com",
         "division": "Tutor",
         "location": "Barcelona, Spain",
-        "image": "assets/img/team/Yaashna Dhingra.png"
+        "image": "assets/img/team/Yaashna.png"
     },
     {
         "id": 52,
@@ -641,6 +641,46 @@ var data = [
         "division": "Tutor",
         "location": "Canada",
         "image": "assets/img/team/Prabhmeet Sira.png"
+    },
+    {
+        "id": 73,
+        "name": "Areeba Nisar",
+        "email": "areebanisar41@gmail.com",
+        "division": "Outreach",
+        "location": "Canada",
+        "image": "assets/img/team/Areeba Nisar.png"
+    },
+    {
+        "id": 74,
+        "name": "Steven Kadavil",
+        "email": "stevens20142021@yahoo.com",
+        "division": "Academics",
+        "location": "USA",
+        "image": "assets/img/team/Steven Kadavil.png"
+    },
+    {
+        "id": 75,
+        "name": "Agrim Gulaty",
+        "email": "agrimgulaty@gmail.com",
+        "division": "Tutor",
+        "location": "UAE",
+        "image": "assets/img/team/Agrim Gulaty.png"
+    },
+    {
+        "id": 76,
+        "name": "Ruth Sunil Thomas",
+        "email": "ruthsunil9966@gmail.com",
+        "division": "Tutor",
+        "location": "Qatar",
+        "image": "assets/img/team/Ruth Sunil Thomas.png"
+    },
+    {
+        "id": 77,
+        "name": "Uttkarsh Singh",
+        "email": "uttkarshsingh2004@gmail.com",
+        "division": "Outreach",
+        "location": "UAE",
+        "image": "assets/img/team/Uttkarsh Singh.png"
     }
 ]
 
