@@ -287,7 +287,7 @@ var data = [
         "name": "Aditi Deleep",
         "email": "aditi.srivatsa10@gmail.com",
         "division": "Outreach",
-        "location": "India",
+        "location": "Bangalore, India",
         "image": "assets/img/team/Aditi Deleep.png"
     },
     {
@@ -439,7 +439,7 @@ var data = [
         "name": "Manish Nadendia",
         "email": "manishnadendla@gmail.com",
         "division": "Academics",
-        "location": "Academics",
+        "location": "Washington, USA",
         "image": "assets/img/team/Manish Nadendia.png"
     },
     {
@@ -447,7 +447,7 @@ var data = [
         "name": "Sanju Malika",
         "email": "sanjubeautyvlogs@gmail.com",
         "division": "Outreach",
-        "location": "Coimbatore , India",
+        "location": "Coimbatore, India",
         "image": "assets/img/team/Sanju Malika.png"
     },
     {
@@ -511,7 +511,7 @@ var data = [
         "name": "Marwa Fathima",
         "email": "marwafathima2004@gmail.com",
         "division": "Tutor",
-        "location": "Ras al Khaimah\r, UAE",
+        "location": "Ras al Khaimah, UAE",
         "image": "assets/img/team/Marwa Fathima.png"
     },
     {
@@ -655,7 +655,7 @@ var data = [
         "name": "Steven Kadavil",
         "email": "stevens20142021@yahoo.com",
         "division": "Academics",
-        "location": "USA",
+        "location": "Philadelphia, USA",
         "image": "assets/img/team/Steven Kadavil.png"
     },
     {
@@ -663,7 +663,7 @@ var data = [
         "name": "Agrim Gulaty",
         "email": "agrimgulaty@gmail.com",
         "division": "Tutor",
-        "location": "UAE",
+        "location": "Dubai, UAE",
         "image": "assets/img/team/Agrim Gulaty.png"
     },
     {
@@ -679,7 +679,7 @@ var data = [
         "name": "Uttkarsh Singh",
         "email": "uttkarshsingh2004@gmail.com",
         "division": "Outreach",
-        "location": "UAE",
+        "location": "Dubai, UAE",
         "image": "assets/img/team/Uttkarsh Singh.png"
     }
 ]
