@@ -55,7 +55,7 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
-// Team Member Object
+// Team Member Data 
 
 var data = [
     {
