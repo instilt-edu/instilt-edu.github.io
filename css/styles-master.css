@@ -5277,7 +5277,6 @@ input[type=button].btn-block {
     }
 }
 
-
 a.badge:hover,
 a.badge:focus {
     text-decoration: none;
@@ -6772,8 +6771,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background: no-repeat 50%/100% 100%;
 }
 
@@ -11200,9 +11199,6 @@ a[href="mailto:edu@instilt.com"]:hover{
  div.off-center{
     width:100%;
  }
-/* #presentation #myCarousel{
-    height:30vh;
-} */
 #presentation{
     flex-wrap: wrap;
 }
@@ -11228,6 +11224,7 @@ form textarea{
 
 
 }
+
 
 
 @media screen and (max-width: 600px) {
@@ -11446,12 +11443,6 @@ form textarea{
      margin: 30px;
  }
 
- #presentation {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
 
  
 
@@ -11539,6 +11530,8 @@ form textarea{
     }
   }
 }
+
+
 
 /* TURN OFF FOR LIGHT MODE */
 

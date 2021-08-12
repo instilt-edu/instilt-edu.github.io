@@ -681,6 +681,174 @@ var data = [
         "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Uttkarsh Singh.png"
+    },
+    {
+        "id": 78,
+        "name": "Divyanshi Gupta",
+        "email": "divyanshi2004@gmail.com",
+        "division": "Outreach",
+        "location": "Dubai, UAE",
+        "image": "assets/img/team/Divyanshi Gupta.png"
+    },
+    {
+        "id": 79,
+        "name": "Isra Sharnez",
+        "email": "isharnez@gmail.com",
+        "division": "Outreach",
+        "location": "Mead, USA",
+        "image": "assets/img/team/Isra Sharnez.png"
+    },
+    {
+        "id": 80,
+        "name": "Nubin Chung",
+        "email": "nuboutnubin@gmail.com",
+        "division": "Academics",
+        "location": "Seoul, South Korea",
+        "image": "assets/img/team/Nubin Chung.png"
+    },
+    {
+        "id": 81,
+        "name": "Hashim Ishfaq",
+        "email": "hashimishfaq134@hotmail.com",
+        "division": "Outreach",
+        "location": "Dubai, UAE",
+        "image": "assets/img/team/Hashim Ishfaq.png"
+    },
+    {
+        "id": 82,
+        "name": "Marija Nikolić",
+        "email": "marijamashanikolic@gmail.com",
+        "division": "Tutor",
+        "location": "Belgrade, Serbia",
+        "image": "assets/img/team/Marija Nikolić.png"
+    },
+    {
+        "id": 83,
+        "name": "Andri Pashollari",
+        "email": "andripashollari1234@gmail.com",
+        "division": "Tutor",
+        "location": "Sarandë, Albania",
+        "image": "assets/img/team/Andri Pashollari.png"
+    },
+    {
+        "id": 84,
+        "name": "Shevani Ranawana",
+        "email": "suhelaran86@gmail.com",
+        "division": " ",
+        "location": "Colombo, Sri Lanka",
+        "image": "assets/img/team/Shevani Ranawana.png"
+    },
+    {
+        "id": 85,
+        "name": "Coco Zhang",
+        "email": "coco.401828@nv.ccsd.net",
+        "division": " ",
+        "location": "USA",
+        "image": "assets/img/team/Coco Zhang.png"
+    },
+    {
+        "id": 86,
+        "name": "Mahlet Atrsaw",
+        "email": "mahletmayat@gmail.com",
+        "division": "Academics",
+        "location": "Ethiopia",
+        "image": "assets/img/team/Mahlet Atrsaw.png"
+    },
+    {
+        "id": 87,
+        "name": "Sahana Ramachandran",
+        "email": "sahanarama89@gmail.com",
+        "division": "Outreach",
+        "location": "Mumbai, India",
+        "image": "assets/img/team/Sahana Ramachandran.png"
+    },
+    {
+        "id": 88,
+        "name": "Kavini Ralapanawe",
+        "email": "kavinitr17@gmail.com",
+        "division": "Tutor",
+        "location": "Colombo, Sri Lanka",
+        "image": "assets/img/team/Kavini Ralapanawe.png"
+    },
+    {
+        "id": 89,
+        "name": "Ammad Hasan",
+        "email": "ammadhasan1024@gmail.com",
+        "division": "Outreach",
+        "location": "Euless, USA",
+        "image": "assets/img/team/Ammad Hasan.png"
+    },
+    {
+        "id": 90,
+        "name": "Yonden Sawyers",
+        "email": "yondenj.sawyers09@gmail.com",
+        "division": "Outreach",
+        "location": "North Plainfield, USA",
+        "image": "assets/img/team/Yonden Sawyers.png"
+    },
+    {
+        "id": 91,
+        "name": "Daleen Al-shedayfat",
+        "email": "Daleenalshedayfat@gmail.com",
+        "division": "Tutor",
+        "location": "Windsor, Canada",
+        "image": "assets/img/team/Daleen Al-shedayfat.png"
+    },
+    {
+        "id": 92,
+        "name": "Insha Pervez",
+        "email": "inshapervez07@gmail.com",
+        "division": "Tutor",
+        "location": "Ajmer, India",
+        "image": "assets/img/team/Insha Pervez.png"
+    },
+    {
+        "id": 93,
+        "name": "Tunmise Adebowale",
+        "email": "tunmiseadebowale@shcs.school.nz",
+        "division": " ",
+        "location": "New Zealand",
+        "image": "assets/img/team/Tunmise Adebowale.png"
+    },
+    {
+        "id": 94,
+        "name": "Rosemary Ibe",
+        "email": "rosemaryibe18@gmail.com",
+        "division": " ",
+        "location": "Nigeria",
+        "image": "assets/img/team/Rosemary Ibe.png"
+    },
+    {
+        "id": 95,
+        "name": "Hashani Abeygunawardene",
+        "email": "hashabey3@gmail.com",
+        "division": " ",
+        "location": "Colombo, Sri Lanka",
+        "image": "assets/img/team/Hashani Abeygunawardene.png"
+    },
+    {
+        "id": 96,
+        "name": "Abhimanyu Singhal",
+        "email": "abhimanyusinghal11@icloud.com",
+        "division": "Scouting",
+        "location": "Ghaziabad, India",
+        "image": "assets/img/team/Abhimanyu Singhal.png"
+    },
+    {
+        "id": 97,
+        "name": "Dolores Manoa",
+        "email": "doloresmanoa@gmail.com",
+        "division": " ",
+        "location": "Fiji",
+        "image": "assets/img/team/Dolores Manoa.png"
+    },
+    {
+        "id": 98,
+        "name": "Navraj Choudhary",
+        "email": "sach8in@yahoo.com",
+        "division": " ",
+        "location": "Sydney, Australia",
+        "image": "assets/img/team/Navraj Choudhary.png"
     }
 ]
 
@@ -703,6 +871,12 @@ data.forEach((member) => {
 for(var i = 0; i < data.length; i++) {
     document.getElementById(`${data[i].id}`).querySelector("#team-email").href =  `mailto:${data[i].email}`;
     document.getElementById(`${data[i].id}`).querySelector("#team-image").src = `${data[i].image}`;
+}
+
+function removeElement(element) {
+    if (element != null) {
+        element.parentNode.parentNode.parentNode.parentNode.remove();
+    }
 }
 
 
