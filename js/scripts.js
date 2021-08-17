@@ -849,6 +849,55 @@ var data = [
         "division": " ",
         "location": "Sydney, Australia",
         "image": "assets/img/team/Navraj Choudhary.png"
+    },
+    {
+        "id": 99,
+        "name": "Ntombikhona Manyifolo",
+        "email": "ntombikhona.manyifolo@gmail.com",
+        "location": "South Africa",
+        "image": "assets/img/team/Ntombikhona Manyifolo.png"
+    },
+    {
+        "id": 100,
+        "name": "Hanin Shamsheer",
+        "email": "haninshamsheer@gmail.com",
+        "location": "Qatar",
+        "image": "assets/img/team/Hanin Shamsheer.png"
+    },
+    {
+        "id": 101,
+        "name": "Ayuushi Gunetilleke",
+        "email": "ayuushig@gmail.com",
+        "location": "Colombo, Sri Lanka",
+        "image": "assets/img/team/Ayuushi Gunetilleke.png"
+    },
+    {
+        "id": 102,
+        "name": "Gia Mukherjee",
+        "email": "gmukherjee624@yahoo.com",
+        "location": "USA",
+        "image": "assets/img/team/Gia Mukherjee.png"
+    },
+    {
+        "id": 103,
+        "name": "Mudrika Agarwal",
+        "email": "mudrikaagarwal2204@gmail.com",
+        "location": "Mumbai, India",
+        "image": "assets/img/team/Mudrika Agarwal.png"
+    },
+    {
+        "id": 104,
+        "name": "Ayan Chavand",
+        "email": "ayan.chavand15@gmail.com",
+        "location": "Gandhinagar, India",
+        "image": "assets/img/team/Ayan Chavand.png"
+    },
+    {
+        "id": 105,
+        "name": "Tanush Das",
+        "email": "tanushdas@hotmail.com",
+        "location": "Dubai, UAE",
+        "image": "assets/img/team/Tanush Das.png"
     }
 ]
 
