@@ -59,15 +59,15 @@
 
 var data = [
     {
-        "id": 0,
+        "id": 1,
         "name": "Nilabh Agrawal",
-        "email": "edu@instilt.com",
+        "email": "nilabhagrawal4@gmail.com",
         "division": "Founder",
         "location": "Mumbai, India",
         "image": "assets/img/team/Nilabh Agrawal.png"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Amy Park",
         "email": "amypark.huntsville@gmail.com",
         "division": "Head of Academics",
@@ -75,7 +75,7 @@ var data = [
         "image": "assets/img/team/Amy Park.png"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Haresh Wedanayake",
         "email": "hareshgw@gmail.com",
         "division": "Head of Admin",
@@ -83,28 +83,20 @@ var data = [
         "image": "assets/img/team/Haresh Wedanayake.png"
     },
     {
-        "id": 3,
-        "name": "Sameekshaa Prabhu",
-        "email": "sameekshaap@gmail.com",
-        "division": "Head of Outreach",
-        "location": "Dubai, UAE",
-        "image": "assets/img/team/Sameekshaa Prabhu.png"
-    },
-    {
         "id": 4,
-        "name": "Jeremy Wu",
-        "email": "wujeremy999@gmail.com",
-        "division": "Admin",
-        "location": "San Jose, USA",
-        "image": "assets/img/team/Jeremy Wu.png"
-    },
-    {
-        "id": 5,
         "name": "Riya Garg",
         "email": "riyagige@gmail.com",
         "division": "Admin",
         "location": "Bangalore, India",
         "image": "assets/img/team/Riya Garg.png"
+    },
+    {
+        "id": 5,
+        "name": "Jeremy Wu",
+        "email": "wujeremy999@gmail.com",
+        "division": "Admin",
+        "location": "San Jose, USA",
+        "image": "assets/img/team/Jeremy Wu.png"
     },
     {
         "id": 6,
@@ -128,7 +120,7 @@ var data = [
         "email": "theaswanthganesh@gmail.com",
         "division": "Admin",
         "location": "Colombo, Sri Lanka",
-        "image": "assets/img/team/Theaswanth.png"
+        "image": "assets/img/team/Theaswanth Ganesh.png"
     },
     {
         "id": 9,
@@ -142,7 +134,7 @@ var data = [
         "id": 10,
         "name": "Ashaz Hussain",
         "email": "ashazhussain1609@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Vizag, India",
         "image": "assets/img/team/Ashaz Hussain.png"
     },
@@ -150,7 +142,7 @@ var data = [
         "id": 11,
         "name": "Paloosha Sheikh",
         "email": "sheikhpaloosha1@gmail.com",
-        "division": "Social Media",
+        "division": "Outreach",
         "location": "Srinagar, India",
         "image": "assets/img/team/Paloosha Sheikh.png"
     },
@@ -166,7 +158,7 @@ var data = [
         "id": 13,
         "name": "Nabil Sikder",
         "email": "nabilsikder14@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "New York, USA",
         "image": "assets/img/team/Nabil Sikder.png"
     },
@@ -174,7 +166,7 @@ var data = [
         "id": 14,
         "name": "Vidushi Anand",
         "email": "vidushianand09@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Gurugram, India",
         "image": "assets/img/team/Vidushi Anand.png"
     },
@@ -206,7 +198,7 @@ var data = [
         "id": 18,
         "name": "Priyanka Karamchandani",
         "email": "khushikaramchandani@gmail.com",
-        "division": "Social Media",
+        "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Priyanka Karamchandani.png"
     },
@@ -214,7 +206,7 @@ var data = [
         "id": 19,
         "name": "Mansi Agrawal",
         "email": "agrawamansi@gmail.com",
-        "division": "Social Media",
+        "division": "Outreach",
         "location": "Mumbai, India",
         "image": "assets/img/team/Mansi Agrawal.png"
     },
@@ -230,7 +222,7 @@ var data = [
         "id": 21,
         "name": "Arshia Singha",
         "email": "sbgs.arshia.singha@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Kolkata, India",
         "image": "assets/img/team/Arshia Singha.png"
     },
@@ -246,7 +238,7 @@ var data = [
         "id": 23,
         "name": "Anirudh Agarwal",
         "email": "itsanirudh98@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Noida, India",
         "image": "assets/img/team/Anirudh Agarwal.png"
     },
@@ -270,7 +262,7 @@ var data = [
         "id": 26,
         "name": "Kruthya Ratnayake",
         "email": "kruthya@outlook.com",
-        "division": "SL Communications",
+        "division": "Outreach",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Kruthya Ratnayake.png"
     },
@@ -278,7 +270,7 @@ var data = [
         "id": 27,
         "name": "Yashasvi Gupta",
         "email": "yashasvi.gupta@outlook.in",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Lucknow, India",
         "image": "assets/img/team/Yashasvi Gupta.png"
     },
@@ -286,7 +278,7 @@ var data = [
         "id": 28,
         "name": "Aditi Deleep",
         "email": "aditi.srivatsa10@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Bangalore, India",
         "image": "assets/img/team/Aditi Deleep.png"
     },
@@ -302,7 +294,7 @@ var data = [
         "id": 30,
         "name": "Renuk Basnayake",
         "email": "renukbas@gmail.com",
-        "division": "SL Communications",
+        "division": "Outreach",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Renuk Basnayake.png"
     },
@@ -310,7 +302,7 @@ var data = [
         "id": 31,
         "name": "Palakh Khanna",
         "email": "palakhkhanna20@gmail.com",
-        "division": "Tutor",
+        "division": "Outreach",
         "location": "New Delhi, India",
         "image": "assets/img/team/Palakh Khanna.png"
     },
@@ -318,7 +310,7 @@ var data = [
         "id": 32,
         "name": "Pushpanjali Achuthan",
         "email": "pushpanjaliachuthan23@gmail.com",
-        "division": "Communications",
+        "division": "Tutor",
         "location": "Bangalore, India",
         "image": "assets/img/team/Pushpanjali Achuthan.png"
     },
@@ -326,7 +318,7 @@ var data = [
         "id": 33,
         "name": "Aarush Panda",
         "email": "aarushp@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Livemore, USA",
         "image": "assets/img/team/Aarush Panda.png"
     },
@@ -334,7 +326,7 @@ var data = [
         "id": 34,
         "name": "Reet Narula",
         "email": "reetnarula20@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Bangalore, India",
         "image": "assets/img/team/Reet Narula.png"
     },
@@ -342,7 +334,7 @@ var data = [
         "id": 35,
         "name": "Nikita Agrawal",
         "email": "nikitaagrawal62404@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Jaipur, India",
         "image": "assets/img/team/Nikita Agrawal.png"
     },
@@ -350,7 +342,7 @@ var data = [
         "id": 36,
         "name": "Anamitra Phukon",
         "email": "anamitra.p2@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Guwahati, India",
         "image": "assets/img/team/Anamitra Phukon.png"
     },
@@ -358,7 +350,7 @@ var data = [
         "id": 37,
         "name": "Ranald Lam",
         "email": "ranaldlam@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "New York, United States",
         "image": "assets/img/team/Ranald Lam.png"
     },
@@ -366,7 +358,7 @@ var data = [
         "id": 38,
         "name": "Aarya Kumar",
         "email": "aaryakk1289@gmail.com",
-        "division": "Tutor",
+        "division": "Outreach",
         "location": "Pune, India",
         "image": "assets/img/team/Aarya Kumar.png"
     },
@@ -374,7 +366,7 @@ var data = [
         "id": 39,
         "name": "Vishaka Subramaniam",
         "email": "wish032005@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Mumbai, India",
         "image": "assets/img/team/Vishaka Subramaniam.png"
     },
@@ -382,7 +374,7 @@ var data = [
         "id": 40,
         "name": "Gargi Arora",
         "email": "gargigargi1816@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Amritsar, India",
         "image": "assets/img/team/Gargi Arora.png"
     },
@@ -390,7 +382,7 @@ var data = [
         "id": 41,
         "name": "Satya Rai",
         "email": "satyarai.sac@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Prayagraj, India",
         "image": "assets/img/team/Satya Rai.png"
     },
@@ -398,7 +390,7 @@ var data = [
         "id": 42,
         "name": "Nitya Verma",
         "email": "nityaverma06@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Hyderabad, India",
         "image": "assets/img/team/Nitya Verma.png"
     },
@@ -414,7 +406,7 @@ var data = [
         "id": 44,
         "name": "Vamika Bindra",
         "email": "vamikabindra.13@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Lucknow, India",
         "image": "assets/img/team/Vamika Bindra.png"
     },
@@ -430,7 +422,7 @@ var data = [
         "id": 46,
         "name": "Sanju Malika",
         "email": "sanjubeautyvlogs@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Coimbatore, India",
         "image": "assets/img/team/Sanju Malika.png"
     },
@@ -444,14 +436,22 @@ var data = [
     },
     {
         "id": 48,
+        "name": "Reesha Mishra",
+        "email": "reeshamishravis@gmail.com",
+        "division": "Outreach",
+        "location": "Kolkata, India",
+        "image": "assets/img/team/Reesha Mishra.png"
+    },
+    {
+        "id": 49,
         "name": "Yaashna",
         "email": "yaashnadhingraa@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Barcelona, Spain",
         "image": "assets/img/team/Yaashna.png"
     },
     {
-        "id": 49,
+        "id": 50,
         "name": "Sophia Bagnes",
         "email": "sbtfbagnes@gmail.com",
         "division": "Academics",
@@ -459,7 +459,7 @@ var data = [
         "image": "assets/img/team/Sophia Bagnes.png"
     },
     {
-        "id": 50,
+        "id": 51,
         "name": "Rithvik Singh",
         "email": "singhrithvik2016@gmail.com",
         "division": "Tutor",
@@ -467,15 +467,15 @@ var data = [
         "image": "assets/img/team/Rithvik Singh.png"
     },
     {
-        "id": 51,
+        "id": 52,
         "name": "Marwa Fathima",
         "email": "marwafathima2004@gmail.com",
-        "division": "Tutor",
-        "location": "Ras al Khaimah, UAE",
+        "division": "Outreach",
+        "location": "Ras al Khaimah\r, UAE",
         "image": "assets/img/team/Marwa Fathima.png"
     },
     {
-        "id": 52,
+        "id": 53,
         "name": "Shaurya Sarma",
         "email": "shaurya.sarma@gmail.com",
         "division": "Webmaster",
@@ -483,23 +483,23 @@ var data = [
         "image": "assets/img/team/Shaurya Sarma.png"
     },
     {
-        "id": 53,
+        "id": 54,
         "name": "Vanya Agarwal",
         "email": "vanya@ajcast.com",
         "division": "Tutor",
-        "location": "India",
+        "location": "Kolkata, India",
         "image": "assets/img/team/Vanya Agarwal.png"
     },
     {
-        "id": 54,
+        "id": 55,
         "name": "Madhurima Nayak",
         "email": "connectwithmadhurima@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Navi Mumbai, India",
         "image": "assets/img/team/Madhurima Nayak.png"
     },
     {
-        "id": 55,
+        "id": 56,
         "name": "Tanvi Garg",
         "email": "gargselene@gmail.com",
         "division": "Academics",
@@ -507,7 +507,7 @@ var data = [
         "image": "assets/img/team/Tanvi Garg.png"
     },
     {
-        "id": 56,
+        "id": 57,
         "name": "Simran Hakim",
         "email": "simran.hakim@gmail.com",
         "division": "Tutor",
@@ -515,23 +515,23 @@ var data = [
         "image": "assets/img/team/Simran Hakim.png"
     },
     {
-        "id": 57,
+        "id": 58,
         "name": "Devika Jayaraj",
         "email": "jayarajdevika1@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Kottayam, India",
         "image": "assets/img/team/Devika Jayaraj.png"
     },
     {
-        "id": 58,
+        "id": 59,
         "name": "Rucha Shah",
         "email": "ruchas2005@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Bangalore, India",
         "image": "assets/img/team/Rucha Shah.png"
     },
     {
-        "id": 59,
+        "id": 60,
         "name": "Jahnvi Padhiar",
         "email": "padhiarjahnvi@gmail.com",
         "division": "Tutor",
@@ -539,23 +539,23 @@ var data = [
         "image": "assets/img/team/Jahnvi Padhiar.png"
     },
     {
-        "id": 60,
+        "id": 61,
         "name": "Devmini Wimalasena",
         "email": "devminiqueend@gmail.com",
-        "division": "SL Communications",
+        "division": "Outreach",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Devmini Wimalasena.png"
     },
     {
-        "id": 61,
+        "id": 62,
         "name": "Teeba Alawi",
         "email": "Teebanaji@gmail.com",
-        "division": "Social Media",
+        "division": "Outreach",
         "location": "Sharjah, UAE",
         "image": "assets/img/team/Teeba Alawi.png"
     },
     {
-        "id": 62,
+        "id": 63,
         "name": "Diya Malhotra",
         "email": "diyamalhotra8059@gmail.com",
         "division": "Academics",
@@ -563,7 +563,7 @@ var data = [
         "image": "assets/img/team/Diya Malhotra.png"
     },
     {
-        "id": 63,
+        "id": 64,
         "name": "Aisha Zia Shameer",
         "email": "aishameer.me@gmail.com",
         "division": "Academics",
@@ -571,15 +571,15 @@ var data = [
         "image": "assets/img/team/Aisha Zia Shameer.png"
     },
     {
-        "id": 64,
+        "id": 65,
         "name": "Pomeshwaree Devi Narain",
         "email": "jyotsur777@gmail.com",
         "division": "Tutor",
-        "location": "Mauritius",
+        "location": "Camp Diable, Mauritius",
         "image": "assets/img/team/Pomeshwaree Devi Narain.png"
     },
     {
-        "id": 65,
+        "id": 66,
         "name": "Iram Inamdar",
         "email": "iraminamdar943@gmail.com",
         "division": "Academics",
@@ -587,7 +587,7 @@ var data = [
         "image": "assets/img/team/Iram Inamdar.png"
     },
     {
-        "id": 66,
+        "id": 67,
         "name": "Amrita Anbuchezhian",
         "email": "amritaanbu05@gmail.com",
         "division": "Academics",
@@ -595,15 +595,15 @@ var data = [
         "image": "assets/img/team/Amrita Anbuchezhian.png"
     },
     {
-        "id": 67,
+        "id": 68,
         "name": "Areeba Nisar",
         "email": "areebanisar41@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Canada",
         "image": "assets/img/team/Areeba Nisar.png"
     },
     {
-        "id": 68,
+        "id": 69,
         "name": "Steven Kadavil",
         "email": "stevens20142021@yahoo.com",
         "division": "Academics",
@@ -611,47 +611,47 @@ var data = [
         "image": "assets/img/team/Steven Kadavil.png"
     },
     {
-        "id": 69,
+        "id": 70,
         "name": "Agrim Gulaty",
         "email": "agrimgulaty@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Agrim Gulaty.png"
     },
     {
-        "id": 70,
+        "id": 71,
         "name": "Ruth Sunil Thomas",
         "email": "ruthsunil9966@gmail.com",
         "division": "Tutor",
-        "location": "Qatar",
+        "location": "Doha, Qatar",
         "image": "assets/img/team/Ruth Sunil Thomas.png"
     },
     {
-        "id": 71,
+        "id": 72,
         "name": "Uttkarsh Singh",
         "email": "uttkarshsingh2004@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Uttkarsh Singh.png"
     },
     {
-        "id": 72,
+        "id": 73,
         "name": "Divyanshi Gupta",
         "email": "divyanshi2004@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Divyanshi Gupta.png"
     },
     {
-        "id": 73,
+        "id": 74,
         "name": "Isra Sharnez",
         "email": "isharnez@gmail.com",
-        "division": "Tutor",
+        "division": "Outreach",
         "location": "Mead, USA",
         "image": "assets/img/team/Isra Sharnez.png"
     },
     {
-        "id": 74,
+        "id": 75,
         "name": "Nubin Chung",
         "email": "nuboutnubin@gmail.com",
         "division": "Academics",
@@ -659,15 +659,15 @@ var data = [
         "image": "assets/img/team/Nubin Chung.png"
     },
     {
-        "id": 75,
+        "id": 76,
         "name": "Hashim Ishfaq",
         "email": "hashimishfaq134@hotmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Hashim Ishfaq.png"
     },
     {
-        "id": 76,
+        "id": 77,
         "name": "Marija Nikolić",
         "email": "marijamashanikolic@gmail.com",
         "division": "Tutor",
@@ -675,7 +675,7 @@ var data = [
         "image": "assets/img/team/Marija Nikolić.png"
     },
     {
-        "id": 77,
+        "id": 78,
         "name": "Andri Pashollari",
         "email": "andripashollari1234@gmail.com",
         "division": "Tutor",
@@ -683,7 +683,7 @@ var data = [
         "image": "assets/img/team/Andri Pashollari.png"
     },
     {
-        "id": 78,
+        "id": 79,
         "name": "Shevani Ranawana",
         "email": "suhelaran86@gmail.com",
         "division": "Tutor",
@@ -691,15 +691,15 @@ var data = [
         "image": "assets/img/team/Shevani Ranawana.png"
     },
     {
-        "id": 79,
+        "id": 80,
         "name": "Coco Zhang",
         "email": "coco.401828@nv.ccsd.net",
-        "division": "Social Media",
+        "division": "Outreach",
         "location": "USA",
         "image": "assets/img/team/Coco Zhang.png"
     },
     {
-        "id": 80,
+        "id": 81,
         "name": "Mahlet Atrsaw",
         "email": "mahletmayat@gmail.com",
         "division": "Academics",
@@ -707,47 +707,47 @@ var data = [
         "image": "assets/img/team/Mahlet Atrsaw.png"
     },
     {
-        "id": 81,
+        "id": 82,
         "name": "Sahana Ramachandran",
         "email": "sahanarama89@gmail.com",
-        "division": "Communications",
-        "location": "Mumbai, India",
+        "division": "Outreach",
+        "location": "Navi Mumbai, India",
         "image": "assets/img/team/Sahana Ramachandran.png"
     },
     {
-        "id": 82,
+        "id": 83,
         "name": "Kavini Ralapanawe",
         "email": "kavinitr17@gmail.com",
         "division": "Tutor",
-        "location": "Colombo, Sri Lanka",
+        "location": "Colombo , Sri Lanka",
         "image": "assets/img/team/Kavini Ralapanawe.png"
     },
     {
-        "id": 83,
+        "id": 84,
         "name": "Ammad Hasan",
         "email": "ammadhasan1024@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Euless, USA",
         "image": "assets/img/team/Ammad Hasan.png"
     },
     {
-        "id": 84,
+        "id": 85,
         "name": "Yonden Sawyers",
         "email": "yondenj.sawyers09@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "North Plainfield, USA",
         "image": "assets/img/team/Yonden Sawyers.png"
     },
     {
-        "id": 85,
+        "id": 86,
         "name": "Daleen Al-shedayfat",
         "email": "Daleenalshedayfat@gmail.com",
         "division": "Tutor",
-        "location": "Windsor, Canada",
+        "location": "Canada",
         "image": "assets/img/team/Daleen Al-shedayfat.png"
     },
     {
-        "id": 86,
+        "id": 87,
         "name": "Insha Pervez",
         "email": "inshapervez07@gmail.com",
         "division": "Tutor",
@@ -755,7 +755,7 @@ var data = [
         "image": "assets/img/team/Insha Pervez.png"
     },
     {
-        "id": 87,
+        "id": 88,
         "name": "Tunmise Adebowale",
         "email": "tunmiseadebowale@shcs.school.nz",
         "division": "Tutor",
@@ -763,7 +763,7 @@ var data = [
         "image": "assets/img/team/Tunmise Adebowale.png"
     },
     {
-        "id": 88,
+        "id": 89,
         "name": "Rosemary Ibe",
         "email": "rosemaryibe18@gmail.com",
         "division": "Tutor",
@@ -771,23 +771,23 @@ var data = [
         "image": "assets/img/team/Rosemary Ibe.png"
     },
     {
-        "id": 89,
+        "id": 90,
         "name": "Hashani Abeygunawardene",
         "email": "hashabey3@gmail.com",
-        "division": "Tutor",
+        "division": "Outreach",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Hashani Abeygunawardene.png"
     },
     {
-        "id": 90,
+        "id": 91,
         "name": "Abhimanyu Singhal",
         "email": "abhimanyusinghal11@icloud.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Ghaziabad, India",
         "image": "assets/img/team/Abhimanyu Singhal.png"
     },
     {
-        "id": 91,
+        "id": 92,
         "name": "Dolores Manoa",
         "email": "doloresmanoa@gmail.com",
         "division": "Tutor",
@@ -795,7 +795,7 @@ var data = [
         "image": "assets/img/team/Dolores Manoa.png"
     },
     {
-        "id": 92,
+        "id": 93,
         "name": "Navraj Choudhary",
         "email": "sach8in@yahoo.com",
         "division": "Tutor",
@@ -803,7 +803,7 @@ var data = [
         "image": "assets/img/team/Navraj Choudhary.png"
     },
     {
-        "id": 93,
+        "id": 94,
         "name": "Ntombikhona Manyifolo",
         "email": "ntombikhona.manyifolo@gmail.com",
         "division": "Academics",
@@ -811,15 +811,15 @@ var data = [
         "image": "assets/img/team/Ntombikhona Manyifolo.png"
     },
     {
-        "id": 94,
+        "id": 95,
         "name": "Hanin Shamsheer",
         "email": "haninshamsheer@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Qatar",
         "image": "assets/img/team/Hanin Shamsheer.png"
     },
     {
-        "id": 95,
+        "id": 96,
         "name": "Ayuushi Gunetilleke",
         "email": "ayuushig@gmail.com",
         "division": "Academics",
@@ -827,7 +827,7 @@ var data = [
         "image": "assets/img/team/Ayuushi Gunetilleke.png"
     },
     {
-        "id": 96,
+        "id": 97,
         "name": "Gia Mukherjee",
         "email": "gmukherjee624@yahoo.com",
         "division": "Tutor",
@@ -835,7 +835,7 @@ var data = [
         "image": "assets/img/team/Gia Mukherjee.png"
     },
     {
-        "id": 97,
+        "id": 98,
         "name": "Ayan Chavand",
         "email": "ayan.chavand15@gmail.com",
         "division": "Tutor",
@@ -843,30 +843,31 @@ var data = [
         "image": "assets/img/team/Ayan Chavand.png"
     },
     {
-        "id": 98,
+        "id": 99,
         "name": "Tanush Das",
         "email": "tanushdas@hotmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Dubai, UAE",
         "image": "assets/img/team/Tanush Das.png"
     },
     {
-        "id": 99,
+        "id": 100,
         "name": "Agamjot Kaur",
         "email": "agamjotkaurr@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Canada",
         "image": "assets/img/team/Agamjot Kaur.png"
     },
     {
-        "id": 100,
+        "id": 101,
         "name": "Mihika Das Gupta",
         "email": "mihikadasgupta@gmail.com",
+        "division": "Outreach",
         "location": "Hyderabad, India",
         "image": "assets/img/team/Mihika Das Gupta.png"
     },
     {
-        "id": 101,
+        "id": 102,
         "name": "Jacyln Sunardi",
         "email": "jaclyn.sunardi@gmail.com",
         "division": "Academics",
@@ -874,15 +875,15 @@ var data = [
         "image": "assets/img/team/Jacyln Sunardi.png"
     },
     {
-        "id": 102,
+        "id": 103,
         "name": "Anna Lemos",
         "email": "a.lemos1012@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "Mumbai, India",
         "image": "assets/img/team/Anna Lemos.png"
     },
     {
-        "id": 103,
+        "id": 104,
         "name": "Rojella Santos",
         "email": "santosrojella@gmail.com",
         "division": "Academics",
@@ -890,7 +891,15 @@ var data = [
         "image": "assets/img/team/Rojella Santos.png"
     },
     {
-        "id": 104,
+        "id": 105,
+        "name": "Siddharth Varman",
+        "email": "Sid.Varman75@masonohioschools.com",
+        "division": "Academics",
+        "location": "USA",
+        "image": "assets/img/team/Siddharth Varman.png"
+    },
+    {
+        "id": 106,
         "name": "Fatemah Rajkotwala",
         "email": "farajkotwala@gmail.com",
         "division": "Tutor",
@@ -898,7 +907,7 @@ var data = [
         "image": "assets/img/team/Fatemah Rajkotwala.png"
     },
     {
-        "id": 105,
+        "id": 107,
         "name": "Harishi Fernando",
         "email": "harshisudharafernando@gmail.com",
         "division": "Tutor",
@@ -906,15 +915,15 @@ var data = [
         "image": "assets/img/team/Harishi Fernando.png"
     },
     {
-        "id": 106,
+        "id": 108,
         "name": "Shruti Singh",
         "email": "shrutisinghkg@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Shruti Singh.png"
     },
     {
-        "id": 107,
+        "id": 109,
         "name": "Uday Kiran",
         "email": "udayjason@gmail.com",
         "division": "Tutor",
@@ -922,14 +931,15 @@ var data = [
         "image": "assets/img/team/Uday Kiran.png"
     },
     {
-        "id": 108,
+        "id": 110,
         "name": "Divyanshi Mohanty",
         "email": "divyanshimohanty4@gmail.com",
+        "division": "Outreach",
         "location": "Bangalore, India",
         "image": "assets/img/team/Divyanshi Mohanty.png"
     },
     {
-        "id": 109,
+        "id": 111,
         "name": "Nirali S",
         "email": "nirali3037@gmail.com",
         "division": "Academics",
@@ -937,18 +947,18 @@ var data = [
         "image": "assets/img/team/Nirali S.png"
     },
     {
-        "id": 110,
+        "id": 112,
         "name": "Lavanya Pasi",
         "email": "lavanyapasi88@gmail.com",
-        "division": "Communications",
+        "division": "Outreach",
         "location": "New Delhi, India",
         "image": "assets/img/team/Lavanya Pasi.png"
     },
     {
-        "id": 111,
+        "id": 113,
         "name": "Tanmay Shintre",
         "email": "tanmayshintrewadhwani@gmail.com",
-        "division": "Scouting",
+        "division": "Outreach",
         "location": "Pune, India",
         "image": "assets/img/team/Tanmay Shintre.png"
     }
