@@ -961,6 +961,22 @@ var data = [
         "division": "Outreach",
         "location": "Pune, India",
         "image": "assets/img/team/Tanmay Shintre.png"
+    },
+    {
+        "id": 114,
+        "name": "Shravani Tushar Kulkarni",
+        "email": "shravanitusharkulkarni@gmail.com",
+        "division": "Outreach",
+        "location": "Ahmedabad, India",
+        "image": "assets/img/team/Shravani Tushar Kulkarni.png"
+    },
+    {
+        "id": 115,
+        "name": "Haripriya Saravanan",
+        "email": "haripriyasaravanan012@gmail.com",
+        "division": "Academics",
+        "location": "Chennai, India",
+        "image": "assets/img/team/Haripriya Saravanan.png"
     }
 ]
 
