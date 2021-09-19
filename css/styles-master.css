@@ -11624,7 +11624,7 @@ form textarea{
     background: #ccc;
     border-color: #777;
   }
-  
+
   
   /* Info Box */
   .info {
@@ -11692,7 +11692,6 @@ form textarea{
   
   /*---- SET POSITION FOR SLIDE ----*/
   #slide1:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(1)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after {
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
