@@ -1174,7 +1174,7 @@ var data = [
         "id": 141,
         "name": "Ruelle Sittampalam",
         "email": "ruellesittampalam@gmail.com",
-        "division": "Social Media",
+        "division": "Scouting",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Ruelle Sittampalam.png"
     },
