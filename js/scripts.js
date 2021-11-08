@@ -1143,7 +1143,7 @@ var data = [
         "name": "Payel Bora",
         "email": "hawy397@gmail.com",
         "division": "Tutor",
-        "location": "",
+        "location": "Kamrup Metropolitan, India",
         "image": "assets/img/team/Payel Bora.png"
     },
     {
@@ -1167,7 +1167,7 @@ var data = [
         "name": "Ishita Walia",
         "email": "ishita.walia2005@gmail.com",
         "division": "Scouting",
-        "location": "",
+        "location": "Ghaziabad, India",
         "image": "assets/img/team/Ishita Walia.png"
     },
     {
