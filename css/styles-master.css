@@ -230,6 +230,10 @@ pre {
     -ms-overflow-style: scrollbar;
 }
 
+.count {
+    font-size: 3rem;
+}
+
 figure {
     margin: 0 0 1rem;
 }
@@ -944,6 +948,43 @@ pre code {
 
 .offset-11 {
     margin-left: 91.6666666667%;
+}
+
+
+.partner-img {
+    display: flex;
+    margin: auto auto;
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+
+.partner-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partner-row a {
+    text-decoration: none;
+}
+
+.partner-column {
+  padding: 1rem;
+  flex: 1 0 21%;
+  margin: 0.4%;
+}
+
+
+.partner-heading {
+    font-weight: 600;
+    font-family: montserrat !important;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (min-width: 576px) {

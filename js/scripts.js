@@ -3,7 +3,7 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
     */
-    (function ($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
@@ -1252,6 +1252,7 @@ var data = [
     }
 ]
 
+
 // Display team members by generating html
 
 data.forEach((member) => {
@@ -1268,6 +1269,7 @@ data.forEach((member) => {
     document.getElementById("main-card").appendChild(div);
 });
 
+
 for(var i = 0; i < data.length; i++) {
     document.getElementById(`${data[i].id}`).querySelector("#team-email").href =  `mailto:${data[i].email}`;
     document.getElementById(`${data[i].id}`).querySelector("#team-image").src = `${data[i].image}`;
@@ -1280,4 +1282,50 @@ function removeElement(element) {
 }
 
 
+// counter animation
 
+isInViewport = (elem) => {
+    let bounding = elem.getBoundingClientRect();
+    const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (height) &&
+        bounding.right <= (width)
+    );
+};
+
+$(window).scroll(startCounter);
+
+function startCounter() {
+
+    document.querySelectorAll(".milestone-list").forEach(function(element){
+        if (isInViewport(element)) {
+            $(window).off("scroll", startCounter);
+            $('.count').each(function () {
+                let $this = $(this);
+                let max = $this.text();
+                if (max == 0){
+                    return;
+                }
+                if ($this.text() == "") {
+                    $this.text(Math.round(data.length / 10) * 10)
+                }
+                $this.prop('Counter',0).animate({
+                    Counter: $this.text()
+                }, {
+                    duration: 8000,
+                    easing: 'swing',
+                    step: function () {
+                        $this.text(Math.floor(this.Counter));
+                    },
+                })
+                .promise().then(function () {
+                    $this.text(max);
+                });
+            });
+        }
+    })
+
+}

@@ -17,8 +17,11 @@
     <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.7"
         type="text/css" media="all">
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/milestone.css" rel="stylesheet">
     <link href="css/styles-master.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/21cad11b53.js" crossorigin="anonymous"></script>
+    <script src="js/mapdata.js"></script>
+    <script src="js/worldmap.js"></script>
 </head>
 
 <body id="page-top" data-new-gr-c-s-check-loaded="14.1006.0" data-gr-ext-installed="">
@@ -40,10 +43,9 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#model">Model</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#method">Method</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#join-us-page">Join Us</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#partners">Partners</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://instilt.com/" target="_blank">Instilt</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -100,6 +102,86 @@
         </div>
     </section>
     <!-- Projects-->
+
+    <!-- Milestones -->
+            <section id="milestone">
+                <ul id = "milestone-unorder">
+
+                    <li class="milestone-list">
+                        <div class="milestone-icon">
+                            <i class="fas fa-child fa-3x"></i>
+                        </div>
+                        <br>
+                        <div class="milestone-details">
+                            <h4 class="milestone-title"><span class="count">4000</span>+</h4>
+                            <p class="milestone-text">Students</p>
+                        </div>
+                        <div class="milestone-line">
+                            <a class="milestone-1">
+                            <div class="milestone-indicator"></div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="milestone-list">
+                        <div class="milestone-icon">
+                            <i class="fas fa-school fa-3x"></i>
+                        </div>
+                        <br>
+                        <div class="milestone-details">
+                            <h4 class="milestone-title"><span class="count">10</span>+</h4>
+                            <p class="milestone-text">Schools</p>
+                        </div>
+                        <div class="milestone-line">
+                            <a class="milestone-2">
+                            <div class="milestone-indicator"></div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="milestone-list">
+                        <div class="milestone-icon">
+                            <i class="fas fa-user-plus fa-3x"></i>
+                        </div>
+                        <br>
+                        <div class="milestone-details">
+                            <h4 class="milestone-title"><span id="counter" class="count"></span>+</h4>
+                            <p class="milestone-text">Members</p>
+                        </div>
+                        <div class="milestone-line">
+                            <a class="milestone-3">
+                            <div class="milestone-indicator"></div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="milestone-list">
+                        <div class="milestone-icon">
+                            <i class="fas fa-chalkboard-teacher fa-4x"></i>
+                        </div>
+                        <br>
+                        <div class="milestone-details">
+                            <h4 class="milestone-title"><span class="count">520</span>+</h4>
+                            <p class="milestone-text">Classes Per Month</p>
+                        </div>
+                        <div class="milestone-line">
+                            <a class="milestone-4">
+                            <div class="milestone-indicator"></div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+
+    
+        <h2 id="contactext" style="text-transform: none; text-align: center;">Diverse Community of Members</h2>
+        <br>
+        <div id="map"></div>
+    
+
+
     <section class="projects-section bg-light" id="model">
         <div class="container">
             <!-- Featured Project Row-->
@@ -161,7 +243,46 @@
                     </p>
                 </div>
             </div>
-<section class="signup-section" style="width: 100vw;background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), !important;margin-left: calc(50% - 50vw);">
+        </div>
+    </section>
+
+    <section>
+        <div class="heading bg-light" id="partners">Our Partners</div>
+        <div class="container bg-light">
+            <div class="partner-row bg-light">
+                <a href="https://ashanet.org/" target="_blank">
+                    <div class="partner-column">
+                        <img class="partner-img" src="assets/img/partners/AFE.png" alt="Asha For Education">
+                        <h2 class="partner-heading"><span class="highlight-orange">Asha For Education</span></h2>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/_mind.stance_" target="_blank">
+                    <div class="partner-column">
+                        <img class="partner-img" src="assets/img/partners/mindstance.png" alt="Mind Stance">
+                        <h2 class="partner-heading"><span class="highlight-orange">Mind Stance</span></h2>
+                    </div>
+                </a>
+                <a href="https://www.unitedunderarts.org/" target="_blank">
+                    <div class="partner-column">
+                        <img class="partner-img" src="assets/img/partners/UUALogo.png" alt="United Under Arts">
+                        <h2 class="partner-heading"><span class="highlight-orange">United Under Arts</span></h2>
+                    </div>
+                </a>
+                <a href="https://sakhiforgirlseducation.org/" target="_blank">
+                    <div class="partner-column">
+                        <img class="partner-img" src="assets/img/partners/SFG.png" alt="Sakhi For Girls Education">
+                        <h2 class="partner-heading"><span class="highlight-orange">Sakhi For Girls Education</span></h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+        <section class="signup-section" style="width: 100vw;background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), !important;margin-left: calc(50% - 50vw);">
                 <section class="contact-section" id="method">
                     <div class="what-we-do heading">Our Method</div>
 
@@ -188,7 +309,7 @@
                                         <hr class="my-4">
                                         <h2 class="method-heading" id="application"><span class="highlight-blue">Learning by application</span></h2>
                                         <p class="method-about small" id="application-about" style="color: rgba(0, 0, 0, 1) !important;  text-align: center;">
-                                            As part of our teaching curriculum, we strive to incorporate all content into engaging application-based activities designed to strengthen and enhance the students’ knowledge. 
+                                            As part of our teaching curriculum, we strive to incorporate all content into engaging application-based activities designed to strengthen and enhance the students’ knowledge.
                                         </p>
                                     </div>
                                 </div>
@@ -235,23 +356,7 @@
             </div>
             <div class="typeform-widget" data-url="https://form.typeform.com/to/P5Ad1DrB?typeform-medium=embed-snippet" style="margin: 0 20px; height:800px;"></div>
             </section>
-            <script>
-                (function() {
-                    var qs, js, q, s, d = document,
-                        gi = d.getElementById,
-                        ce = d.createElement,
-                        gt = d.getElementsByTagName,
-                        id = "typef_orm",
-                        b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })()
-            </script>
+
         </div>
     </section>
     <!-- Signup-->
@@ -426,11 +531,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <script>
+        var count = data.length;
+        let c = document.getElementById("counter");
+        c.innerHTML = Math.round(count / 10) * 10;
+    </script>
+
 </body>
 <script>
     let textarea=document.querySelector("textarea");
     let input=document.querySelector("form input").getBoundingClientRect().width;
     textarea.style.width=input+"px";
-    </script>
+</script>
 </html>
-
