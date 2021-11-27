@@ -572,11 +572,11 @@ var data = [
     },
     {
         "id": 65,
-        "name": "Marija Nikoli\u00c4\u2021",
+        "name": "Marija Nikolic",
         "email": "marijamashanikolic@gmail.com",
         "division": "Tutor",
         "location": "Belgrade, Serbia",
-        "image": "assets/img/team/Marija Nikoli\u00c4\u2021.png"
+        "image": "assets/img/team/Marija Nikolic.png"
     },
     {
         "id": 66,
