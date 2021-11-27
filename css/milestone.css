@@ -1,0 +1,89 @@
+
+
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #5b0000;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #5b0000;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --black: #000000;
+}
+
+/*reset all margins and padding to zero*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#milestone{
+    background: #FFFFFF;
+}
+
+#milestone ul{
+    text-align: center;
+    margin: 40px auto;
+}
+
+/*Bringing the list items to center of webpage*/
+
+#milestone ul li{
+    display: inline-block;
+    width: 200px;
+    margin: 1.5rem;
+    position: relative;
+}
+
+
+@keyframes fade{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+
+/*bring the the a tag to center*/
+#milestone ul li a{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*Circular box inside the bar*/
+#milestone ul li a .milestone-indicator{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: var(--white);
+    z-index: 1;
+    margin-top: 5px;
+
+}
+/*Create the line*/
+#milestone ul li .milestone-line:after{
+    content: '';
+    height: 35px;
+    width: 300px;
+    display: block;
+    position: absolute;
+    background: #710000;
+    border-radius: 25px;
+    left: -35px;
+    bottom: 2px;
+    
+}
