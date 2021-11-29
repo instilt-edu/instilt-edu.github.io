@@ -1312,7 +1312,7 @@ var partnerData = [
         "id": 4,
         "name": "United Under Arts",
         "link": "https://www.unitedunderarts.org/",
-        "image": "assets/img/partners/UUALOGO.png"
+        "image": "assets/img/partners/UUALogo.png"
     },
     {
         "id": 5,
