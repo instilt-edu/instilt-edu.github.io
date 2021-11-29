@@ -951,12 +951,13 @@ pre code {
 }
 
 
-.partner-img {
+#partner-img {
     display: flex;
     margin: auto auto;
     max-width: 250px;
     max-height: 250px;
     object-fit: cover;
+    align-items: center;
     justify-content: center;
 }
 
@@ -964,6 +965,8 @@ pre code {
 .partner-row {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
 
 .partner-row a {
@@ -971,9 +974,11 @@ pre code {
 }
 
 .partner-column {
-  padding: 1rem;
-  flex: 1 0 21%;
-  margin: 0.4%;
+  flex-wrap: wrap;
+  flex: 1 0 20%;
+  margin: auto auto;
+  padding: 0.2rem;
+  width: 100%;
 }
 
 
@@ -11042,6 +11047,18 @@ a[href="mailto:edu@instilt.com"]:hover{
 }
 
 #contactext {
+    font-weight: 600;
+    text-transform: capitalize !important;
+    font-family: montserrat !important;
+    line-height: 2rem;
+    text-align: center;
+    color: #700000;
+    font-size: 1.8rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+}
+
+#maptext {
     font-weight: 600;
     text-transform: capitalize !important;
     font-family: montserrat !important;
