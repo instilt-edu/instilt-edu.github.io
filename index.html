@@ -29,7 +29,6 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-family:montserrat !important;letter-spacing:0px;font-weight:450; margin-left: 10px">Instilt Educate</a>
         <div class="container">
-
             <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <svg style="margin-left: 5px;" class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
@@ -37,6 +36,7 @@
                     </path>
                 </svg><!-- <i class="fas fa-bars"></i> Font Awesome fontawesome.com -->
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#mission">Mission</a></li>
@@ -49,43 +49,33 @@
                 </ul>
             </div>
         </div>
-        <div id="desktop-icons">
-            <b class="icon1">
-                <a href="https://www.linkedin.com/company/78017229" target="_blank">
-                    <i class="fab fa-linkedin" style="width:32px;height:32px;position:absolute;top:0%;left:0%;" aria-hidden="true"></i>
-                </a>
-            </b>
-            <b class="icon2">
-                <a href="https://www.facebook.com/Instilt-Educate-103443045269589" target="_blank">
-                    <i class="fab fa-facebook" style="width:32px;height:32px;position:absolute;top:0%;left:0%;" aria-hidden="true"></i>
-                </a>
-            </b>
-            <b class="icon3">
-                <a href="https://www.reddit.com/user/instilt-edu" target="_blank">
-                    <i class="fab fa-reddit" style="width:32px;height:32px;position:absolute;top:0%;left:0%;" aria-hidden="true"></i>
-                </a>
-            </b>
-            <b class="icon4">
-                <a href="https://www.instagram.com/edu.instilt" target="_blank">
-                    <i class="fab fa-instagram" style="width:32px;height:32px;position:absolute;top:0%;left:0%;" aria-hidden="true"></i>
-                </a>
-            </b>
-            <b class="icon5">
-                <a href="mailto:edu@instilt.com">
-                    <i class="fas fa-envelope" style="width:32px;height:32px;position:absolute;top:0%;left:0%;" aria-hidden="true"></i>
-                </a>
-            </b>
-        </div>
     </nav>
     <!-- Masthead-->
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
                 <h1 class="mx-auto my-0" style="font-family:montserrat !important;letter-spacing: 0px; font-weight:600; " id="title">Instilt - Educate</h1>
-                <h2 class="text-white-50 mx-auto mt-4 mb-5" id="subtitle">Help us help children everywhere have equal opportunities at a bright future, no matter their background! </h2>
+                <h2 class="text-white-50 mx-auto mt-4 mb-5" id="subtitle">Help us help children everywhere have equal opportunities at a bright future, no matter their background! </h2>    
                 <a class="btn btn-primary js-scroll-trigger" href="#join-us-page">Join us</a>
+                <div id="join-us-icons">
+                    <b>
+                        <a href="https://www.linkedin.com/company/78017229" target="_blank">
+                            <i class="fab fa-linkedin" style="color:white;width:42px;height:42px;" aria-hidden="true"></i>
+                        </a>
+                    </b>
+                    <b>
+                        <a href="https://www.instagram.com/edu.instilt" target="_blank">
+                            <i class="fab fa-instagram" style="color:white;width:42px;height:42px;" aria-hidden="true"></i>
+                        </a>
+                    </b>
+                    <b>
+                        <a href="mailto:edu@instilt.com">
+                            <i class="fas fa-envelope" style="color:white;width:42px;height:42px;" aria-hidden="true"></i>
+                        </a>
+                    </b>
+                </div>
             </div>
-        </div>
+            
     </header>
     <!-- About-->
     <section class="about-section text-center" id="mission">
@@ -326,35 +316,35 @@
             </section>
             <!-- Project One Row-->
             <section id="join-us-page">
-              <div class="Apply-info" id="join-us" style="background: transparent;">
-                <div>
-                    <h4 id="applytext" class="heading" style="background: transparent;">Join Us</h4>
-                </div>
-                <div id="applytext-subtitle">
-                    <p class="mb-0 text-black-50"  id="join-us-subtitle" style="color: black !important; font-weight: 500;">To apply as a tutor, fill out the form below ↓</p>
-                </div>
-            </div>
-            <div class="typeform-widget" data-url="https://form.typeform.com/to/P5Ad1DrB?typeform-medium=embed-snippet" style="margin: 0 20px; height:800px;"></div>
-            </section>
-            <script>
-                (function() {
-                    var qs, js, q, s, d = document,
-                        gi = d.getElementById,
-                        ce = d.createElement,
-                        gt = d.getElementsByTagName,
-                        id = "typef_orm",
-                        b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })()
-            </script>
-        </div>
-    </section>
+                <div class="Apply-info" id="join-us" style="background: transparent;">
+                  <div>
+                      <h4 id="applytext" class="heading" style="background: transparent;">Join Us</h4>
+                  </div>
+                  <div id="applytext-subtitle">
+                      <p class="mb-0 text-black-50"  id="join-us-subtitle" style="color: black !important; font-weight: 500;">To apply as a tutor, fill out the form below ↓</p>
+                  </div>
+              </div>
+              <div class="typeform-widget" data-url="https://form.typeform.com/to/P5Ad1DrB?typeform-medium=embed-snippet" style="margin: 0 20px; height:800px;"></div>
+              </section>
+              <script>
+                  (function() {
+                      var qs, js, q, s, d = document,
+                          gi = d.getElementById,
+                          ce = d.createElement,
+                          gt = d.getElementsByTagName,
+                          id = "typef_orm",
+                          b = "https://embed.typeform.com/";
+                      if (!gi.call(d, id)) {
+                          js = ce.call(d, "script");
+                          js.id = id;
+                          js.src = b + "embed.js";
+                          q = gt.call(d, "script")[0];
+                          q.parentNode.insertBefore(js, q)
+                      }
+                  })()
+              </script>
+          </div>
+        </section>  
     <!-- Signup-->
     <section class="signup-section" id="signup">
         <section class="contact-section" id="contact">
@@ -421,7 +411,7 @@
                             </div>
                         </div>
                     </div>
-</div>
+                </div>
                 </div>
                 
             </div>
