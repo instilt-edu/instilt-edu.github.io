@@ -10422,7 +10422,36 @@ body {
     outline: none;
     background-color: transparent;
 }
-
+#mainNav .icon1,
+    #mainNav .icon2,
+    #mainNav .icon3,
+    #mainNav .icon4,
+    #mainNav .icon5 {
+        top: 1.2rem;
+        border: 2px solid transparent;
+        border-radius: 999px;
+        display: block;
+        height: 36px;
+        width: 36px;
+        line-height: 1;
+        position: absolute;
+        background-color: transparent;
+    }
+    .icon1 {
+        right: calc(1rem + 46px * 4);
+    }
+    .icon2 {
+        right: calc(1rem + 46px * 3);
+    }
+    .icon3 {
+        right: calc(1rem + 46px * 2);
+    }
+    .icon4 {
+        right: calc(1rem + 46px);
+    }
+    .icon5 {
+        right: calc(1rem);
+    }
 @media (min-width: 1300px) {
     #mainNav {
         padding-top: 0;
@@ -10915,6 +10944,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     transform: translate(0, -5px);
 }
 
+
 .Apply-red {
     margin-top: 0.5rem;
     position: relative;
@@ -10924,11 +10954,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     margin-bottom: 0 !important;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    div#desktop-icons {
-        display: none;
-    }
-}
+
 
 .heading {
     color: #700000 !important;
@@ -11129,7 +11155,8 @@ a[href="mailto:edu@instilt.com"]:hover{
 
  @media screen and (max-width: 1300px) {
     a.navbar-brand{
-        margin-right:-0.3%;
+        position:absolute;
+        margin-left: 10%;
         margin-top:0.05% !important;
     }
     #mainNav{
@@ -11139,12 +11166,14 @@ a[href="mailto:edu@instilt.com"]:hover{
         align-items: baseline;
         box-shadow: rgb(149 157 165 / 25%) 0px 8px 24px;
     }
-    #desktop-icons{
-        display:none;
-    }
  }
 
- 
+@media screen and (max-width: 370px){
+    a.navbar-brand{
+        display:none;
+    }
+}
+
 @media screen and (max-width: 850px) {
   footer,body{
     overflow-x:hidden;
@@ -11322,6 +11351,14 @@ form textarea{
 
 #join-us {
     margin: 0 20px;
+}
+
+#join-us-icons{
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 10px;
 }
 
 #join-us-page {
