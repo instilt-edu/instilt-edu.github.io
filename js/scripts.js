@@ -1367,7 +1367,7 @@ var data = [
         "name": "Iryna Iziumska",
         "email": "iryna.iziumska@gmail.com",
         "division": "Human Resources",
-        "location": "San Jose, Unied States",
+        "location": "San Jose, United States",
         "image": "assets/img/team/Iryna Iziumska.png"
     },
     {
