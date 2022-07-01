@@ -1556,8 +1556,8 @@ var data = [
         "id": 167,
         "name": "Mohamed Ibrahim Mashhour Abdul-Ghani",
         "email": "mohamedi.mashhour1@gmail.com",
-        "division": "Social Media",
-        "team": "Social Media",
+        "division": "Tutor",
+        "team": "Tutor",
         "location": "Cairo, Egypt",
         "image": "assets/img/team/Mohamed Ibrahim Mashhour Abdul-Ghani.png"
     },
