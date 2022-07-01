@@ -4405,6 +4405,12 @@ input[type=button].btn-block {
     }
 }
 
+.donate-btn {
+    vertical-align: middle;
+    width: fit-content;
+    background-color:#770000;
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -4413,10 +4419,26 @@ input[type=button].btn-block {
     list-style: none;
 }
 
+.sm-icons{
+    color:white;
+    width:42px !important;
+    height:42px !important;
+    transition: color 0.5s;
+}
+
+.sm-icons:hover{
+    color:#770000;
+}
+
 .nav-link {
     display: block;
     padding: 10px 20px;
     font-weight: 600;
+}
+.nav-link-butn {
+    vertical-align: middle;
+    width: fit-content;
+    background-color:#770000;
 }
 
 .nav-link:hover,
@@ -4931,6 +4953,8 @@ input[type=button].btn-block {
     align-items: center;
     flex-direction: column;
     width: 240px;
+    flex: 1 0 21%;
+    max-width: 250px;
     padding: 1.25rem 1rem;
     border-radius: .375rem;
     transition: all 0.15s;
@@ -10965,6 +10989,14 @@ a[href="mailto:edu@instilt.com"]:hover{
     text-transform: capitalize;
 }
 
+.subheading {
+    color: #700000 !important;
+    font-weight: 500;
+    font-family: montserrat !important;
+    text-align: center;
+    font-size: 3rem;
+}
+
 .method-heading {
     font-weight: 600;
     font-family: montserrat !important;
@@ -11379,8 +11411,31 @@ form textarea{
     flex-wrap: wrap;
 }
 
+#admin-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-  
+#hr-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#strategy-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#batch-manager-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
   .img {
     display: flex;
     justify-content: center;  
