@@ -46,6 +46,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#partners">Partners</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link-butn js-scroll-trigger btn btn-danger" href="https://bank.hackclub.com/donations/start/instilt-educate" target="_blank">Donate</a></li>
                 </ul>
             </div>
         </div>
@@ -60,17 +61,17 @@
                 <div id="join-us-icons">
                     <b>
                         <a href="https://www.linkedin.com/company/78017229" target="_blank">
-                            <i class="fab fa-linkedin" style="color:white;width:42px;height:42px;" aria-hidden="true"></i>
+                            <i class="sm-icons fab fa-linkedin" aria-hidden="true"></i>
                         </a>
                     </b>
                     <b>
                         <a href="https://www.instagram.com/edu.instilt" target="_blank">
-                            <i class="fab fa-instagram" style="color:white;width:42px;height:42px;" aria-hidden="true"></i>
+                            <i class="sm-icons fab fa-instagram" aria-hidden="true"></i>
                         </a>
                     </b>
                     <b>
                         <a href="mailto:edu@instilt.com">
-                            <i class="fas fa-envelope" style="color:white;width:42px;height:42px;" aria-hidden="true"></i>
+                            <i class="sm-icons fas fa-envelope" aria-hidden="true"></i>
                         </a>
                     </b>
                 </div>
@@ -84,10 +85,15 @@
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-white mb-4 heading" id="our-mission" >Our Mission</h2>
                     <p class="text-white" id="mission-subtitle">
+                        Instilt Educate is a fiscally sponsored 501(c)(3) nonprofit providing free, quality, online tutoring to students from underprivileged backgrounds.
                         Our mission is to level the playing field between children that come from more fortunate backgrounds and those who do not possess the same privilege.
                     </p>
                 </div>
             </div>
+            <a class="btn btn-danger donate-btn" href="https://bank.hackclub.com/donations/start/instilt-educate" target="_blank">Donate Now</a>
+            <br>
+            <br>
+            <br>
             <img class="img-fluid" src="assets/img/transparent.png" alt="" id="logo-image">
         </div>
     </section>
@@ -426,11 +432,85 @@
     <section class="projects-section bg-light" style="padding-top: 0rem !important;" id="team">
         <div id="container" class="container">
           <div id="teamabout" class="heading">Our Team</div>
-          <script id="teams-page-content" type="text/html">
+            <!-- Admins -->
+            <div class="subheading">Admins</div>
+            <script id="admin-content" type="text/html">
+                <div class="content">
+                    <div class="img mb-4 sm:mb-5">
+                        <a class="team-email" href="">
+                            <img class="team-image" onerror="removeElement(this)" class="red-highlight" src="">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="name red-highlight">{NAME}</div>
+                        <div class="division red-highlight">{DIVISION}</div>
+                        <div class="location red-highlight">{LOCATION}</div>
+                    </div>
+                </div>
+            </script>
+            <div id="admin-card"></div>
+
+            <!-- Strategy -->
+            <div class="subheading" id="strategy-text">Strategy</div>
+
+            <script id="strategy-content" type="text/html">
+                <div class="content">
+                    <div class="img mb-4 sm:mb-5">
+                        <a class="team-email" href="">
+                            <img class="team-image" onerror="removeElement(this)" class="red-highlight" src="">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="name red-highlight">{NAME}</div>
+                        <div class="division red-highlight">{DIVISION}</div>
+                        <div class="location red-highlight">{LOCATION}</div>
+                    </div>
+                </div>
+            </script>
+            <div id="strategy-card"></div>
+
+            <!-- HR -->
+            <div class="subheading">Human Resources</div>
+            <script id="hr-content" type="text/html">
+                <div class="content">
+                    <div class="img mb-4 sm:mb-5">
+                        <a class="team-email" href="">
+                            <img class="team-image" onerror="removeElement(this)" class="red-highlight" src="">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="name red-highlight">{NAME}</div>
+                        <div class="division red-highlight">{DIVISION}</div>
+                        <div class="location red-highlight">{LOCATION}</div>
+                    </div>
+                </div>
+            </script>
+            <div id="hr-card"></div>
+
+            <!-- HR -->
+            <div class="subheading">Batch Managers</div>
+            <script id="batch-managers" type="text/html">
+                <div class="content">
+                    <div class="img mb-4 sm:mb-5">
+                        <a class="team-email" href="">
+                            <img class="team-image" onerror="removeElement(this)" class="red-highlight" src="">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <div class="name red-highlight">{NAME}</div>
+                        <div class="division red-highlight">{DIVISION}</div>
+                        <div class="location red-highlight">{LOCATION}</div>
+                    </div>
+                </div>
+            </script>
+            <div id="batch-manager-card"></div>
+
+            <div class="subheading">All Members</div>
+            <script id="teams-page-content" type="text/html">
             <div class="content">
               <div class="img mb-4 sm:mb-5">
-                <a id="team-email" href="">
-                  <img id="team-image" onerror="removeElement(this)" class="red-highlight" src="">
+                <a class="team-email" href="">
+                  <img class="team-image" onerror="removeElement(this)" class="red-highlight" src="">
                 </a>
               </div>
               <div class="details">
@@ -440,10 +520,10 @@
               </div>
             </div>
           </script>
-          <div id="main-card"></div>   
+          <div id="main-card"></div>
         </div>
     </section>
-    
+
     <!-- Contact-->
 
     <!-- Footer-->
