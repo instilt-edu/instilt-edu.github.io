@@ -4435,10 +4435,12 @@ input[type=button].btn-block {
     padding: 10px 20px;
     font-weight: 600;
 }
+
 .nav-link-butn {
     vertical-align: middle;
     width: fit-content;
     background-color:#770000;
+    text-transform: capitalize !important;
 }
 
 .nav-link:hover,
@@ -4953,7 +4955,7 @@ input[type=button].btn-block {
     align-items: center;
     flex-direction: column;
     width: 240px;
-    flex: 1 0 21%;
+    flex: 1 0 18%;
     max-width: 250px;
     padding: 1.25rem 1rem;
     border-radius: .375rem;
@@ -11411,30 +11413,6 @@ form textarea{
     flex-wrap: wrap;
 }
 
-#admin-card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#hr-card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-
-#strategy-card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#batch-manager-card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
   .img {
     display: flex;
