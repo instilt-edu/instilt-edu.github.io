@@ -87,12 +87,12 @@
     },
     {
         "id": 4,
-        "name": "Riya Garg",
-        "email": "riya@instilt.com",
-        "division": "Chief Marketing Officer",
+        "name": "Eliza Mahon",
+        "email": "eliza.q.mahon@gmail.com",
+        "division": "Head of Academics",
         "team": "Admin",
-        "location": "Singapore",
-        "image": "assets/img/team/Riya Garg.png"
+        "location": "Vancouver, Canada",
+        "image": "assets/img/team/Eliza Mahon.png"
     },
     {
         "id": 5,
@@ -115,7 +115,7 @@
     {
         "id": 7,
         "name": "Tanush Das",
-        "email": "tanush@instilt.com",
+        "email": "tanushdas@hotmail.com",
         "division": "Technical Operations",
         "team": "Technical Operations",
         "location": "Dubai, UAE",
@@ -125,7 +125,7 @@
         "id": 8,
         "name": "Paloosha Sheikh",
         "email": "sheikhpaloosha1@gmail.com",
-        "division": "Social Media & Cohort Head",
+        "division": "Social Media",
         "team": "Social Media",
         "location": "Srinagar, India",
         "image": "assets/img/team/Paloosha Sheikh.png"
@@ -151,7 +151,7 @@
     {
         "id": 11,
         "name": "YanXi Chen",
-        "email": "chenyx1308@gmail.com",
+        "email": "yan@instilt.com",
         "division": "Human Resources",
         "team": "Human Resources",
         "location": "Wirral, UK",
@@ -177,24 +177,15 @@
     },
     {
         "id": 14,
-        "name": "Sanjana Mahesh",
-        "email": "sanjumahesh2411@gmail.com",
-        "division": "Partnerships & Project Manager",
-        "team": "Partnerships",
-        "location": "Singapore",
-        "image": "assets/img/team/Sanjana Mahesh.png"
-    },
-    {
-        "id": 15,
         "name": "Kruthya Ratnayake",
-        "email": "kruthyar04@gmail.com",
+        "email": "kruthya@outlook.com",
         "division": "Tutor & Project Manager",
         "team": "Tutor",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Kruthya Ratnayake.png"
     },
     {
-        "id": 16,
+        "id": 15,
         "name": "Rosemary Ibe",
         "email": "rosemaryibe18@gmail.com",
         "division": "Tutor",
@@ -203,7 +194,7 @@
         "image": "assets/img/team/Rosemary Ibe.png"
     },
     {
-        "id": 17,
+        "id": 16,
         "name": "Aarush Panda",
         "email": "aarushp@gmail.com",
         "division": "Social Media & Cohort Head",
@@ -212,25 +203,16 @@
         "image": "assets/img/team/Aarush Panda.png"
     },
     {
-        "id": 18,
+        "id": 17,
         "name": "Kumudha Triveedhi",
-        "email": "kumudhat126@gmail.com",
+        "email": "ktiriveedhi@abaoman.org",
         "division": "Academics",
         "team": "Academics",
         "location": "Muscat, Oman",
         "image": "assets/img/team/Kumudha Triveedhi.png"
     },
     {
-        "id": 19,
-        "name": "Sophia Bagnes",
-        "email": "sbtfbagnes@gmail.com",
-        "division": "Academics & Content Lead",
-        "team": "Academics",
-        "location": "Iriga, Philippines",
-        "image": "assets/img/team/Sophia Bagnes.png"
-    },
-    {
-        "id": 20,
+        "id": 18,
         "name": "Rithvik Singh",
         "email": "singhrithvik2016@gmail.com",
         "division": "Tutor & Content Lead",
@@ -239,7 +221,7 @@
         "image": "assets/img/team/Rithvik Singh.png"
     },
     {
-        "id": 21,
+        "id": 19,
         "name": "Madhurima Nayak",
         "email": "connectwithmadhurima@gmail.com",
         "division": "Admin",
@@ -248,7 +230,7 @@
         "image": "assets/img/team/Madhurima Nayak.png"
     },
     {
-        "id": 22,
+        "id": 20,
         "name": "Tanvi Garg",
         "email": "gargselene@gmail.com",
         "division": "Academics & Project Manager",
@@ -257,7 +239,7 @@
         "image": "assets/img/team/Tanvi Garg 1.png"
     },
     {
-        "id": 23,
+        "id": 21,
         "name": "Devmini Wimalasena",
         "email": "devminiqueend@gmail.com",
         "division": "Tutor",
@@ -266,7 +248,7 @@
         "image": "assets/img/team/Devmini Wimalasena.png"
     },
     {
-        "id": 24,
+        "id": 22,
         "name": "Amrita Anbuchezhian",
         "email": "amritaanbu05@gmail.com",
         "division": "Academics",
@@ -275,25 +257,16 @@
         "image": "assets/img/team/Amrita Anbuchezhian.png"
     },
     {
-        "id": 25,
-        "name": "Steven Kadavil",
-        "email": "stevens20142021@yahoo.com",
-        "division": "Social Media",
-        "team": "Social Media",
-        "location": "Philadelphia, USA",
-        "image": "assets/img/team/Steven Kadavil.png"
-    },
-    {
-        "id": 26,
+        "id": 23,
         "name": "Coco Zhang",
-        "email": "coco.401828@nv.ccsd.net",
+        "email": "cocowzhang@gmail.com",
         "division": "Social Media",
         "team": "Social Media",
         "location": "Las Vegas, USA",
         "image": "assets/img/team/Coco Zhang.png"
     },
     {
-        "id": 27,
+        "id": 24,
         "name": "Kavini Ralapanawe",
         "email": "kavinitr17@gmail.com",
         "division": "Finance",
@@ -302,7 +275,7 @@
         "image": "assets/img/team/Kavini Ralapanawe.png"
     },
     {
-        "id": 28,
+        "id": 25,
         "name": "Insha Pervez",
         "email": "inshapervez07@gmail.com",
         "division": "Tutor",
@@ -311,16 +284,7 @@
         "image": "assets/img/team/Insha Pervez.png"
     },
     {
-        "id": 29,
-        "name": "Hanin Shamsheer",
-        "email": "haninshamsheer@gmail.com",
-        "division": "Social Media",
-        "team": "Social Media",
-        "location": "Doha, Qatar",
-        "image": "assets/img/team/Hanin Shamsheer.png"
-    },
-    {
-        "id": 30,
+        "id": 26,
         "name": "Ayuushi Gunetilleke",
         "email": "ayuushig@gmail.com",
         "division": "Tutor",
@@ -329,7 +293,7 @@
         "image": "assets/img/team/Ayuushi Gunetilleke.png"
     },
     {
-        "id": 32,
+        "id": 27,
         "name": "Shruti Singh",
         "email": "shrutisinghkg@gmail.com",
         "division": "Social Media",
@@ -338,7 +302,7 @@
         "image": "assets/img/team/Shruti Singh.png"
     },
     {
-        "id": 33,
+        "id": 28,
         "name": "Divyanshi Mohanty",
         "email": "divyanshimohanty4@gmail.com",
         "division": "Social Media",
@@ -347,7 +311,7 @@
         "image": "assets/img/team/Divyanshi Mohanty.png"
     },
     {
-        "id": 34,
+        "id": 29,
         "name": "Tanmay Shintre",
         "email": "tanmayshintrewadhwani@gmail.com",
         "division": "Social Media",
@@ -356,7 +320,7 @@
         "image": "assets/img/team/Tanmay Shintre.png"
     },
     {
-        "id": 35,
+        "id": 30,
         "name": "Shravani Tushar Kulkarni",
         "email": "shravani@instilt.com",
         "division": "Human Resources",
@@ -365,7 +329,7 @@
         "image": "assets/img/team/Shravani Tushar Kulkarni.png"
     },
     {
-        "id": 36,
+        "id": 31,
         "name": "Priya Ramani",
         "email": "priya15.ramani@gmail.com",
         "division": "Communications & Cohort Head",
@@ -374,7 +338,7 @@
         "image": "assets/img/team/Priya Ramani.png"
     },
     {
-        "id": 37,
+        "id": 32,
         "name": "Diya Singh Chauhan",
         "email": "diyasinghchauhan@gmail.com",
         "division": "Human Resources & Content Lead",
@@ -383,7 +347,7 @@
         "image": "assets/img/team/Diya Singh Chauhan.png"
     },
     {
-        "id": 38,
+        "id": 33,
         "name": "Saumika Pandey",
         "email": "pandeysaumika@gmail.com",
         "division": "Communications",
@@ -392,7 +356,7 @@
         "image": "assets/img/team/Saumika Pandey.png"
     },
     {
-        "id": 39,
+        "id": 34,
         "name": "Sanjana Menon",
         "email": "future2402@gmail.com",
         "division": "Communications",
@@ -401,7 +365,7 @@
         "image": "assets/img/team/Sanjana Menon.png"
     },
     {
-        "id": 40,
+        "id": 35,
         "name": "Veenaaz Vaid",
         "email": "veenaazv@gmail.com",
         "division": "Tutor",
@@ -410,7 +374,7 @@
         "image": "assets/img/team/Veenaaz Vaid.png"
     },
     {
-        "id": 41,
+        "id": 36,
         "name": "Nisha Kumar",
         "email": "24nisha2004@gmail.com",
         "division": "Communications",
@@ -419,7 +383,7 @@
         "image": "assets/img/team/Nisha Kumar.png"
     },
     {
-        "id": 42,
+        "id": 37,
         "name": "Dhriti Shah",
         "email": "dhriti.r2004@gmail.com",
         "division": "Tutor",
@@ -428,25 +392,16 @@
         "image": "assets/img/team/Dhriti Shah.png"
     },
     {
-        "id": 43,
-        "name": "Anvi Shah",
-        "email": "anvishah1704@gmail.com",
-        "division": "Social Media",
-        "team": "Social Media",
-        "location": "Chennai, India",
-        "image": "assets/img/team/Anvi Shah.png"
-    },
-    {
-        "id": 44,
+        "id": 38,
         "name": "Maithili Pungaliya",
         "email": "maithilipungaliya2605@gmail.com",
-        "division": "Communications",
-        "team": "Communications",
+        "division": "Tutor",
+        "team": "Tutor",
         "location": "Pune, India",
         "image": "assets/img/team/Maithili Pungaliya.png"
     },
     {
-        "id": 45,
+        "id": 39,
         "name": "Aseel Osman",
         "email": "aseelosman22@gmail.com",
         "division": "Social Media",
@@ -455,7 +410,7 @@
         "image": "assets/img/team/Aseel Osman.png"
     },
     {
-        "id": 46,
+        "id": 40,
         "name": "Nitya Bomma",
         "email": "nityabomma@gmail.com",
         "division": "Academics",
@@ -464,7 +419,7 @@
         "image": "assets/img/team/Nitya Bomma.png"
     },
     {
-        "id": 47,
+        "id": 41,
         "name": "Samaarah Wijewardene",
         "email": "samaarahwijewardene@gmail.com",
         "division": "Tutor",
@@ -473,7 +428,7 @@
         "image": "assets/img/team/Samaarah Wijewardene.png"
     },
     {
-        "id": 48,
+        "id": 42,
         "name": "Andrew Spearing",
         "email": "andrew.spearing@uconn.edu",
         "division": "Partnerships",
@@ -482,25 +437,16 @@
         "image": "assets/img/team/Andrew Spearing.png"
     },
     {
-        "id": 49,
+        "id": 43,
         "name": "Mason Hartlage",
-        "email": "mason.ipad3@icloud.com",
+        "email": "masonhartlage23@gmail.com",
         "division": "Tutor",
         "team": "Tutor",
         "location": "Louisville, USA",
         "image": "assets/img/team/Mason Hartlage.png"
     },
     {
-        "id": 50,
-        "name": "Srinithi Mohan",
-        "email": "mohannith95@gmail.com",
-        "division": "Academics",
-        "team": "Academics",
-        "location": "Hradec Kralove, Czech Republic",
-        "image": "assets/img/team/Srinithi Mohan.png"
-    },
-    {
-        "id": 52,
+        "id": 44,
         "name": "Marasel Perry",
         "email": "p.marasel@gmail.com",
         "division": "Academics",
@@ -509,7 +455,7 @@
         "image": "assets/img/team/Marasel Perry.png"
     },
     {
-        "id": 53,
+        "id": 45,
         "name": "Anwesha Maiti",
         "email": "maitianwesha16@gmail.com",
         "division": "Communications",
@@ -518,7 +464,7 @@
         "image": "assets/img/team/Anwesha Maiti.png"
     },
     {
-        "id": 54,
+        "id": 46,
         "name": "Vinugi De Silva",
         "email": "vinugidesilva@gmail.com",
         "division": "Tutor",
@@ -527,16 +473,7 @@
         "image": "assets/img/team/Vinugi De Silva.png"
     },
     {
-        "id": 55,
-        "name": "Kehara Edirisinghe",
-        "email": "kehara.edirisinghe@gmail.com",
-        "division": "Social Media",
-        "team": "Social Media",
-        "location": "Colombo, Sri Lanka",
-        "image": "assets/img/team/Kehara Edirisinghe.png"
-    },
-    {
-        "id": 56,
+        "id": 47,
         "name": "Sumaiya Sultana",
         "email": "sumaiyasultanax@gmail.com",
         "division": "Social Media",
@@ -545,7 +482,7 @@
         "image": "assets/img/team/Sumaiya Sultana.png"
     },
     {
-        "id": 57,
+        "id": 48,
         "name": "Kujana Hewagama",
         "email": "kujana2004@gmail.com",
         "division": "Social Media",
@@ -554,16 +491,7 @@
         "image": "assets/img/team/Kujana Hewagama.png"
     },
     {
-        "id": 58,
-        "name": "Thimasha Perera",
-        "email": "thimashasenaliperera@gmail.com",
-        "division": "Academics",
-        "team": "Academics",
-        "location": "Colombo, Sri Lanka",
-        "image": "assets/img/team/Thimasha Perera.png"
-    },
-    {
-        "id": 59,
+        "id": 49,
         "name": "Amaani Miskin",
         "email": "amani.miskin@gmail.com",
         "division": "Tutor",
@@ -572,7 +500,7 @@
         "image": "assets/img/team/Amaani Miskin.png"
     },
     {
-        "id": 60,
+        "id": 50,
         "name": "Buvaneshka Chandrasekera",
         "email": "buvaneshka376@gmail.com",
         "division": "Tutor",
@@ -581,7 +509,7 @@
         "image": "assets/img/team/Buvaneshka Chandrasekera.png"
     },
     {
-        "id": 61,
+        "id": 51,
         "name": "Annie Elizabeth Binesh",
         "email": "anniebinesh@gmail.com",
         "division": "Tutor",
@@ -590,7 +518,7 @@
         "image": "assets/img/team/Annie Elizabeth Binesh.png"
     },
     {
-        "id": 62,
+        "id": 52,
         "name": "Neha Menon",
         "email": "neha.menon.2005@gmail.com",
         "division": "Social Media & Cohort Head",
@@ -599,7 +527,7 @@
         "image": "assets/img/team/Neha Menon.png"
     },
     {
-        "id": 63,
+        "id": 53,
         "name": "Archit Sinha",
         "email": "architsinha8@gmail.com",
         "division": "Academics",
@@ -608,7 +536,7 @@
         "image": "assets/img/team/Archit Sinha.png"
     },
     {
-        "id": 64,
+        "id": 54,
         "name": "Nidhi Lyer",
         "email": "nidhiyer0402@gmail.com",
         "division": "Tutor",
@@ -617,7 +545,7 @@
         "image": "assets/img/team/Nidhi Lyer.png"
     },
     {
-        "id": 65,
+        "id": 55,
         "name": "Atheena Anil",
         "email": "atheenaanil2005@gmail.com",
         "division": "Communications & Cohort Head",
@@ -626,7 +554,7 @@
         "image": "assets/img/team/Atheena Anil.png"
     },
     {
-        "id": 66,
+        "id": 56,
         "name": "Ramayana Jaiswal",
         "email": "ramayanajaiswal@gmail.com",
         "division": "Tutor",
@@ -635,16 +563,7 @@
         "image": "assets/img/team/Ramayana Jaiswal.png"
     },
     {
-        "id": 67,
-        "name": "Rustam Singh Tomer",
-        "email": "rustamstomer@gmail.com",
-        "division": "Technical Operations",
-        "team": "Technical Operations",
-        "location": "Meerut, India",
-        "image": "assets/img/team/Rustam Singh Tomer.png"
-    },
-    {
-        "id": 68,
+        "id": 57,
         "name": "Vatsala Singh",
         "email": "singhvatsala123@gmail.com",
         "division": "Communications",
@@ -653,7 +572,7 @@
         "image": "assets/img/team/Vatsala Singh.png"
     },
     {
-        "id": 69,
+        "id": 58,
         "name": "Adrija Jana",
         "email": "adrijajana.live@gmail.com",
         "division": "HR & Cohort Head",
@@ -662,7 +581,7 @@
         "image": "assets/img/team/Adrija Jana.png"
     },
     {
-        "id": 70,
+        "id": 59,
         "name": "Syed Ehab Haider",
         "email": "ehabhaider18@gmail.com",
         "division": "Social Media",
@@ -671,7 +590,7 @@
         "image": "assets/img/team/Syed Ehab Haider.png"
     },
     {
-        "id": 71,
+        "id": 60,
         "name": "Aanya Mishra",
         "email": "aanyamishra0306@gmail.com",
         "division": "Social Media",
@@ -680,7 +599,7 @@
         "image": "assets/img/team/Aanya Mishra.png"
     },
     {
-        "id": 72,
+        "id": 61,
         "name": "Prerna Tandon",
         "email": "prernatandon18@gmail.com",
         "division": "Social Media",
@@ -689,7 +608,7 @@
         "image": "assets/img/team/Prerna Tandon.png"
     },
     {
-        "id": 73,
+        "id": 62,
         "name": "Yuvika Sehgal",
         "email": "yuvikachess@gmail.com",
         "division": "Communications",
@@ -698,7 +617,7 @@
         "image": "assets/img/team/Yuvika Sehgal.png"
     },
     {
-        "id": 74,
+        "id": 63,
         "name": "Ann Mascarenhas",
         "email": "annmasc3@gmail.com",
         "division": "Partnerships",
@@ -707,7 +626,7 @@
         "image": "assets/img/team/Ann Mascarenhas.png"
     },
     {
-        "id": 75,
+        "id": 64,
         "name": "Saloni Dwivedi",
         "email": "salonid.s1508@gmail.com",
         "division": "Social Media",
@@ -716,16 +635,16 @@
         "image": "assets/img/team/Saloni Dwivedi.png"
     },
     {
-        "id": 76,
+        "id": 65,
         "name": "Archie McNeill",
-        "email": "archie.mcnll@gmail.com",
+        "email": "ar.mcneill@outlook.com",
         "division": "Admin",
         "team": "Admin",
         "location": "Oxford, UK",
         "image": "assets/img/team/Archie McNeill.png"
     },
     {
-        "id": 77,
+        "id": 66,
         "name": "Maithreyi Murali Manohar",
         "email": "maithreyi.murali.manohar@gmail.com",
         "division": "Academics",
@@ -734,7 +653,7 @@
         "image": "assets/img/team/Maithreyi Murali Manohar.png"
     },
     {
-        "id": 78,
+        "id": 67,
         "name": "Ritesh Manjunathan",
         "email": "ritesh.blore@gmail.com",
         "division": "Partnerships",
@@ -743,7 +662,7 @@
         "image": "assets/img/team/Ritesh Manjunathan.png"
     },
     {
-        "id": 79,
+        "id": 68,
         "name": "Iryna Iziumska",
         "email": "iryna@instilt.com",
         "division": "Human Resources",
@@ -752,16 +671,7 @@
         "image": "assets/img/team/Iryna Iziumska.png"
     },
     {
-        "id": 80,
-        "name": "Jai Ansh Singh Bindra",
-        "email": "jaianshofficial26@gmail.com",
-        "division": "Communications",
-        "team": "Communications",
-        "location": "New Delhi, India",
-        "image": "assets/img/team/Jai Ansh Singh Bindra.png"
-    },
-    {
-        "id": 81,
+        "id": 69,
         "name": "Kieran Clare",
         "email": "kieraneamesroberts@gmail.com",
         "division": "Tutor",
@@ -770,7 +680,7 @@
         "image": "assets/img/team/Kieran Clare.png"
     },
     {
-        "id": 82,
+        "id": 70,
         "name": "Vinayika Goel",
         "email": "vinayikagoel@gmail.com",
         "division": "Social Media",
@@ -779,7 +689,7 @@
         "image": "assets/img/team/Vinayika Goel.png"
     },
     {
-        "id": 83,
+        "id": 71,
         "name": "Kaavya Dasgupta",
         "email": "dasgupta.kaavya@gmail.com",
         "division": "Academics",
@@ -788,16 +698,16 @@
         "image": "assets/img/team/Kaavya Dasgupta.png"
     },
     {
-        "id": 84,
+        "id": 72,
         "name": "Yelizaveta Halauniova",
-        "email": "wldchlx@gmail.com",
+        "email": "golovnevaliza123@gmail.com",
         "division": "Tutor",
         "team": "Tutor",
         "location": "Gomel, Belarus",
         "image": "assets/img/team/Yelizaveta Halauniova.png"
     },
     {
-        "id": 85,
+        "id": 73,
         "name": "Aarya Munot",
         "email": "munotaarya@gmail.com",
         "division": "Tutor",
@@ -806,7 +716,7 @@
         "image": "assets/img/team/Aarya Munot.png"
     },
     {
-        "id": 86,
+        "id": 74,
         "name": "Radha K",
         "email": "worldofalexisxoxo@gmail.com",
         "division": "Communications",
@@ -815,7 +725,7 @@
         "image": "assets/img/team/Radha K.png"
     },
     {
-        "id": 87,
+        "id": 75,
         "name": "Annie Jiang",
         "email": "anniejiang9019@gmail.com",
         "division": "Academics",
@@ -824,7 +734,7 @@
         "image": "assets/img/team/Annie Jiang.png"
     },
     {
-        "id": 88,
+        "id": 76,
         "name": "Julia Stergiou",
         "email": "juliastergiou1111@gmail.com",
         "division": "Partnerships",
@@ -833,7 +743,7 @@
         "image": "assets/img/team/Julia Stergiou.png"
     },
     {
-        "id": 89,
+        "id": 77,
         "name": "Deeksha Bachu",
         "email": "bachu.deeksha@gmail.com",
         "division": "Communications",
@@ -842,16 +752,7 @@
         "image": "assets/img/team/Deeksha Bachu.png"
     },
     {
-        "id": 90,
-        "name": "Damia Arya",
-        "email": "damiaarya@gmail.com",
-        "division": "Academics",
-        "team": "Academics",
-        "location": "East Delhi, India",
-        "image": "assets/img/team/Damia Arya.png"
-    },
-    {
-        "id": 91,
+        "id": 78,
         "name": "Mohamed Ibrahim Mashhour",
         "email": "mohamedi.mashhour1@gmail.com",
         "division": "Tutor",
@@ -860,16 +761,7 @@
         "image": "assets/img/team/Mohamed Ibrahim Mashhour.png"
     },
     {
-        "id": 92,
-        "name": "Varsha Viswapriyan",
-        "email": "varsha.viswapriyan@outlook.com",
-        "division": "Academics",
-        "team": "Academics",
-        "location": "Louisiana, USA",
-        "image": "assets/img/team/Varsha Viswapriyan.png"
-    },
-    {
-        "id": 94,
+        "id": 79,
         "name": "Varun Viswapriyan",
         "email": "manjula.viswapriyan@gmail.com",
         "division": "Social Media",
@@ -878,16 +770,16 @@
         "image": "assets/img/team/Varun Viswapriyan.png"
     },
     {
-        "id": 95,
+        "id": 80,
         "name": "Dishita Swaika",
-        "email": "dishita.swaika@gmail.com",
+        "email": "dishitas@outlook.com",
         "division": "Tutor",
         "team": "Tutor",
         "location": "Bangalore Urban, India",
         "image": "assets/img/team/Dishita Swaika.png"
     },
     {
-        "id": 96,
+        "id": 81,
         "name": "Suha",
         "email": "reachstg007@gmail.com",
         "division": "Academics",
@@ -896,25 +788,7 @@
         "image": "assets/img/team/Suha.png"
     },
     {
-        "id": 97,
-        "name": "Vaibhavi Bhat",
-        "email": "vaibhavibhat2808@gmail.com",
-        "division": "Social Media",
-        "team": "Social Media",
-        "location": "Bangalore Urban, India",
-        "image": "assets/img/team/Vaibhavi Bhat.png"
-    },
-    {
-        "id": 98,
-        "name": "Keya Mehta",
-        "email": "mehtakeya22@gmail.com",
-        "division": "Tutor",
-        "team": "Tutor",
-        "location": "Muscat, Oman",
-        "image": "assets/img/team/Keya Mehta.png"
-    },
-    {
-        "id": 99,
+        "id": 82,
         "name": "Shaurya Mahajan",
         "email": "shauryam182@gmail.com",
         "division": "Communications",
@@ -923,7 +797,7 @@
         "image": "assets/img/team/Shaurya Mahajan.png"
     },
     {
-        "id": 100,
+        "id": 83,
         "name": "Rayan Ghosh",
         "email": "theglasstable2007@gmail.com",
         "division": "Technical Operations",
@@ -932,7 +806,7 @@
         "image": "assets/img/team/Rayan Ghosh.png"
     },
     {
-        "id": 101,
+        "id": 84,
         "name": "Jyoti Saini",
         "email": "jyotssaini777@gmail.com",
         "division": "Finance",
@@ -941,7 +815,7 @@
         "image": "assets/img/team/Jyoti Saini.png"
     },
     {
-        "id": 102,
+        "id": 85,
         "name": "Tanvi Garg",
         "email": "garg.tanvi.st@gmail.com",
         "division": "Partnerships",
@@ -950,7 +824,7 @@
         "image": "assets/img/team/Tanvi Garg 2.png"
     },
     {
-        "id": 103,
+        "id": 86,
         "name": "Phillip Cao",
         "email": "phillipcao1234@gmail.com",
         "division": "Social Media",
@@ -959,7 +833,7 @@
         "image": "assets/img/team/Phillip Cao.png"
     },
     {
-        "id": 104,
+        "id": 87,
         "name": "Deepthy Ajith K",
         "email": "deepthyajithk07@gmail.com",
         "division": "Technical Operations",
@@ -968,7 +842,7 @@
         "image": "assets/img/team/Deepthy Ajith K.png"
     },
     {
-        "id": 105,
+        "id": 88,
         "name": "Aryan Kumar",
         "email": "aryank1401@gmail.com",
         "division": "Academics",
@@ -977,16 +851,7 @@
         "image": "assets/img/team/Aryan Kumar.png"
     },
     {
-        "id": 106,
-        "name": "Vaishnavi Muchukota",
-        "email": "vaishnavvvii@gmail.com",
-        "division": "Social Media",
-        "team": "Social Media",
-        "location": "California, USA",
-        "image": "assets/img/team/Vaishnavi Muchukota.png"
-    },
-    {
-        "id": 107,
+        "id": 89,
         "name": "Danisha Panigrahi",
         "email": "danishap15@gmail.com",
         "division": "Human Resources",
@@ -995,7 +860,7 @@
         "image": "assets/img/team/Danisha Panigrahi.png"
     },
     {
-        "id": 108,
+        "id": 90,
         "name": "Arni Mahendra",
         "email": "arnimahendra09@gmail.com",
         "division": "Tutor",
@@ -1004,7 +869,7 @@
         "image": "assets/img/team/Arni Mahendra.png"
     },
     {
-        "id": 109,
+        "id": 91,
         "name": "Suha Farook",
         "email": "suha_farook@outlook.com",
         "division": "Tutor",
@@ -1013,7 +878,7 @@
         "image": "assets/img/team/Suha Farook.png"
     },
     {
-        "id": 110,
+        "id": 92,
         "name": "Eva Rose Chethalan",
         "email": "eva.vakku@gmail.com",
         "division": "Social Media",
@@ -1022,25 +887,25 @@
         "image": "assets/img/team/Eva Rose Chethalan.png"
     },
     {
-        "id": 111,
+        "id": 93,
         "name": "Dhiksha Rathis",
         "email": "dhiksha.rathis@gmail.com",
-        "division": "Communications",
-        "team": "Communications",
+        "division": "Tutor",
+        "team": "Tutor",
         "location": "Bangalore Urban, India",
         "image": "assets/img/team/Dhiksha Rathis.png"
     },
     {
-        "id": 112,
+        "id": 94,
         "name": "Sachika Tomer",
         "email": "sachikatomer2006@gmail.com",
-        "division": "Tutor",
-        "team": "Tutor",
+        "division": "Communications",
+        "team": "Communications",
         "location": "Vadodara, India",
         "image": "assets/img/team/Sachika Tomer.png"
     },
     {
-        "id": 113,
+        "id": 95,
         "name": "Adyaa Mishra",
         "email": "mishraadyaa@gmail.com",
         "division": "Social Media",
@@ -1049,7 +914,7 @@
         "image": "assets/img/team/Adyaa Mishra.png"
     },
     {
-        "id": 114,
+        "id": 96,
         "name": "Pushpanjali Achuthan",
         "email": "pushpanjaliachuthan@gmail.com",
         "division": "Tutor",
@@ -1058,16 +923,7 @@
         "image": "assets/img/team/Pushpanjali Achuthan.png"
     },
     {
-        "id": 115,
-        "name": "Rameesha Imran",
-        "email": "rameesha.imranz@gmail.com",
-        "division": "Tutor",
-        "team": "Tutor",
-        "location": "Muscat, Oman",
-        "image": "assets/img/team/Rameesha Imran.png"
-    },
-    {
-        "id": 116,
+        "id": 97,
         "name": "Aarya Rajesh",
         "email": "aaryarajesh@gmail.com",
         "division": "Academics",
@@ -1076,7 +932,7 @@
         "image": "assets/img/team/Aarya Rajesh.png"
     },
     {
-        "id": 117,
+        "id": 98,
         "name": "Pranjali Gupta",
         "email": "pranjali.gupta16@gmail.com",
         "division": "Academics",
@@ -1085,7 +941,7 @@
         "image": "assets/img/team/Pranjali Gupta.png"
     },
     {
-        "id": 118,
+        "id": 99,
         "name": "Kartik Gulati",
         "email": "kartikgulati1509@gmail.com",
         "division": "Technical Operations",
@@ -1094,7 +950,7 @@
         "image": "assets/img/team/Kartik Gulati.png"
     },
     {
-        "id": 119,
+        "id": 100,
         "name": "Charlotte Talaat",
         "email": "charlottetalaatk@gmail.com",
         "division": "Academics",
@@ -1103,7 +959,7 @@
         "image": "assets/img/team/Charlotte Talaat.png"
     },
     {
-        "id": 120,
+        "id": 101,
         "name": "Swathi Ravi Shankar",
         "email": "swathiravishankar06@gmail.com",
         "division": "Social Media",
@@ -1112,25 +968,16 @@
         "image": "assets/img/team/Swathi Ravi Shankar.png"
     },
     {
-        "id": 121,
-        "name": "Prisha Agrawal",
-        "email": "prishaagr16@gmail.com",
-        "division": "Tutor",
-        "team": "Tutor",
-        "location": "Mumbai City, India",
-        "image": "assets/img/team/Prisha Agrawal.png"
-    },
-    {
-        "id": 122,
+        "id": 102,
         "name": "Jyothsna Sriya Ayyagari",
-        "email": "sriya13579@gmail.com",
+        "email": "jyothsna_sriya@outlook.com",
         "division": "Communications",
         "team": "Communications",
         "location": "Hyderabad, India",
         "image": "assets/img/team/Jyothsna Sriya Ayyagari.png"
     },
     {
-        "id": 123,
+        "id": 103,
         "name": "Pranav Dodda",
         "email": "pranav.dodda@gmail.com",
         "division": "Technical Operations",
@@ -1139,16 +986,16 @@
         "image": "assets/img/team/Pranav Dodda.png"
     },
     {
-        "id": 124,
+        "id": 104,
         "name": "Pranjal Sharma",
-        "email": "pranjalsharma1108@gmail.com",
+        "email": "sharmapranjal1108@gmail.com",
         "division": "Communications",
         "team": "Communications",
         "location": "Thane, India",
         "image": "assets/img/team/Pranjal Sharma.png"
     },
     {
-        "id": 125,
+        "id": 105,
         "name": "Adham Emam Ali",
         "email": "adhamemam09@gmail.com",
         "division": "Tutor",
@@ -1157,7 +1004,7 @@
         "image": "assets/img/team/Adham Emam Ali.png"
     },
     {
-        "id": 126,
+        "id": 106,
         "name": "Ahmed Hassan Ali",
         "email": "ah9382454@gmail.com",
         "division": "Tutor",
@@ -1166,7 +1013,7 @@
         "image": "assets/img/team/Ahmed Hassan Ali.png"
     },
     {
-        "id": 127,
+        "id": 107,
         "name": "Ahmed Khaled",
         "email": "ahmedkhaled77311@gmail.com",
         "division": "Tutor",
@@ -1175,7 +1022,7 @@
         "image": "assets/img/team/Ahmed Khaled.png"
     },
     {
-        "id": 128,
+        "id": 108,
         "name": "Ahmed Mohsen Abdelsattar",
         "email": "ahmed.2220007@stemsharkya.moe.edu.eg",
         "division": "Tutor",
@@ -1184,7 +1031,7 @@
         "image": "assets/img/team/Ahmed Mohsen Abdelsattar.png"
     },
     {
-        "id": 129,
+        "id": 109,
         "name": "Ameer Ashraf Azer",
         "email": "ameer.1421010@stemassiut.moe.edu.eg",
         "division": "Tutor",
@@ -1193,7 +1040,7 @@
         "image": "assets/img/team/Ameer Ashraf Azer.png"
     },
     {
-        "id": 130,
+        "id": 110,
         "name": "Basel Islam Ezz El-Arab",
         "email": "baselezz7@gmail.com",
         "division": "Tutor",
@@ -1202,7 +1049,7 @@
         "image": "assets/img/team/Basel Islam Ezz El-Arab.png"
     },
     {
-        "id": 131,
+        "id": 111,
         "name": "Bavly Romany Hosny",
         "email": "romanybavly496@gmail.com",
         "division": "Tutor",
@@ -1211,7 +1058,7 @@
         "image": "assets/img/team/Bavly Romany Hosny.png"
     },
     {
-        "id": 132,
+        "id": 112,
         "name": "Gamal Korany Ragab Mahmoud",
         "email": "gamal.korany06@gmail.com",
         "division": "Tutor",
@@ -1220,7 +1067,7 @@
         "image": "assets/img/team/Gamal Korany Ragab Mahmoud.png"
     },
     {
-        "id": 133,
+        "id": 113,
         "name": "Haneen Ayman Abdallah Abdallah Ali ",
         "email": "ha245041@gmail.com",
         "division": "Tutor",
@@ -1229,7 +1076,7 @@
         "image": "assets/img/team/Haneen Ayman Abdallah Abdallah Ali .png"
     },
     {
-        "id": 134,
+        "id": 114,
         "name": "Joly Osama Ghandour",
         "email": "joly62005@gmail.com",
         "division": "Tutor",
@@ -1238,7 +1085,7 @@
         "image": "assets/img/team/Joly Osama Ghandour.png"
     },
     {
-        "id": 135,
+        "id": 115,
         "name": "Mariam Salem",
         "email": "mariqueen12a@gmail.com",
         "division": "Tutor",
@@ -1247,7 +1094,7 @@
         "image": "assets/img/team/Mariam Salem.png"
     },
     {
-        "id": 136,
+        "id": 116,
         "name": "Mohamed Ahmed Bakry",
         "email": "moheromo@gmail.com",
         "division": "Tutor",
@@ -1256,7 +1103,7 @@
         "image": "assets/img/team/Mohamed Ahmed Bakry.png"
     },
     {
-        "id": 137,
+        "id": 117,
         "name": "Naher Abdelnasser Ahmed",
         "email": "naheristhebest2006@gmail.com",
         "division": "Tutor",
@@ -1265,7 +1112,7 @@
         "image": "assets/img/team/Naher Abdelnasser Ahmed.png"
     },
     {
-        "id": 138,
+        "id": 118,
         "name": "Romaisaa Rabea",
         "email": "romaisaarabea44@gmail.com",
         "division": "Tutor",
@@ -1274,7 +1121,7 @@
         "image": "assets/img/team/Romaisaa Rabea.png"
     },
     {
-        "id": 139,
+        "id": 119,
         "name": "Salma El-Sayed Ahmed El-Moshy",
         "email": "salmaelsayed.2.8.56@gmail.com",
         "division": "Tutor",
@@ -1283,7 +1130,7 @@
         "image": "assets/img/team/Salma El-Sayed Ahmed El-Moshy.png"
     },
     {
-        "id": 140,
+        "id": 120,
         "name": "Samir Wael Samir",
         "email": "sasasasawael1025@gmail.com",
         "division": "Tutor",
@@ -1292,7 +1139,7 @@
         "image": "assets/img/team/Samir Wael Samir.png"
     },
     {
-        "id": 141,
+        "id": 121,
         "name": "Shahd Mohammad Abo-Ahmad",
         "email": "shahdaboahmad596@gmail.com",
         "division": "Tutor",
@@ -1301,7 +1148,7 @@
         "image": "assets/img/team/Shahd Mohammad Abo-Ahmad.png"
     },
     {
-        "id": 142,
+        "id": 122,
         "name": "Yasmin Gamal Abdallah",
         "email": "ysmn.g.a.gbr@gmail.com",
         "division": "Tutor",
@@ -1310,7 +1157,7 @@
         "image": "assets/img/team/Yasmin Gamal Abdallah.png"
     },
     {
-        "id": 143,
+        "id": 123,
         "name": "Jiya Aswani",
         "email": "tcis.jiya08@gmail.com",
         "division": "Tutor",
@@ -1319,7 +1166,7 @@
         "image": "assets/img/team/Jiya Aswani.png"
     },
     {
-        "id": 144,
+        "id": 124,
         "name": "Christopher Espitia-Alvarez",
         "email": "cespitiaalvarez@gmail.com",
         "division": "Technical Operations",
@@ -1328,7 +1175,7 @@
         "image": "assets/img/team/Christopher Espitia-Alvarez.png"
     },
     {
-        "id": 145,
+        "id": 125,
         "name": "Likhitha Thokala",
         "email": "likhithathokala@gmail.com",
         "division": "Academics",
@@ -1337,7 +1184,7 @@
         "image": "assets/img/team/Likhitha Thokala.png"
     },
     {
-        "id": 146,
+        "id": 126,
         "name": "Ambika Prakash Khachi",
         "email": "ambikalikes@gmail.com",
         "division": "Communications",
@@ -1346,7 +1193,7 @@
         "image": "assets/img/team/Ambika Prakash Khachi.png"
     },
     {
-        "id": 147,
+        "id": 127,
         "name": "Anvika Shukla",
         "email": "anvikashukla00@gmail.com",
         "division": "Social Media",
@@ -1355,7 +1202,7 @@
         "image": "assets/img/team/Anvika Shukla.png"
     },
     {
-        "id": 148,
+        "id": 128,
         "name": "Liya Johnson",
         "email": "liyajohnson082006@gmail.com",
         "division": "Technical Operations",
@@ -1364,7 +1211,7 @@
         "image": "assets/img/team/Liya Johnson.png"
     },
     {
-        "id": 149,
+        "id": 129,
         "name": "Sreya Komati",
         "email": "komatisreya@gmail.com",
         "division": "Human Resources",
@@ -1373,7 +1220,7 @@
         "image": "assets/img/team/Sreya Komati.png"
     },
     {
-        "id": 150,
+        "id": 130,
         "name": "Ishika Singh",
         "email": "ishika.space@gmail.com",
         "division": "Academics",
@@ -1382,7 +1229,7 @@
         "image": "assets/img/team/Ishika Singh.png"
     },
     {
-        "id": 151,
+        "id": 131,
         "name": "Snigdha",
         "email": "snighda.rai@tts.edu.sg",
         "division": "Social Media",
@@ -1391,7 +1238,7 @@
         "image": "assets/img/team/Snigdha.png"
     },
     {
-        "id": 152,
+        "id": 132,
         "name": "Blaze Blackburn",
         "email": "blazeblackburn@gmail.com",
         "division": "Tutor",
@@ -1400,16 +1247,7 @@
         "image": "assets/img/team/Blaze Blackburn.png"
     },
     {
-        "id": 153,
-        "name": "Adam Nafie",
-        "email": "adamnafie@gmail.com",
-        "division": "Tutor",
-        "team": "Tutor",
-        "location": "Germany",
-        "image": "assets/img/team/Adam Nafie.png"
-    },
-    {
-        "id": 154,
+        "id": 133,
         "name": "Amrithaa Ketheeswaran",
         "email": "amri.k2703@gmail.com",
         "division": "Tutor",
@@ -1418,7 +1256,7 @@
         "image": "assets/img/team/Amrithaa Ketheeswaran.png"
     },
     {
-        "id": 155,
+        "id": 134,
         "name": "Sara Schwartz",
         "email": "schwarsara@gmail.com",
         "division": "Tutor",
@@ -1427,7 +1265,7 @@
         "image": "assets/img/team/Sara Schwartz.png"
     },
     {
-        "id": 156,
+        "id": 135,
         "name": "Madison Messner",
         "email": "madison.368512@nv.ccsd.net",
         "division": "Social Media",
@@ -1436,7 +1274,7 @@
         "image": "assets/img/team/Madison Messner.png"
     },
     {
-        "id": 157,
+        "id": 136,
         "name": "Tushara Kumar",
         "email": "tusharak12@gmail.com",
         "division": "Tutor",
@@ -1445,7 +1283,7 @@
         "image": "assets/img/team/Tushara Kumar.png"
     },
     {
-        "id": 158,
+        "id": 137,
         "name": "Koushiki Das",
         "email": "koushiki.das.is.here@gmail.com",
         "division": "Tutor",
@@ -1454,7 +1292,7 @@
         "image": "assets/img/team/Koushiki Das.png"
     },
     {
-        "id": 159,
+        "id": 138,
         "name": "Dhikshitha Nandakumar",
         "email": "ndhikshitha@gmail.com",
         "division": "HR",
@@ -1463,7 +1301,7 @@
         "image": "assets/img/team/Dhikshitha Nandakumar.png"
     },
     {
-        "id": 160,
+        "id": 139,
         "name": "Kenisha Jain",
         "email": "kenishajain123@gmail.com",
         "division": "Academics",
@@ -1472,7 +1310,7 @@
         "image": "assets/img/team/Kenisha Jain.png"
     },
     {
-        "id": 161,
+        "id": 140,
         "name": "Sahiti Dasari",
         "email": "sahitiaws@gmail.com",
         "division": "Technical Operations",
@@ -1481,7 +1319,7 @@
         "image": "assets/img/team/Sahiti Dasari.png"
     },
     {
-        "id": 162,
+        "id": 141,
         "name": "Fathima Imra",
         "email": "irishprincess.tpwk@gmail.com",
         "division": "Communications",
@@ -1490,7 +1328,7 @@
         "image": "assets/img/team/Fathima Imra.png"
     },
     {
-        "id": 163,
+        "id": 142,
         "name": "Aymen Jadda",
         "email": "aymen.jadda@gmail.com",
         "division": "Tutor",
@@ -1499,7 +1337,7 @@
         "image": "assets/img/team/Aymen Jadda.png"
     },
     {
-        "id": 164,
+        "id": 143,
         "name": "Siyona Mishra",
         "email": "siyona.mishra@gmail.com",
         "division": "Tutor",
@@ -1508,7 +1346,7 @@
         "image": "assets/img/team/Siyona Mishra.png"
     },
     {
-        "id": 165,
+        "id": 144,
         "name": "Esha Malhotra",
         "email": "eshamalhotra09@gmail.com",
         "division": "Tutor",
@@ -1517,7 +1355,7 @@
         "image": "assets/img/team/Esha Malhotra.png"
     },
     {
-        "id": 166,
+        "id": 145,
         "name": "Fatema Idris",
         "email": "fatemaidris628@gmail.com",
         "division": "Tutor",
@@ -1526,7 +1364,7 @@
         "image": "assets/img/team/Fatema Idris.png"
     },
     {
-        "id": 167,
+        "id": 146,
         "name": "Antriksh",
         "email": "anshpawankumar786@gmail.com",
         "division": "Communications",
@@ -1535,7 +1373,7 @@
         "image": "assets/img/team/Antriksh.png"
     },
     {
-        "id": 168,
+        "id": 147,
         "name": "Natalia Lopez",
         "email": "natlopez63@gmail.com",
         "division": "Partnerships",
@@ -1544,7 +1382,7 @@
         "image": "assets/img/team/Natalia Lopez.png"
     },
     {
-        "id": 169,
+        "id": 148,
         "name": "Rachel Tong",
         "email": "racheltong29@gmail.com",
         "division": "Tutor",
@@ -1553,16 +1391,16 @@
         "image": "assets/img/team/Rachel Tong.png"
     },
     {
-        "id": 170,
+        "id": 149,
         "name": "Aniela De Zoysa",
-        "email": "aniela.a.dezsoya@gmail.com",
+        "email": "aniela.a.dezoysa@gmail.com",
         "division": "Tutor",
         "team": "Tutor",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Aniela De Zoysa.png"
     },
     {
-        "id": 171,
+        "id": 150,
         "name": "Rimjhim Singh",
         "email": "singhrimjhim2017@gmail.com",
         "division": "Tutor",
@@ -1571,7 +1409,7 @@
         "image": "assets/img/team/Rimjhim Singh.png"
     },
     {
-        "id": 172,
+        "id": 151,
         "name": "Shenaly Raju",
         "email": "shenalyraju@gmail.com",
         "division": "Academics",
@@ -1580,7 +1418,7 @@
         "image": "assets/img/team/Shenaly Raju.png"
     },
     {
-        "id": 173,
+        "id": 152,
         "name": "Tiara Hewagama",
         "email": "tiarahewagama2005@gmail.com",
         "division": "Social Media",
@@ -1589,7 +1427,7 @@
         "image": "assets/img/team/Tiara Hewagama.png"
     },
     {
-        "id": 174,
+        "id": 153,
         "name": "Janya Edirisinghe",
         "email": "janyaedirisinghe763@gmail.com",
         "division": "Social Media",
@@ -1598,7 +1436,7 @@
         "image": "assets/img/team/Janya Edirisinghe.png"
     },
     {
-        "id": 175,
+        "id": 154,
         "name": "Sammith Singamsetty",
         "email": "sammith.official@gmail.com",
         "division": "Academics",
@@ -1607,7 +1445,7 @@
         "image": "assets/img/team/Sammith Singamsetty.png"
     },
     {
-        "id": 176,
+        "id": 155,
         "name": "Gwenie Marinas",
         "email": "gweniekm0323@gmail.com",
         "division": "Social Media",
@@ -1616,7 +1454,7 @@
         "image": "assets/img/team/Gwenie Marinas.png"
     },
     {
-        "id": 177,
+        "id": 156,
         "name": "Aryan Nayak ",
         "email": "8660549803.nayak@gmail.com",
         "division": "Communications",
@@ -1625,7 +1463,7 @@
         "image": "assets/img/team/Aryan Nayak .png"
     },
     {
-        "id": 178,
+        "id": 157,
         "name": "Adetunji Dorcas",
         "email": "adetunjidorcas7@gmail.com",
         "division": "Partnerships",
@@ -1634,7 +1472,7 @@
         "image": "assets/img/team/Adetunji Dorcas.png"
     },
     {
-        "id": 179,
+        "id": 158,
         "name": "Ranudi Pilapitiya",
         "email": "rpilapitiya2004@gmail.com",
         "division": "Tutor",
@@ -1643,7 +1481,7 @@
         "image": "assets/img/team/Ranudi Pilapitiya.png"
     },
     {
-        "id": 180,
+        "id": 159,
         "name": "Sachi Aggarwal",
         "email": "sachiaggarwal2006@gmail.com",
         "division": "Social Media",
@@ -1652,7 +1490,7 @@
         "image": "assets/img/team/Sachi Aggarwal.png"
     },
     {
-        "id": 181,
+        "id": 160,
         "name": "Leenah Wahab",
         "email": "leenah.wahab@gmail.com",
         "division": "Academics",
@@ -1661,16 +1499,16 @@
         "image": "assets/img/team/Leenah Wahab.png"
     },
     {
-        "id": 182,
+        "id": 161,
         "name": "Vedanth Adhia",
-        "email": "vedanthadia2005@gmail.com",
+        "email": "vedanthadhia2005@gmail.com",
         "division": "Communications",
         "team": "Communications",
         "location": "Ahmedabad, India",
         "image": "assets/img/team/Vedanth Adhia.png"
     },
     {
-        "id": 183,
+        "id": 162,
         "name": "Ben Doupe",
         "email": "bjdoupe@gmail.com",
         "division": "Tutor",
@@ -1679,7 +1517,7 @@
         "image": "assets/img/team/Ben Doupe.png"
     },
     {
-        "id": 184,
+        "id": 163,
         "name": "Mythili Veshala",
         "email": "mythili.veshala@gmail.com",
         "division": "Human Resources",
@@ -1688,16 +1526,7 @@
         "image": "assets/img/team/Mythili Veshala.png"
     },
     {
-        "id": 185,
-        "name": "Eliza Mahon",
-        "email": "eliza.q.mahon@gmail.com",
-        "division": "Academics",
-        "team": "Academics",
-        "location": "Vancouver, Canada",
-        "image": "assets/img/team/Eliza Mahon.png"
-    },
-    {
-        "id": 186,
+        "id": 164,
         "name": "Ryan Joseph Orumpackal",
         "email": "rjosepho@outlook.com",
         "division": "Academics",
@@ -1706,13 +1535,175 @@
         "image": "assets/img/team/Ryan Joseph Orumpackal.png"
     },
     {
-        "id": 187,
+        "id": 165,
         "name": "Sehara Jayasuriya",
         "email": "seharajayasuriya@gmail.com",
         "division": "Tutor",
         "team": "Tutor",
         "location": "Colombo, Sri Lanka",
         "image": "assets/img/team/Sehara Jayasuriya.png"
+    },
+    {
+        "id": 166,
+        "name": "Anant Vikram Agarwal",
+        "email": "agarwala25@gsiscommunity.kr",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "Seoul, Korea",
+        "image": "assets/img/team/Anant Vikram Agarwal.png"
+    },
+    {
+        "id": 167,
+        "name": "Safiya Mymun",
+        "email": "safiyamymunsiddiq@gmail.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "Riyadh, Saudi Arabia",
+        "image": "assets/img/team/Safiya Mymun.png"
+    },
+    {
+        "id": 168,
+        "name": "Roz Mirfendereski",
+        "email": "rozmir@icloud.com",
+        "division": "Academics",
+        "team": "Academics",
+        "location": "Las Vegas, USA",
+        "image": "assets/img/team/Roz Mirfendereski.png"
+    },
+    {
+        "id": 169,
+        "name": "Arnav Chitnis",
+        "email": "sameerchitnis2001@gmail.com",
+        "division": "Communications",
+        "team": "Communications",
+        "location": "Pune, India",
+        "image": "assets/img/team/Arnav Chitnis.png"
+    },
+    {
+        "id": 170,
+        "name": "Sandeep",
+        "email": "sandeepsulegai@gmail.com",
+        "division": "Communications",
+        "team": "Communications",
+        "location": "Bangalore, India",
+        "image": "assets/img/team/Sandeep.png"
+    },
+    {
+        "id": 171,
+        "name": "Liam Hoffman",
+        "email": "lhoff2005@yahoo.com",
+        "division": "Partnerships",
+        "team": "Partnerships",
+        "location": "Indiana, USA",
+        "image": "assets/img/team/Liam Hoffman.png"
+    },
+    {
+        "id": 172,
+        "name": "Shaivi Kumar",
+        "email": "shaivikumar2007@gmail.com",
+        "division": "Communications",
+        "team": "Communications",
+        "location": "Kolkata, India",
+        "image": "assets/img/team/Shaivi Kumar.png"
+    },
+    {
+        "id": 173,
+        "name": "Aiyappan Shivani",
+        "email": "aiyappanshivani06@gmail.com",
+        "division": "Social Media",
+        "team": "Social Media",
+        "location": "Singapore",
+        "image": "assets/img/team/Aiyappan Shivani.png"
+    },
+    {
+        "id": 174,
+        "name": "Keyura A Grandhi",
+        "email": "keyura.grandhi@gmail.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "Fremont, USA",
+        "image": "assets/img/team/Keyura A Grandhi.png"
+    },
+    {
+        "id": 175,
+        "name": "Joshua Park",
+        "email": "joshua.1946577@nv.ccsd.net",
+        "division": "Human Resources",
+        "team": "Human Resources",
+        "location": "Las Vegas, USA",
+        "image": "assets/img/team/Joshua Park.png"
+    },
+    {
+        "id": 176,
+        "name": "Smahi Vijay",
+        "email": "smahiv@gmail.com",
+        "division": "Social Media",
+        "team": "Social Media",
+        "location": "Singapore",
+        "image": "assets/img/team/Smahi Vijay.png"
+    },
+    {
+        "id": 177,
+        "name": "Shukhashini Sivakumar",
+        "email": "shukhashinis@yahoo.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "Coimbatore, India",
+        "image": "assets/img/team/Shukhashini Sivakumar.png"
+    },
+    {
+        "id": 178,
+        "name": "Christiana Julien",
+        "email": "cejtlch@icloud.com",
+        "division": "Academics",
+        "team": "Academics",
+        "location": "Nashville, USA",
+        "image": "assets/img/team/Christiana Julien.png"
+    },
+    {
+        "id": 179,
+        "name": "Anusha Kamtikar",
+        "email": "anushakamtikar@gmail.com",
+        "division": "Communications",
+        "team": "Communications",
+        "location": "Pune, India",
+        "image": "assets/img/team/Anusha Kamtikar.png"
+    },
+    {
+        "id": 180,
+        "name": "Kushi Khushi",
+        "email": "k.khushi0357@gmail.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "Helifax, Canada",
+        "image": "assets/img/team/Kushi Khushi.png"
+    },
+    {
+        "id": 181,
+        "name": "Veer Raghav Jaiswal",
+        "email": "veer1838.jaiswal@gmail.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "India",
+        "image": "assets/img/team/Veer Raghav Jaiswal.png"
+    },
+    {
+        "id": 182,
+        "name": "Abisatu Kabineh-Mansaray",
+        "email": "km.abisatu@gmail.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "London, UK",
+        "image": "assets/img/team/Abisatu Kabineh-Mansaray.png"
+    },
+    {
+        "id": 183,
+        "name": "Justin Tishbi",
+        "email": "justintishbi@gmail.com",
+        "division": "Tutor",
+        "team": "Tutor",
+        "location": "Los Angeles, USA",
+        "image": "assets/img/team/Justin Tishbi.png"
     }
 ]
     // Display team members by generating html
@@ -1746,15 +1737,14 @@
     addCards(techOps)
     
     var managers = [
-        "Sanjana Mahesh",
-        "Priyanka Karamchandani",
+        "Arni Mahendra",
+        "Julia Stergiou",
+        "Kaavya Dasgupta",
         "Priya Ramani",
-        "Kumudha Triveedhi",
-        "Insha Pervez",
-        "Kruthya Ratnayake",
+        "Priyanka Karamchandani",
         "Aanya Mishra",
-        "Tvadhanya Badruka",
-        "Kaavya Dasgupta"
+        "Kumudha Triveedhi",
+        "Shravani Tushar Kulkarni"
     ]
 
     var batch_managers = data.filter(m => managers.includes(m.name))
