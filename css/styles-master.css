@@ -1979,8 +1979,10 @@ pre code {
     }
 
     .col-md-4 .card .card-body img {
-        width: 350px !important; 
-        height: 350px !important;
+        /* width: 350px !important; 
+        height: 350px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
 }
 
@@ -2008,8 +2010,10 @@ pre code {
     }
 
     .card .card-body img {
-        width: 450px !important; 
-        height: 450px !important;
+        /* width: 450px !important; 
+        height: 450px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
 
     .projects-section .featured-text {
@@ -4025,6 +4029,11 @@ input[type=button].btn-block {
     border-radius: 0.25rem;
 }
 
+.team-image{
+    max-width: 150px;
+    max-height: 150px;
+}
+
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
@@ -4435,13 +4444,13 @@ input[type=button].btn-block {
     padding: 10px 20px;
     font-weight: 600;
 }
-
 .nav-link-butn {
     vertical-align: middle;
     width: fit-content;
     background-color:#770000;
     text-transform: capitalize !important;
 }
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -5009,8 +5018,10 @@ input[type=button].btn-block {
         padding: 2rem 2.5rem !important; 
     }
     .card-body img {
-        width: 300px !important;
-        height: 300px !important;
+        /* width: 300px !important;
+        height: 300px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
 
     #image_slideshow {
@@ -11413,7 +11424,6 @@ form textarea{
     flex-wrap: wrap;
 }
 
-
   .img {
     display: flex;
     justify-content: center;  
@@ -11511,8 +11521,10 @@ form textarea{
       }
 
       .row .col-md-4 .card .card-body img {
-        width: 250px !important; 
-        height: 250px !important;
+        /* width: 250px !important; 
+        height: 250px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
   }
 
