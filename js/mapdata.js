@@ -39,1392 +39,1309 @@ var simplemaps_worldmap_mapdata={
     border_size: "0"
   },
   state_specific: {
-    AE: {
-      name: "United Arab Emirates",
-      hide: "no",
-      zoomable: "no"
-    },
     AF: {
-      name: "Afghanistan",
-      hide: "no",
-      zoomable: "no"
-    },
-    AL: {
-      name: "Albania",
-      hide: "no",
-      zoomable: "no"
-    },
-    AM: {
-      name: "Armenia",
-      hide: "no",
-      zoomable: "no"
+      name: "Afghanistan"
     },
     AO: {
-      name: "Angola",
-      hide: "no",
-      zoomable: "no"
+      name: "Angola"
+    },
+    AL: {
+      name: "Albania"
+    },
+    AE: {
+      name: "United Arab Emirates"
     },
     AR: {
-      name: "Argentina",
-      hide: "no",
-      zoomable: "no"
+      name: "Argentina"
     },
-    AT: {
-      name: "Austria",
-      hide: "no",
-      zoomable: "no"
+    AM: {
+      name: "Armenia"
     },
     AU: {
-      name: "Australia",
-      hide: "no",
-      zoomable: "no"
+      name: "Australia"
+    },
+    AT: {
+      name: "Austria"
     },
     AZ: {
-      name: "Azerbaidjan",
-      hide: "no",
-      zoomable: "no"
-    },
-    BA: {
-      name: "Bosnia-Herzegovina",
-      hide: "no",
-      zoomable: "no"
-    },
-    BD: {
-      name: "Bangladesh",
-      hide: "no",
-      zoomable: "no"
-    },
-    BE: {
-      name: "Belgium",
-      hide: "no",
-      zoomable: "no"
-    },
-    BF: {
-      name: "Burkina Faso",
-      hide: "no",
-      zoomable: "no"
-    },
-    BG: {
-      name: "Bulgaria",
-      hide: "no",
-      zoomable: "no"
-    },
-    BH: {
-      name: "Bahrain",
-      hide: "no",
-      zoomable: "no"
+      name: "Azerbaijan"
     },
     BI: {
-      name: "Burundi",
-      hide: "no",
-      zoomable: "no"
+      name: "Burundi"
+    },
+    BE: {
+      name: "Belgium"
     },
     BJ: {
-      name: "Benin",
-      hide: "no",
-      zoomable: "no"
+      name: "Benin"
     },
-    BN: {
-      name: "Brunei Darussalam",
-      hide: "no",
-      zoomable: "no"
+    BF: {
+      name: "Burkina Faso"
     },
-    BO: {
-      name: "Bolivia",
-      hide: "no",
-      zoomable: "no"
+    BD: {
+      name: "Bangladesh"
     },
-    BR: {
-      name: "Brazil",
-      hide: "no",
-      zoomable: "no"
+    BG: {
+      name: "Bulgaria"
     },
-    BS: {
-      name: "Bahamas",
-      hide: "no",
-      zoomable: "no"
+    BH: {
+      name: "Bahrain"
     },
-    BT: {
-      name: "Bhutan",
-      hide: "no",
-      zoomable: "no"
-    },
-    BW: {
-      name: "Botswana",
-      hide: "no",
-      zoomable: "no"
+    BA: {
+      name: "Bosnia and Herzegovina"
     },
     BY: {
-      name: "Belarus",
-      hide: "no",
-      zoomable: "no"
+      name: "Belarus"
     },
     BZ: {
-      name: "Belize",
-      hide: "no",
-      zoomable: "no"
+      name: "Belize"
     },
-    CA: {
-      name: "Canada",
-      hide: "no",
-      zoomable: "no"
+    BO: {
+      name: "Bolivia"
     },
-    CD: {
-      name: "Congo",
-      hide: "no",
-      zoomable: "no"
+    BR: {
+      name: "Brazil"
+    },
+    BN: {
+      name: "Brunei Darussalam"
+    },
+    BT: {
+      name: "Bhutan"
+    },
+    BW: {
+      name: "Botswana"
     },
     CF: {
-      name: "Central African Republic",
-      hide: "no",
-      zoomable: "no"
+      name: "Central African Republic"
     },
-    CG: {
-      name: "Congo",
-      hide: "no",
-      zoomable: "no"
+    CA: {
+      name: "Canada"
     },
     CH: {
-      name: "Switzerland",
-      hide: "no",
-      zoomable: "no"
-    },
-    CI: {
-      name: "Ivory Coast",
-      hide: "no",
-      zoomable: "no"
+      name: "Switzerland"
     },
     CL: {
-      name: "Chile",
-      hide: "no",
-      zoomable: "no"
-    },
-    CM: {
-      name: "Cameroon",
-      hide: "no",
-      zoomable: "no"
+      name: "Chile"
     },
     CN: {
-      name: "China",
-      hide: "no",
-      zoomable: "no"
+      name: "China"
+    },
+    CI: {
+      name: "Côte d'Ivoire"
+    },
+    CM: {
+      name: "Cameroon"
+    },
+    CD: {
+      name: "Democratic Republic of the Congo"
+    },
+    CG: {
+      name: "Republic of Congo"
     },
     CO: {
-      name: "Colombia",
-      hide: "no",
-      zoomable: "no"
+      name: "Colombia"
     },
     CR: {
-      name: "Costa Rica",
-      hide: "no",
-      zoomable: "no"
+      name: "Costa Rica"
     },
     CU: {
-      name: "Cuba",
-      hide: "no",
-      zoomable: "no"
-    },
-    CV: {
-      name: "Cape Verde",
-      hide: "no",
-      zoomable: "no"
-    },
-    CY: {
-      name: "Cyprus",
-      hide: "no",
-      zoomable: "no"
+      name: "Cuba"
     },
     CZ: {
-      name: "Czech Republic",
-      hide: "no",
-      zoomable: "no"
+      name: "Czech Republic"
     },
     DE: {
-      name: "Germany",
-      hide: "no",
-      zoomable: "no"
+      name: "Germany"
     },
     DJ: {
-      name: "Djibouti",
-      hide: "no",
-      zoomable: "no"
+      name: "Djibouti"
     },
     DK: {
-      name: "Denmark",
-      hide: "no",
-      zoomable: "no"
+      name: "Denmark"
     },
     DO: {
-      name: "Dominican Republic",
-      hide: "no",
-      zoomable: "no"
+      name: "Dominican Republic"
     },
     DZ: {
-      name: "Algeria",
-      hide: "no",
-      zoomable: "no"
+      name: "Algeria"
     },
     EC: {
-      name: "Ecuador",
-      hide: "no",
-      zoomable: "no"
-    },
-    EE: {
-      name: "Estonia",
-      hide: "no",
-      zoomable: "no"
+      name: "Ecuador"
     },
     EG: {
-      name: "Egypt",
-      hide: "no",
-      zoomable: "no"
-    },
-    EH: {
-      name: "Western Sahara",
-      hide: "no",
-      zoomable: "no"
+      name: "Egypt"
     },
     ER: {
-      name: "Eritrea",
-      hide: "no",
-      zoomable: "no"
+      name: "Eritrea"
     },
-    ES: {
-      name: "Spain",
-      hide: "no",
-      zoomable: "no"
+    EE: {
+      name: "Estonia"
     },
     ET: {
-      name: "Ethiopia",
-      hide: "no",
-      zoomable: "no"
+      name: "Ethiopia"
     },
     FI: {
-      name: "Finland",
-      hide: "no",
-      zoomable: "no"
+      name: "Finland"
     },
     FJ: {
-      name: "Fiji",
-      hide: "no",
-      zoomable: "no"
-    },
-    FK: {
-      name: "Falkland Islands",
-      hide: "no",
-      zoomable: "no"
-    },
-    FR: {
-      name: "France",
-      hide: "no",
-      zoomable: "no"
+      name: "Fiji"
     },
     GA: {
-      name: "Gabon",
-      hide: "no",
-      zoomable: "no"
+      name: "Gabon"
     },
     GB: {
-      name: "Great Britain",
-      hide: "no",
-      zoomable: "no"
+      name: "United Kingdom"
     },
     GE: {
-      name: "Georgia",
-      hide: "no",
-      zoomable: "no"
-    },
-    GF: {
-      name: "French Guyana",
-      hide: "no",
-      zoomable: "no"
+      name: "Georgia"
     },
     GH: {
-      name: "Ghana",
-      hide: "no",
-      zoomable: "no"
-    },
-    GL: {
-      name: "Greenland",
-      hide: "no",
-      zoomable: "no"
-    },
-    GM: {
-      name: "Gambia",
-      hide: "no",
-      zoomable: "no"
+      name: "Ghana"
     },
     GN: {
-      name: "Guinea",
-      hide: "no",
-      zoomable: "no"
+      name: "Guinea"
     },
-    GQ: {
-      name: "Equatorial Guinea",
-      hide: "no",
-      zoomable: "no"
-    },
-    GR: {
-      name: "Greece",
-      hide: "no",
-      zoomable: "no"
-    },
-    GS: {
-      name: "S. Georgia & S. Sandwich Isls.",
-      hide: "no",
-      zoomable: "no"
-    },
-    GT: {
-      name: "Guatemala",
-      hide: "no",
-      zoomable: "no"
+    GM: {
+      name: "The Gambia"
     },
     GW: {
-      name: "Guinea Bissau",
-      hide: "no",
-      zoomable: "no"
+      name: "Guinea-Bissau"
+    },
+    GQ: {
+      name: "Equatorial Guinea"
+    },
+    GR: {
+      name: "Greece"
+    },
+    GL: {
+      name: "Greenland"
+    },
+    GT: {
+      name: "Guatemala"
     },
     GY: {
-      name: "Guyana",
-      hide: "no",
-      zoomable: "no"
+      name: "Guyana"
     },
     HN: {
-      name: "Honduras",
-      hide: "no",
-      zoomable: "no"
+      name: "Honduras"
     },
     HR: {
-      name: "Croatia",
-      hide: "no",
-      zoomable: "no"
+      name: "Croatia"
     },
     HT: {
-      name: "Haiti",
-      hide: "no",
-      zoomable: "no"
+      name: "Haiti"
     },
     HU: {
-      name: "Hungary",
-      hide: "no",
-      zoomable: "no"
-    },
-    IC: {
-      name: "Canary Islands",
-      hide: "no",
-      zoomable: "no"
+      name: "Hungary"
     },
     ID: {
-      name: "Indonesia",
-      hide: "no",
-      zoomable: "no"
-    },
-    IE: {
-      name: "Ireland",
-      hide: "no",
-      zoomable: "no"
-    },
-    IL: {
-      name: "Israel",
-      hide: "no",
-      zoomable: "no"
+      name: "Indonesia"
     },
     IN: {
-      name: "India",
-      hide: "no",
-      zoomable: "no"
+      name: "India"
     },
-    IQ: {
-      name: "Iraq",
-      hide: "no",
-      zoomable: "no"
+    IE: {
+      name: "Ireland"
     },
     IR: {
-      name: "Iran",
-      hide: "no",
-      zoomable: "no"
+      name: "Iran"
+    },
+    IQ: {
+      name: "Iraq"
     },
     IS: {
-      name: "Iceland",
-      hide: "no",
-      zoomable: "no"
+      name: "Iceland"
+    },
+    IL: {
+      name: "Israel"
     },
     IT: {
-      name: "Italy",
-      hide: "no",
-      zoomable: "no"
+      name: "Italy"
     },
     JM: {
-      name: "Jamaica",
-      hide: "no",
-      zoomable: "no"
+      name: "Jamaica"
     },
     JO: {
-      name: "Jordan",
-      hide: "no",
-      zoomable: "no"
+      name: "Jordan"
     },
     JP: {
-      name: "Japan",
-      hide: "no",
-      zoomable: "no"
-    },
-    KE: {
-      name: "Kenya",
-      hide: "no",
-      zoomable: "no"
-    },
-    KG: {
-      name: "Kyrgyzstan",
-      hide: "no",
-      zoomable: "no"
-    },
-    KH: {
-      name: "Cambodia",
-      hide: "no",
-      zoomable: "no"
-    },
-    KP: {
-      name: "North Korea",
-      hide: "no",
-      zoomable: "no"
-    },
-    KR: {
-      name: "South Korea",
-      hide: "no",
-      zoomable: "no"
-    },
-    KW: {
-      name: "Kuwait",
-      hide: "no",
-      zoomable: "no"
+      name: "Japan"
     },
     KZ: {
-      name: "Kazakhstan",
-      hide: "no",
-      zoomable: "no"
+      name: "Kazakhstan"
+    },
+    KE: {
+      name: "Kenya"
+    },
+    KG: {
+      name: "Kyrgyzstan"
+    },
+    KH: {
+      name: "Cambodia"
+    },
+    KR: {
+      name: "Republic of Korea"
+    },
+    XK: {
+      name: "Kosovo"
+    },
+    KW: {
+      name: "Kuwait"
     },
     LA: {
-      name: "Laos",
-      hide: "no",
-      zoomable: "no"
+      name: "Lao PDR"
     },
-    LK: {
-      name: "Sri Lanka",
-      hide: "no",
-      zoomable: "no"
+    LB: {
+      name: "Lebanon"
     },
     LR: {
-      name: "Liberia",
-      hide: "no",
-      zoomable: "no"
-    },
-    LS: {
-      name: "Lesotho",
-      hide: "no",
-      zoomable: "no"
-    },
-    LT: {
-      name: "Lithuania",
-      hide: "no",
-      zoomable: "no"
-    },
-    LU: {
-      name: "Luxembourg",
-      hide: "no",
-      zoomable: "no"
-    },
-    LV: {
-      name: "Latvia",
-      hide: "no",
-      zoomable: "no"
+      name: "Liberia"
     },
     LY: {
-      name: "Libya",
-      hide: "no",
-      zoomable: "no"
+      name: "Libya"
+    },
+    LK: {
+      name: "Sri Lanka"
+    },
+    LS: {
+      name: "Lesotho"
+    },
+    LT: {
+      name: "Lithuania"
+    },
+    LU: {
+      name: "Luxembourg"
+    },
+    LV: {
+      name: "Latvia"
     },
     MA: {
-      name: "Morocco",
-      hide: "no",
-      zoomable: "no"
+      name: "Morocco"
     },
     MD: {
-      name: "Moldavia",
-      hide: "no",
-      zoomable: "no"
-    },
-    ME: {
-      name: "Montenegro",
-      hide: "no",
-      zoomable: "no"
+      name: "Moldova"
     },
     MG: {
-      name: "Madagascar",
-      hide: "no",
-      zoomable: "no"
-    },
-    MK: {
-      name: "Macedonia",
-      hide: "no",
-      zoomable: "no"
-    },
-    ML: {
-      name: "Mali",
-      hide: "no",
-      zoomable: "no"
-    },
-    MM: {
-      name: "Myanmar",
-      hide: "no",
-      zoomable: "no"
-    },
-    MN: {
-      name: "Mongolia",
-      hide: "no",
-      zoomable: "no"
-    },
-    MR: {
-      name: "Mauritania",
-      hide: "no",
-      zoomable: "no"
-    },
-    MW: {
-      name: "Malawi",
-      hide: "no",
-      zoomable: "no"
+      name: "Madagascar"
     },
     MX: {
-      name: "Mexico",
-      hide: "no",
-      zoomable: "no"
+      name: "Mexico"
     },
-    MY: {
-      name: "Malaysia",
-      hide: "no",
-      zoomable: "no"
+    MK: {
+      name: "Macedonia"
+    },
+    ML: {
+      name: "Mali"
+    },
+    MM: {
+      name: "Myanmar"
+    },
+    ME: {
+      name: "Montenegro"
+    },
+    MN: {
+      name: "Mongolia"
     },
     MZ: {
-      name: "Mozambique",
-      hide: "no",
-      zoomable: "no"
+      name: "Mozambique"
+    },
+    MR: {
+      name: "Mauritania"
+    },
+    MW: {
+      name: "Malawi"
+    },
+    MY: {
+      name: "Malaysia"
     },
     NA: {
-      name: "Namibia",
-      hide: "no",
-      zoomable: "no"
-    },
-    NC: {
-      name: "New Caledonia (French)",
-      hide: "no",
-      zoomable: "no"
+      name: "Namibia"
     },
     NE: {
-      name: "Niger",
-      hide: "no",
-      zoomable: "no"
+      name: "Niger"
     },
     NG: {
-      name: "Nigeria",
-      hide: "no",
-      zoomable: "no"
+      name: "Nigeria"
     },
     NI: {
-      name: "Nicaragua",
-      hide: "no",
-      zoomable: "no"
+      name: "Nicaragua"
     },
     NL: {
-      name: "Netherlands",
-      hide: "no",
-      zoomable: "no"
+      name: "Netherlands"
     },
     NO: {
-      name: "Norway",
-      hide: "no",
-      zoomable: "no"
+      name: "Norway"
     },
     NP: {
-      name: "Nepal",
-      hide: "no",
-      zoomable: "no"
+      name: "Nepal"
     },
     NZ: {
-      name: "New Zealand",
-      hide: "no",
-      zoomable: "no"
+      name: "New Zealand"
     },
     OM: {
-      name: "Oman",
-      hide: "no",
-      zoomable: "no"
-    },
-    PA: {
-      name: "Panama",
-      hide: "no",
-      zoomable: "no"
-    },
-    PE: {
-      name: "Peru",
-      hide: "no",
-      zoomable: "no"
-    },
-    PG: {
-      name: "Papua New Guinea",
-      hide: "no",
-      zoomable: "no"
-    },
-    PH: {
-      name: "Philippines",
-      hide: "no",
-      zoomable: "no"
+      name: "Oman"
     },
     PK: {
-      name: "Pakistan",
-      hide: "no",
-      zoomable: "no"
+      name: "Pakistan"
+    },
+    PA: {
+      name: "Panama"
+    },
+    PE: {
+      name: "Peru"
+    },
+    PH: {
+      name: "Philippines"
+    },
+    PG: {
+      name: "Papua New Guinea"
     },
     PL: {
-      name: "Poland",
-      hide: "no",
-      zoomable: "no"
+      name: "Poland"
     },
-    PR: {
-      name: "Puerto Rico",
-      hide: "no",
-      zoomable: "no"
-    },
-    PS: {
-      name: "Palestine",
-      hide: "no",
-      zoomable: "no"
+    KP: {
+      name: "Dem. Rep. Korea"
     },
     PT: {
-      name: "Portugal",
-      hide: "no",
-      zoomable: "no"
+      name: "Portugal"
     },
     PY: {
-      name: "Paraguay",
-      hide: "no",
-      zoomable: "no"
+      name: "Paraguay"
+    },
+    PS: {
+      name: "Palestine"
     },
     QA: {
-      name: "Qatar",
-      hide: "no",
-      zoomable: "no"
+      name: "Qatar"
     },
     RO: {
-      name: "Romania",
-      hide: "no",
-      zoomable: "no"
-    },
-    RS: {
-      name: "Serbia",
-      hide: "no",
-      zoomable: "no"
+      name: "Romania"
     },
     RU: {
-      name: "Russia",
-      hide: "no",
-      zoomable: "no"
+      name: "Russia"
     },
     RW: {
-      name: "Rwanda",
-      hide: "no",
-      zoomable: "no"
+      name: "Rwanda"
+    },
+    EH: {
+      name: "Western Sahara"
     },
     SA: {
-      name: "Saudi Arabia",
-      hide: "no",
-      zoomable: "no"
-    },
-    SB: {
-      name: "Solomon Islands",
-      hide: "no",
-      zoomable: "no"
+      name: "Saudi Arabia"
     },
     SD: {
-      name: "Sudan",
-      hide: "no",
-      zoomable: "no"
-    },
-    SE: {
-      name: "Sweden",
-      hide: "no",
-      zoomable: "no"
-    },
-    SI: {
-      name: "Slovenia",
-      hide: "no",
-      zoomable: "no"
-    },
-    SK: {
-      name: "Slovak Republic",
-      hide: "no",
-      zoomable: "no"
-    },
-    SL: {
-      name: "Sierra Leone",
-      hide: "no",
-      zoomable: "no"
-    },
-    SN: {
-      name: "Senegal",
-      hide: "no",
-      zoomable: "no"
-    },
-    SO: {
-      name: "Somalia",
-      hide: "no",
-      zoomable: "no"
-    },
-    SR: {
-      name: "Suriname",
-      hide: "no",
-      zoomable: "no"
+      name: "Sudan"
     },
     SS: {
-      name: "South Sudan",
-      hide: "no",
-      zoomable: "no"
+      name: "South Sudan"
+    },
+    SN: {
+      name: "Senegal"
+    },
+    SL: {
+      name: "Sierra Leone"
     },
     SV: {
-      name: "El Salvador",
-      hide: "no",
-      zoomable: "no"
+      name: "El Salvador"
     },
-    SY: {
-      name: "Syria",
-      hide: "no",
-      zoomable: "no"
+    RS: {
+      name: "Serbia"
+    },
+    SR: {
+      name: "Suriname"
+    },
+    SK: {
+      name: "Slovakia"
+    },
+    SI: {
+      name: "Slovenia"
+    },
+    SE: {
+      name: "Sweden"
     },
     SZ: {
-      name: "Swaziland",
-      hide: "no",
-      zoomable: "no"
+      name: "Swaziland"
+    },
+    SY: {
+      name: "Syria"
     },
     TD: {
-      name: "Chad",
-      hide: "no",
-      zoomable: "no"
+      name: "Chad"
     },
     TG: {
-      name: "Togo",
-      hide: "no",
-      zoomable: "no"
+      name: "Togo"
     },
     TH: {
-      name: "Thailand",
-      hide: "no",
-      zoomable: "no"
+      name: "Thailand"
     },
     TJ: {
-      name: "Tadjikistan",
-      hide: "no",
-      zoomable: "no"
-    },
-    TL: {
-      name: "East Timor",
-      hide: "no",
-      zoomable: "no"
+      name: "Tajikistan"
     },
     TM: {
-      name: "Turkmenistan",
-      hide: "no",
-      zoomable: "no"
+      name: "Turkmenistan"
+    },
+    TL: {
+      name: "Timor-Leste"
     },
     TN: {
-      name: "Tunisia",
-      hide: "no",
-      zoomable: "no"
+      name: "Tunisia"
     },
     TR: {
-      name: "Turkey",
-      hide: "no",
-      zoomable: "no"
-    },
-    TT: {
-      name: "Trinidad and Tobago",
-      hide: "no",
-      zoomable: "no"
+      name: "Turkey"
     },
     TW: {
-      name: "Taiwan",
-      hide: "no",
-      zoomable: "no"
+      name: "Taiwan"
     },
     TZ: {
-      name: "Tanzania",
-      hide: "no",
-      zoomable: "no"
-    },
-    UA: {
-      name: "Ukraine",
-      hide: "no",
-      zoomable: "no"
+      name: "Tanzania"
     },
     UG: {
-      name: "Uganda",
-      hide: "no",
-      zoomable: "no"
+      name: "Uganda"
     },
-    US: {
-      name: "United States",
-      hide: "no",
-      zoomable: "no"
+    UA: {
+      name: "Ukraine"
     },
     UY: {
-      name: "Uruguay",
-      hide: "no",
-      zoomable: "no"
+      name: "Uruguay"
+    },
+    US: {
+      name: "United States"
     },
     UZ: {
-      name: "Uzbekistan",
-      hide: "no",
-      zoomable: "no"
+      name: "Uzbekistan"
     },
     VE: {
-      name: "Venezuela",
-      hide: "no",
-      zoomable: "no"
+      name: "Venezuela"
     },
     VN: {
-      name: "Vietnam",
-      hide: "no",
-      zoomable: "no"
+      name: "Vietnam"
     },
     VU: {
-      name: "Vanuatu",
-      hide: "no",
-      zoomable: "no"
+      name: "Vanuatu"
     },
     YE: {
-      name: "Yemen",
-      hide: "no",
-      zoomable: "no"
+      name: "Yemen"
     },
     ZA: {
-      name: "South Africa",
-      hide: "no",
-      zoomable: "no"
+      name: "South Africa"
     },
     ZM: {
-      name: "Zambia",
-      hide: "no",
-      zoomable: "no"
+      name: "Zambia"
     },
     ZW: {
-      name: "Zimbabwe",
-      hide: "no",
-      zoomable: "no"
+      name: "Zimbabwe"
+    },
+    SO: {
+      name: "Somalia"
+    },
+    GF: {
+      name: "France"
+    },
+    FR: {
+      name: "France"
+    },
+    ES: {
+      name: "Spain"
+    },
+    AW: {
+      name: "Aruba"
+    },
+    AI: {
+      name: "Anguilla"
+    },
+    AD: {
+      name: "Andorra"
+    },
+    AG: {
+      name: "Antigua and Barbuda"
+    },
+    BS: {
+      name: "Bahamas"
+    },
+    BM: {
+      name: "Bermuda"
+    },
+    BB: {
+      name: "Barbados"
+    },
+    KM: {
+      name: "Comoros"
+    },
+    CV: {
+      name: "Cape Verde"
+    },
+    KY: {
+      name: "Cayman Islands"
+    },
+    DM: {
+      name: "Dominica"
+    },
+    FK: {
+      name: "Falkland Islands"
+    },
+    FO: {
+      name: "Faeroe Islands"
+    },
+    GD: {
+      name: "Grenada"
+    },
+    HK: {
+      name: "Hong Kong"
+    },
+    KN: {
+      name: "Saint Kitts and Nevis"
+    },
+    LC: {
+      name: "Saint Lucia"
+    },
+    LI: {
+      name: "Liechtenstein"
+    },
+    MF: {
+      name: "Saint Martin (French)"
+    },
+    MV: {
+      name: "Maldives"
+    },
+    MT: {
+      name: "Malta"
+    },
+    MS: {
+      name: "Montserrat"
+    },
+    MU: {
+      name: "Mauritius"
+    },
+    NC: {
+      name: "New Caledonia"
+    },
+    NR: {
+      name: "Nauru"
+    },
+    PN: {
+      name: "Pitcairn Islands"
+    },
+    PR: {
+      name: "Puerto Rico"
+    },
+    PF: {
+      name: "French Polynesia"
+    },
+    SG: {
+      name: "Singapore"
+    },
+    SB: {
+      name: "Solomon Islands"
+    },
+    ST: {
+      name: "São Tomé and Principe"
+    },
+    SX: {
+      name: "Saint Martin (Dutch)"
+    },
+    SC: {
+      name: "Seychelles"
+    },
+    TC: {
+      name: "Turks and Caicos Islands"
+    },
+    TO: {
+      name: "Tonga"
+    },
+    TT: {
+      name: "Trinidad and Tobago"
+    },
+    VC: {
+      name: "Saint Vincent and the Grenadines"
+    },
+    VG: {
+      name: "British Virgin Islands"
+    },
+    VI: {
+      name: "United States Virgin Islands"
+    },
+    CY: {
+      name: "Cyprus"
+    },
+    RE: {
+      name: "Reunion (France)"
+    },
+    YT: {
+      name: "Mayotte (France)"
+    },
+    MQ: {
+      name: "Martinique (France)"
+    },
+    GP: {
+      name: "Guadeloupe (France)"
+    },
+    CW: {
+      name: "Curaco (Netherlands)"
+    },
+    IC: {
+      name: "Canary Islands (Spain)"
     }
   },
   locations: {
     "0": {
-      lat: "36.1699412",
-      lng: "-115.1398296",
-      name: "Las Vegas"
-    },
-    "1": {
-      lat: "34.0836708",
-      lng: "74.7972825",
-      name: "Srinagar"
-    },
-    "2": {
-      lat: "6.9270786",
-      lng: "79.861243",
+      lat: 6.932,
+      lng: 79.846,
       name: "Colombo"
     },
+    "1": {
+      lat: 38.579,
+      lng: -121.491,
+      name: "California"
+    },
+    "2": {
+      lat: 42.373,
+      lng: -72.533,
+      name: "Amherst"
+    },
     "3": {
-      lat: "19.0759837",
-      lng: "72.8776559",
-      name: "Mumbai"
+      lat: 23.028,
+      lng: 72.6,
+      name: "Ahmedabad"
     },
     "4": {
-      lat: "17.6868159",
-      lng: "83.2184815",
-      name: "Vizag"
+      lat: 42.562,
+      lng: -83.154,
+      name: "Troy"
     },
     "5": {
-      lat: "28.4594965",
-      lng: "77.0266383",
-      name: "Gurugram"
+      lat: 43.649,
+      lng: -79.385,
+      name: "Toronto"
     },
     "6": {
-      lat: "12.2958104",
-      lng: "76.6393805",
-      name: "Mysore"
-    },
-    "7": {
-      lat: "51.7548164",
-      lng: "-1.2543668",
-      name: "Oxford"
-    },
-    "8": {
-      lat: "23.5880307",
-      lng: "58.3828717",
-      name: "Muscat"
-    },
-    "9": {
-      lat: "25.2048493",
-      lng: "55.2707828",
+      lat: 25.27,
+      lng: 55.309,
       name: "Dubai"
     },
-    "10": {
-      lat: "53.3727181",
-      lng: "-3.073754",
+    "7": {
+      lat: 18.94,
+      lng: 72.835,
+      name: "Mumbai"
+    },
+    "8": {
+      lat: 53.381,
+      lng: -3.113,
       name: "Wirral"
     },
-    "11": {
-      lat: "22.572646",
-      lng: "88.363895",
-      name: "Kolkata"
-    },
-    "12": {
-      lat: "12.9715987",
-      lng: "77.5945627",
-      name: "Bangalore"
-    },
-    "13": {
-      lat: "28.5355161",
-      lng: "77.3910265",
+    "9": {
+      lat: 28.533,
+      lng: 77.382,
       name: "Noida"
     },
-    "14": {
-      lat: "17.385044",
-      lng: "78.486671",
-      name: "Hyderabad"
-    },
-    "15": {
-      lat: "1.352083",
-      lng: "103.819836",
-      name: "Singapore"
-    },
-    "16": {
-      lat: "26.8466937",
-      lng: "80.946166",
-      name: "Lucknow"
-    },
-    "17": {
-      lat: "25.2854473",
-      lng: "51.5310398",
-      name: "Doha"
-    },
-    "18": {
-      lat: "28.6139391",
-      lng: "77.2090212",
-      name: "New Delhi"
-    },
-    "19": {
-      lat: "43.5776654",
-      lng: "-79.5657447",
-      name: "Livemore"
-    },
-    "20": {
-      lat: "26.9124336",
-      lng: "75.7872709",
-      name: "Jaipur"
-    },
-    "21": {
-      lat: "26.1445169",
-      lng: "91.7362365",
-      name: "Guwahati"
-    },
-    "22": {
-      lat: "40.7127753",
-      lng: "-74.0059728",
-      name: "New York"
-    },
-    "23": {
-      lat: "18.5204303",
-      lng: "73.8567437",
-      name: "Pune"
-    },
-    "24": {
-      lat: "31.6339793",
-      lng: "74.8722642",
-      name: "Amritsar"
-    },
-    "25": {
-      lat: "25.4358011",
-      lng: "81.846311",
-      name: "Prayagraj"
-    },
-    "26": {
-      lat: "11.0168445",
-      lng: "76.9558321",
-      name: "Coimbatore "
-    },
-    "27": {
-      lat: "13.4205369",
-      lng: "123.4180473",
-      name: "Iriga"
-    },
-    "28": {
-      lat: "25.3461728",
-      lng: "55.4210705",
-      name: "Sharjah"
-    },
-    "29": {
-      lat: "25.8006926",
-      lng: "55.9761994",
-      name: "Ras al Khaimah"
-    },
-    "30": {
-      lat: "40.0583238",
-      lng: "-74.4056612",
-      name: "New Jersey"
-    },
-    "31": {
-      lat: "19.0330488",
-      lng: "73.0296625",
-      name: "Navi Mumbai"
-    },
-    "32": {
-      lat: "27.1766701",
-      lng: "78.0080745",
-      name: "Agra"
-    },
-    "33": {
-      lat: "43.9106353",
-      lng: "-69.8206023",
-      name: "Bath"
-    },
-    "34": {
-      lat: "39.9525839",
-      lng: "-75.1652215",
-      name: "Philadelphia"
-    },
-    "35": {
-      lat: "36.1510514",
-      lng: "-95.9660479",
-      name: "Mead"
-    },
-    "36": {
-      lat: "37.566535",
-      lng: "126.9779692",
-      name: "Seoul"
-    },
-    "37": {
-      lat: "44.8125449",
-      lng: "20.4612299",
-      name: "Belgrade"
-    },
-    "38": {
-      lat: "39.8592119",
-      lng: "20.0271001",
-      name: "Sarandë"
-    },
-    "39": {
-      lat: "40.1872023",
-      lng: "44.515209",
-      name: "Yerevan"
-    },
-    "40": {
-      lat: "26.4498954",
-      lng: "74.6399163",
-      name: "Ajmer"
-    },
-    "41": {
-      lat: "28.0197404",
-      lng: "-82.7717684",
-      name: "Dunedin"
-    },
-    "42": {
-      lat: "6.5243793",
-      lng: "3.3792057",
+    "10": {
+      lat: 6.455,
+      lng: 3.389,
       name: "Lagos"
     },
-    "43": {
-      lat: "28.6691565",
-      lng: "77.4537578",
+    "11": {
+      lat: 27.192,
+      lng: 78,
+      name: "Agra"
+    },
+    "12": {
+      lat: 1.291,
+      lng: 103.852,
+      name: "Singapore"
+    },
+    "13": {
+      lat: 36.172,
+      lng: -115.14,
+      name: "Las Vegas"
+    },
+    "14": {
+      lat: 12.966,
+      lng: 77.587,
+      name: "Bangalore"
+    },
+    "15": {
+      lat: -37.817,
+      lng: 144.968,
+      name: "Melbourne"
+    },
+    "16": {
+      lat: 18.504,
+      lng: 73.853,
+      name: "Pune"
+    },
+    "17": {
+      lat: 17.395,
+      lng: 78.471,
+      name: "Hyderabad"
+    },
+    "18": {
+      lat: 40.715,
+      lng: -74.007,
+      name: "New York"
+    },
+    "19": {
+      lat: 22.571,
+      lng: 88.371,
+      name: "Kolkata"
+    },
+    "20": {
+      lat: 23.713,
+      lng: 90.4,
+      name: "Dhaka"
+    },
+    "21": {
+      lat: 13.084,
+      lng: 80.283,
+      name: "Chennai"
+    },
+    "22": {
+      lat: 22.241,
+      lng: 70.793,
+      name: "Gautam Buddh Nagar"
+    },
+    "23": {
+      lat: 26.855,
+      lng: 80.921,
+      name: "Lucknow"
+    },
+    "24": {
+      lat: 28.631,
+      lng: 77.217,
+      name: "New Delhi"
+    },
+    "25": {
+      lat: 40.199,
+      lng: -83.01,
+      name: "Lewis Center"
+    },
+    "26": {
+      lat: 51.506,
+      lng: -0.127,
+      name: "London"
+    },
+    "27": {
+      lat: 37.339,
+      lng: -121.885,
+      name: "San Jose"
+    },
+    "28": {
+      lat: 28.678,
+      lng: 77.409,
       name: "Ghaziabad"
     },
+    "29": {
+      lat: 52.423,
+      lng: 31.014,
+      name: "Gomel"
+    },
+    "30": {
+      lat: 34.054,
+      lng: -118.245,
+      name: "Los Angeles"
+    },
+    "31": {
+      lat: 39.158,
+      lng: -75.525,
+      name: "Delaware"
+    },
+    "32": {
+      lat: 30.044,
+      lng: 31.235,
+      name: "Cairo"
+    },
+    "33": {
+      lat: 10.994,
+      lng: 76.966,
+      name: "Coimbatore"
+    },
+    "34": {
+      lat: 10.511,
+      lng: 76.211,
+      name: "Thrissur"
+    },
+    "35": {
+      lat: 28.634,
+      lng: 77.217,
+      name: "Delhi"
+    },
+    "36": {
+      lat: 22.309,
+      lng: 73.18,
+      name: "Vadodara"
+    },
+    "37": {
+      lat: 12.966,
+      lng: 77.587,
+      name: "Bangalore"
+    },
+    "38": {
+      lat: 23.749,
+      lng: 73.831,
+      name: "Doja"
+    },
+    "39": {
+      lat: 19.188,
+      lng: 72.973,
+      name: "Thane"
+    },
+    "40": {
+      lat: 30.01,
+      lng: 31.214,
+      name: "Giza"
+    },
+    "41": {
+      lat: 30.044,
+      lng: 31.235,
+      name: "Egypt"
+    },
+    "42": {
+      lat: 30.556,
+      lng: 31.004,
+      name: "Menofia"
+    },
+    "43": {
+      lat: 19.051,
+      lng: 72.941,
+      name: "Maharasthra"
+    },
     "44": {
+      lat: 37.319,
+      lng: -122.029,
+      name: "Cupertino"
+    },
+    "45": {
+      lat: 8.505,
+      lng: 76.951,
+      name: "Kerala"
+    },
+    "46": {
+      lat: 38.579,
+      lng: -121.491,
+      name: "Sacramento"
+    },
+    "47": {
+      lat: 37.551,
+      lng: -121.983,
+      name: "Fremont"
+    },
+    "48": {
+      lat: 42.225,
+      lng: 43.967,
+      name: "Georgia"
+    },
+    "49": {
+      lat: 39.962,
+      lng: -83.003,
+      name: "Ohio"
+    },
+    "50": {
+      lat: -29.67,
+      lng: 31.004,
+      name: "South Nigeria"
+    },
+    "51": {
+      lat: 28.393,
+      lng: 77.313,
+      name: "Haryana"
+    },
+    "52": {
+      lat: 29.608,
+      lng: -95.527,
+      name: "Missouri City"
+    },
+    "53": {
+      lat: 24.682,
+      lng: 46.687,
+      name: "Riyadh"
+    },
+    "54": {
+      lat: 39.767,
+      lng: -86.15,
+      name: "Indiana"
+    },
+    "55": {
+      lat: 36.168,
+      lng: -86.778,
+      name: "Nashville"
+    },
+    "56": {
+      lat: 44.645,
+      lng: -63.577,
+      name: "Helifax"
+    },
+    "57": {
+      lat: -4.498,
+      lng: -79.133,
+      name: "Valladoid"
+    },
+    "58": {
+      lat: 35.785,
+      lng: -78.643,
+      name: "Raleigh"
+    },
+    "59": {
+      lat: 32.778,
+      lng: -96.795,
+      name: "Dallas"
+    },
+    "60": {
+      lat: 42.359,
+      lng: -71.057,
+      name: "Boston"
+    },
+    "61": {
+      lat: 25.601,
+      lng: 85.138,
+      name: "Patna"
+    },
+    "62": {
+      lat: 40.361,
+      lng: -74.664,
+      name: "Princeton"
+    },
+    "63": {
+      lat: 52.236,
+      lng: 21.01,
+      name: "Warsaw"
+    },
+    "64": {
+      lat: 10.232,
+      lng: 77.488,
+      name: "Kodaikanal"
+    },
+    "65": {
+      lat: 33.448,
+      lng: -112.076,
+      name: "Arizona"
+    },
+    "66": {
+      lat: 40.692,
+      lng: -73.99,
+      name: "Brooklyn"
+    },
+    "67": {
+      lat: 25.294,
+      lng: 51.52,
+      name: "Doha"
+    },
+    "68": {
+      lat: 22.557,
+      lng: 114.119,
+      name: "ShenZhen"
+    },
+    "69": {
+      lat: -1.284,
+      lng: 36.824,
+      name: "Nairobi"
+    },
+    "70": {
+      lat: 30.268,
+      lng: -97.743,
+      name: "Texas"
+    },
+    "71": {
+      lat: 39.472,
+      lng: -104.878,
+      name: "Castle Pines"
+    },
+    "72": {
+      lat: 13.696,
+      lng: 123.477,
+      name: "Goa"
+    },
+    "73": {
+      lat: 43.649,
+      lng: -79.385,
+      name: "Ontario"
+    },
+    "74": {
+      lat: 41.884,
+      lng: -87.632,
+      name: "Chicago"
+    },
+    "75": {
+      lat: 18.94,
+      lng: 72.835,
+      name: "Maharashtra"
+    },
+    "76": {
+      lat: 40.98,
+      lng: 28.867,
+      name: "Rio De Janerio"
+    },
+    "77": {
+      lat: 39.743,
+      lng: -8.812,
+      name: "Leiria"
+    },
+    "78": {
+      lat: 35.785,
+      lng: -78.643,
+      name: "North Carolina"
+    },
+    "79": {
+      lat: 8.134,
+      lng: 123.827,
+      name: "Ozamiz City"
+    },
+    "80": {
+      lat: 32.895,
+      lng: 13.181,
+      name: "Tripoli"
+    },
+    "81": {
+      lat: 34.733,
+      lng: 10.751,
+      name: "Sfax"
+    },
+    "82": {
+      lat: 34.013,
+      lng: -117.689,
+      name: "Chino"
+    },
+    "83": {
+      lat: 22.342,
+      lng: 91.806,
+      name: "Chittagong"
+    },
+    "84": {
+      lat: 37.767,
+      lng: -122.246,
+      name: "Alameda"
+    },
+    "85": {
+      lat: 40.611,
+      lng: -111.908,
+      name: "Midvale"
+    },
+    "86": {
+      lat: 23.867,
+      lng: 90.514,
+      name: "Termara"
+    },
+    "87": {
+      lat: 27.553,
+      lng: 30.804,
+      name: "Elmahmoudya"
+    },
+    "88": {
+      lat: 22.716,
+      lng: 75.865,
+      name: "Indore"
+    },
+    "89": {
+      lat: 40.218,
+      lng: -74.759,
+      name: "New Jersey"
+    },
+    "90": {
+      lat: 52.276,
+      lng: 76.97,
+      name: "Pavlodar"
+    },
+    "91": {
+      lat: 53.546,
+      lng: -113.49,
+      name: "Alberta"
+    },
+    "92": {
+      lat: 24.469,
+      lng: 54.372,
+      name: "Abu Dhabi"
+    },
+    "93": {
+      lat: 43.042,
+      lng: -87.907,
+      name: "Milwaukee"
+    },
+    "94": {
+      lat: 43.073,
+      lng: -89.386,
+      name: "Wisconsin"
+    },
+    "95": {
+      lat: 26.926,
+      lng: 75.807,
+      name: "Jaipur"
+    },
+    "96": {
+      lat: 25.316,
+      lng: 74.404,
+      name: "Thaka"
+    },
+    "97": {
+      lat: 10.983,
+      lng: -74.83,
+      name: "Barranquilla"
+    },
+    "98": {
+      lat: 38.35,
+      lng: -81.639,
+      name: "West Virginia"
+    },
+    "99": {
+      lat: 33.597,
+      lng: -7.619,
+      name: "Casablanca"
+    },
+    "100": {
+      lat: 36.772,
+      lng: 3.059,
+      name: "Algiers"
+    },
+    "101": {
+      lat: 38.977,
+      lng: -76.49,
+      name: "Maryland"
+    },
+    "102": {
+      lat: 13.084,
+      lng: 80.283,
+      name: "Tamil Nadu"
+    },
+    "103": {
+      lat: 26.177,
+      lng: 91.754,
+      name: "Guwahati"
+    },
+    "104": {
+      lat: 23.615,
+      lng: 58.591,
+      name: "Muscat"
+    },
+    "105": {
+      lat: 8.505,
+      lng: 76.951,
+      name: "Trivandrum"
+    },
+    "106": {
+      lat: 1.296,
+      lng: 103.837,
+      name: "River Valley"
+    },
+    "107": {
+      lat: 49.085,
+      lng: -123.06,
+      name: "British Columbia"
+    },
+    "108": {
+      lat: 35.79,
+      lng: -78.781,
+      name: "Cary"
+    },
+    "109": {
+      lat: 43.207,
+      lng: -71.537,
+      name: "New Hampshire"
+    },
+    "110": {
+      lat: -33.542,
+      lng: -70.644,
+      name: "San Ramon"
+    },
+    "111": {
+      lat: 25.353,
+      lng: 55.392,
+      name: "Sharjah"
+    },
+    "112": {
+      lat: 31.21,
+      lng: 29.913,
+      name: "Alexandria"
+    },
+    "114": {
+      lat: 40.382,
+      lng: -74.533,
+      name: "South Brunswick"
+    },
+    "115": {
+      lat: 32.641,
+      lng: -117.084,
+      name: "Chula Vista"
+    },
+    "116": {
+      lat: 32.716,
+      lng: -117.162,
+      name: "San Diego"
+    },
+    "117": {
+      lat: 17.395,
+      lng: 78.471,
+      name: "Telangana"
+    },
+    "118": {
+      lat: -18.91,
+      lng: 47.527,
+      name: "Antananarivo"
+    },
+    "119": {
+      lat: 31.947,
+      lng: 35.274,
+      name: "palestine"
+    },
+    "120": {
+      lat: 34.264,
+      lng: -118.143,
+      name: "Los Angeles County"
+    },
+    "121": {
+      lat: 33.708,
+      lng: 73.07,
+      name: "Pakistan"
+    },
+    "122": {
+      lat: 51.506,
+      lng: -0.127,
+      name: "England"
+    },
+    "123": {
+      lat: 37.541,
+      lng: -77.434,
+      name: "Virginia"
+    },
+    "124": {
+      lat: 39.049,
+      lng: -95.671,
+      name: "Kansas"
+    },
+    "125": {
+      lat: 21.305,
+      lng: -157.858,
+      name: "Hawaii"
+    },
+    "126": {
+      lat: -25.44,
+      lng: -49.277,
+      name: "Curitiba"
+    },
+    "127": {
+      lat: 42.397,
+      lng: -71.178,
+      name: "Belmont"
+    },
+    "128": {
+      lat: 42.732,
+      lng: -84.552,
+      name: "Michigan"
+    },
+    "129": {
+      lat: 37.559,
+      lng: 127,
+      name: "Seoul"
+    },
+    "130": {
+      lat: -18.141,
+      lng: 178.423,
+      name: "Suva"
+    },
+    "131": {
       lat: "-33.8688197",
       lng: "151.2092955",
       name: "Sydney"
     },
-    "45": {
-      lat: "-33.9248685",
-      lng: "18.4240553",
-      name: "Cape Town"
-    },
-    "46": {
-      lat: "23.2156354",
-      lng: "72.6369415",
-      name: "Gandhinagar"
-    },
-    "47": {
-      lat: "19.2183307",
-      lng: "72.9780897",
-      name: "Thane"
-    },
-    "48": {
-      lat: "23.022505",
-      lng: "72.5713621",
-      name: "Ahmedabad"
-    },
-    "49": {
-      lat: "13.0826802",
-      lng: "80.2707184",
-      name: "Chennai"
-    },
-    "50": {
-      lat: "-37.8136276",
-      lng: "144.9630576",
-      name: "Melbourne"
-    },
-    "51": {
-      lat: "41.3275459",
-      lng: "19.8186982",
-      name: "Tirana"
-    },
-    "52": {
-      lat: "22.7195687",
-      lng: "75.8577258",
-      name: "Indore"
-    },
-    "53": {
-      lat: "11.0168445",
-      lng: "76.9558321",
-      name: "Coimbatore"
-    },
-    "54": {
-      lat: "14.5995124",
-      lng: "120.9842195",
-      name: "Manila"
-    },
-    "55": {
-      lat: "43.653226",
-      lng: "-79.3831843",
-      name: "Toronto"
-    },
-    "56": {
-      lat: "-15.7975154",
-      lng: "-47.8918874",
-      name: "Brasília"
-    },
-    "57": {
-      lat: "37.2489537",
-      lng: "-77.3381855",
-      name: "Fort Lee"
-    },
-    "58": {
-      lat: "42.3600825",
-      lng: "-71.0588801",
-      name: "Boston"
-    },
-    "59": {
-      lat: "41.2459149",
-      lng: "-75.8813075",
-      name: "Wilkes-Barre"
-    },
-    "60": {
-      lat: "35.6869752",
-      lng: "-105.937799",
-      name: "Santa Fe"
-    },
-    "61": {
-      lat: "38.2526647",
-      lng: "-85.7584557",
-      name: "Louisville"
-    },
-    "62": {
-      lat: "50.0755381",
-      lng: "14.4378005",
-      name: "Prague"
-    },
-    "63": {
-      lat: "49.2827291",
-      lng: "-123.1207375",
-      name: "Vancouver"
-    },
-    "64": {
-      lat: "50.2103605",
-      lng: "15.825211",
-      name: "Hradec Kralove"
-    },
-    "65": {
-      lat: "33.7742692",
-      lng: "-117.9379952",
-      name: "Garden Grove"
-    },
-    "66": {
-      lat: "27.7172453",
-      lng: "85.3239605",
-      name: "Kathmandu"
-    },
-    "67": {
-      lat: "51.5072178",
-      lng: "-0.1275862",
-      name: "London"
-    },
-    "68": {
-      lat: "23.810332",
-      lng: "90.4125181",
-      name: "Dhaka"
-    },
-    "69": {
-      lat: "28.4594965",
-      lng: "77.0266383",
-      name: "Gurgaon"
-    },
-    "70": {
-      lat: "26.0794316",
-      lng: "91.637215",
-      name: "Kamrup Metropolitan"
-    },
-    "71": {
-      lat: "28.338333",
-      lng: "77.6077865",
-      name: "Gautam Buddh Nagar"
-    },
-    "72": {
-      lat: "14.65073",
-      lng: "121.1028546",
-      name: "Marikina"
-    },
-    "73": {
-      lat: "29.0587757",
-      lng: "76.085601",
-      name: "Haryana"
-    },
-    "74": {
-      lat: "37.3382082",
-      lng: "-121.8863286",
-      name: "San Jose"
-    },
-    "75": {
-      lat: "32.7554883",
-      lng: "-97.3307658",
-      name: "Fort Worth"
-    },
-    "76": {
-      lat: "45.5016889",
-      lng: "-73.567256",
-      name: "Montreal"
-    },
-    "77": {
-      lat: "51.0447331",
-      lng: "-114.0718831",
-      name: "Calgary"
-    },
-    "78": {
-      lat: "21.0277644",
-      lng: "105.8341598",
-      name: "Hanoi"
-    },
-    "79": {
-      lat: "9.5915668",
-      lng: "76.5221531",
-      name: "Kottayam"
-    },
-    "80": {
-      lat: "47.7510741",
-      lng: "-120.7401385",
-      name: "Washington"
-    },
-    "81": {
-      lat: "-20.4709005",
-      lng: "57.584421",
-      name: "Camp Diable "
-    },
-    "82": {
-      lat: "40.6301025",
-      lng: "-74.4273743",
-      name: "North Plainfield"
-    },
-    "83": {
-      lat: "39.0099039",
-      lng: "-94.710779",
-      name: "Barcelona"
-    },
-    "84": {
-      lat: "45.4215296",
-      lng: "-75.6971931",
-      name: "Ottawa"
-    },
-    "85": {
-      lat: "36.4558345",
-      lng: "-94.2634618",
-      name: "Windsor"
-    },
-    "86": {
-      lat: "30.267153",
-      lng: "-97.7430608",
-      name: "Austin"
-    },
-    "87": {
-      lat: "6.9270786",
-      lng: "79.861243",
-      name: "Colombo "
-    },
-    "88": {
-      lat: "52.56166",
-      lng: "17.82264",
-      name: "Trzemeszno"
-    },
-    "89": {
-      lat: "12.9715987",
-      lng: "77.5945627",
-      name: "Bangalore "
-    },
-    "90": {
-      lat: "33.7489954",
-      lng: "-84.3879824",
-      name: "Atlanta"
-    },
-    "91": {
-      lat: "37.3382082",
-      lng: "-121.8863286",
-      name: "San José"
-    },
-    "92": {
-      lat: "43.5890452",
-      lng: "-79.6441198",
-      name: "Mississauga"
-    },
-    "93": {
-      lat: "8.9806034",
-      lng: "38.7577605",
-      name: "Addis Ababa"
-    },
-    "94": {
-      lat: "42.5792027",
-      lng: "-84.4435845",
-      name: "Mason"
-    },
-    "95": {
-      lat: "43.7315479",
-      lng: "-79.7624177",
-      name: "Brampton"
-    },
-    "96": {
-      lat: "51.3147593",
-      lng: "-0.5599501",
-      name: "Surrey"
-    },
-    "97": {
-      lat: "-18.1405049",
-      lng: "178.4232507",
-      name: "Suva"
-    },
-    "98": {
-      lat: "32.8370727",
-      lng: "-97.0819541",
-      name: "Euless"
-    },
-    "99": {
-      lat: "17.6868159",
-      lng: "83.2184815",
-      name: "Visakhapatnam"
-    },
-    "100": {
-      lat: "30.0444",
-      lng: "31.2357",
-      name: "Cairo"
+    paris: {
+      name: "Paris",
+      lat: "48.866666670",
+      lng: "2.333333333"
     }
   },
   labels: {},
