@@ -230,6 +230,10 @@ pre {
     -ms-overflow-style: scrollbar;
 }
 
+.count {
+    font-size: 3rem;
+}
+
 figure {
     margin: 0 0 1rem;
 }
@@ -945,6 +949,58 @@ pre code {
 .offset-11 {
     margin-left: 91.6666666667%;
 }
+
+
+#partner-img {
+    display: flex;
+    margin: auto auto;
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.partner-row a {
+    text-decoration: none;
+}
+
+.partner-column {
+    flex-wrap: wrap;
+    flex: 1 0 20%;
+    margin: auto auto;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+.partner-box {
+    display: table;
+    flex-wrap: wrap;
+    flex: 1 0 20%;
+    position: relative;
+    height: 170px;
+    padding: 0.2rem;
+  }
+  
+  .partner-heading {
+    font-weight: 600;
+    font-family: montserrat !important;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Center horizontally */
+  }
 
 @media (min-width: 576px) {
     .col-sm {
@@ -1933,8 +1989,10 @@ pre code {
     }
 
     .col-md-4 .card .card-body img {
-        width: 350px !important; 
-        height: 350px !important;
+        /* width: 350px !important; 
+        height: 350px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
 }
 
@@ -1962,8 +2020,10 @@ pre code {
     }
 
     .card .card-body img {
-        width: 450px !important; 
-        height: 450px !important;
+        /* width: 450px !important; 
+        height: 450px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
 
     .projects-section .featured-text {
@@ -3979,6 +4039,11 @@ input[type=button].btn-block {
     border-radius: 0.25rem;
 }
 
+.team-image{
+    max-width: 150px;
+    max-height: 150px;
+}
+
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
@@ -4359,6 +4424,12 @@ input[type=button].btn-block {
     }
 }
 
+.donate-btn {
+    vertical-align: middle;
+    width: fit-content;
+    background-color:#770000;
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -4367,11 +4438,29 @@ input[type=button].btn-block {
     list-style: none;
 }
 
+.sm-icons{
+    color:white;
+    width:42px !important;
+    height:42px !important;
+    transition: color 0.5s;
+}
+
+.sm-icons:hover{
+    color:#770000;
+}
+
 .nav-link {
     display: block;
     padding: 10px 20px;
     font-weight: 600;
 }
+.nav-link-butn {
+    vertical-align: middle;
+    width: fit-content;
+    background-color:#770000;
+    text-transform: capitalize !important;
+}
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -4885,6 +4974,8 @@ input[type=button].btn-block {
     align-items: center;
     flex-direction: column;
     width: 240px;
+    flex: 1 0 18%;
+    max-width: 250px;
     padding: 1.25rem 1rem;
     border-radius: .375rem;
     transition: all 0.15s;
@@ -4937,8 +5028,10 @@ input[type=button].btn-block {
         padding: 2rem 2.5rem !important; 
     }
     .card-body img {
-        width: 300px !important;
-        height: 300px !important;
+        /* width: 300px !important;
+        height: 300px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
 
     #image_slideshow {
@@ -10376,7 +10469,36 @@ body {
     outline: none;
     background-color: transparent;
 }
-
+#mainNav .icon1,
+    #mainNav .icon2,
+    #mainNav .icon3,
+    #mainNav .icon4,
+    #mainNav .icon5 {
+        top: 1.2rem;
+        border: 2px solid transparent;
+        border-radius: 999px;
+        display: block;
+        height: 36px;
+        width: 36px;
+        line-height: 1;
+        position: absolute;
+        background-color: transparent;
+    }
+    .icon1 {
+        right: calc(1rem + 46px * 4);
+    }
+    .icon2 {
+        right: calc(1rem + 46px * 3);
+    }
+    .icon3 {
+        right: calc(1rem + 46px * 2);
+    }
+    .icon4 {
+        right: calc(1rem + 46px);
+    }
+    .icon5 {
+        right: calc(1rem);
+    }
 @media (min-width: 1300px) {
     #mainNav {
         padding-top: 0;
@@ -10869,6 +10991,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     transform: translate(0, -5px);
 }
 
+
 .Apply-red {
     margin-top: 0.5rem;
     position: relative;
@@ -10878,11 +11001,7 @@ a[href="mailto:edu@instilt.com"]:hover{
     margin-bottom: 0 !important;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    div#desktop-icons {
-        display: none;
-    }
-}
+
 
 .heading {
     color: #700000 !important;
@@ -10891,6 +11010,14 @@ a[href="mailto:edu@instilt.com"]:hover{
     text-align: center;
     font-size: 5rem;
     text-transform: capitalize;
+}
+
+.subheading {
+    color: #700000 !important;
+    font-weight: 500;
+    font-family: montserrat !important;
+    text-align: center;
+    font-size: 3rem;
 }
 
 .method-heading {
@@ -11012,6 +11139,18 @@ a[href="mailto:edu@instilt.com"]:hover{
     -webkit-text-stroke-color: transparent;
 }
 
+#maptext {
+    font-weight: 600;
+    text-transform: capitalize !important;
+    font-family: montserrat !important;
+    line-height: 2rem;
+    text-align: center;
+    color: #700000;
+    font-size: 1.8rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+}
+
 .form {
     font-size: 0.8rem;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11071,7 +11210,8 @@ a[href="mailto:edu@instilt.com"]:hover{
 
  @media screen and (max-width: 1300px) {
     a.navbar-brand{
-        margin-right:-0.3%;
+        position:absolute;
+        margin-left: 10%;
         margin-top:0.05% !important;
     }
     #mainNav{
@@ -11081,12 +11221,14 @@ a[href="mailto:edu@instilt.com"]:hover{
         align-items: baseline;
         box-shadow: rgb(149 157 165 / 25%) 0px 8px 24px;
     }
-    #desktop-icons{
-        display:none;
-    }
  }
 
- 
+@media screen and (max-width: 370px){
+    a.navbar-brand{
+        display:none;
+    }
+}
+
 @media screen and (max-width: 850px) {
   footer,body{
     overflow-x:hidden;
@@ -11266,6 +11408,14 @@ form textarea{
     margin: 0 20px;
 }
 
+#join-us-icons{
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 10px;
+}
+
 #join-us-page {
     padding-top: 6vh;
 }
@@ -11284,8 +11434,6 @@ form textarea{
     flex-wrap: wrap;
 }
 
-
-  
   .img {
     display: flex;
     justify-content: center;  
@@ -11383,8 +11531,10 @@ form textarea{
       }
 
       .row .col-md-4 .card .card-body img {
-        width: 250px !important; 
-        height: 250px !important;
+        /* width: 250px !important; 
+        height: 250px !important; */
+        max-width: 150px;
+        max-height: 150px;
     }
   }
 
