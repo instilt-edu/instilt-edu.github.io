@@ -1081,7 +1081,7 @@ a.text-primary:focus {
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 320px) {
     a.navbar-brand {
         display: none;
     }
