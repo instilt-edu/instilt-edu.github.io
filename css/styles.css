@@ -52,6 +52,41 @@ a:hover {
     margin-left: auto;
 }
 
+/* ADJUSTED MAX-WIDTH */
+
+
+@media (min-width: 768px) {
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* ADJUSTED MAX-WIDTHS */
+
+@media (min-width: 992px) {
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 992px;
+    }
+}
+
+/* ADJUSTED MAX-WIDTHS */
+
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
 .row {
     display: flex;
     margin-right: -0.75rem;
@@ -386,6 +421,12 @@ a:hover {
 }
 
 
+@media (max-width: 728px) {
+    .team-card {
+        width: 33%;
+    }
+}
+
 @media (min-width: 1200px) {
     .team-card:hover {
         cursor: default;
@@ -660,7 +701,6 @@ a.text-primary:focus {
     .masthead h2 {
         font-size: 1.2rem;
     }
-
 }
 
 @media (min-width: 992px) {
@@ -937,6 +977,7 @@ a.text-primary:focus {
 }
 
 #teamabout {
+    padding: 6vh 20px 4rem 20px;
     line-height: 1;
     display: flex;
     justify-content: center;
