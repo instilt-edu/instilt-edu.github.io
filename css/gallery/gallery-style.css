@@ -1,0 +1,181 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+#model .container h1{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 35px;
+    color: rgb(104, 10, 10);
+}
+
+.slider{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/*MODIFIED: Added fade to active center image on mobile */
+@media(max-width: 641px) {
+    .owl-item.active.center{
+        animation: fadeIn;
+        animation-duration: 500ms; 
+    }
+}
+
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 1;
+    z-index: 1 !important;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.slider .slider-card{
+    background-color: #fff;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
+    transform: scale(0.8);
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+}
+
+/*MODIFIED: Remove describing text in the blog on mobile*/
+@media(max-width: 641px) {
+    .blog-preview{
+        display: none;
+    }
+}
+
+/*MODIFIED: Remove scaling transformation on mobile, incorporate fade*/
+@media(max-width: 641px) {
+    .slider .slider-card{
+        transform: none;
+    }
+    .slider .owl-item.active.center .slider-card{
+        transform: none;
+        transition: opacity 800ms ease-in-out;
+    }
+}
+
+/*MODIFIED: Resized to avoid image overlap on mobile*/
+@media(max-width: 641px) {
+    .slider-card :not([active]) :not([center]) {
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    top: calc(45% - 25px);
+    right: 0;
+    opacity: 1;
+    z-index: 2;
+    right: -3rem;
+    font-size: 40px !important;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    top: calc(45% - 25px);
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+    left: -3rem; 
+    font-size: 40px !important;
+}
+
+@media screen and (max-width: 641px){
+    .owl-nav .owl-next{
+        right: -2rem;
+    }
+
+    .owl-nav .owl-prev{
+        left: -2rem;
+    }
+}
+
+@media screen and (max-width: 641px){
+    .owl-nav .owl-next{
+        right: -1rem;
+    }
+
+    .owl-nav .owl-prev{
+        left: -1rem;
+    }
+}
+
+#blog{
+    background-color: rgb(113, 9, 9);
+    color: #fff;
+}
+
+#blog .container{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.carousel-item{
+    height: auto;
+    background: #999;
+    margin-top: 5%;
+    position: relative;
+}
+
+.carousel-item img{
+    opacity: 0.5;
+    width: 100%;
+}
+
+/*MODIFIED 15rem -> 30%, added @media query, so overlaying text doesn't shift up dramatically */
+.carousel-item .container.text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 35% !important;
+    padding-left: 40px !important;
+}
+
+@media(max-width: 641px) {
+    .carousel-item .container.text{
+        padding-bottom: 30% !important;
+    }
+}
+
+.btn-primary{
+    background-color: rgb(113, 9, 9);
+    border-color: rgb(113, 9, 9);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover{
+    background-color: #000;
+    border-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+#blog .carousel-control-prev-icon, #blog .carousel-control-next-icon{
+    font-weight: 800;
+}
+
+
+
+
+
+
