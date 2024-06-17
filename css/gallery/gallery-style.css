@@ -18,6 +18,13 @@ body{
     position: relative;
 }
 
+@media screen and (max-width: 640px){
+    .owl-item.active.center{
+        width: 100%;
+    }
+}
+
+
 /*MODIFIED: Added fade to active center image on mobile */
 @media(max-width: 641px) {
     .owl-item.active.center{
@@ -33,6 +40,16 @@ body{
     background-color: #ccc;
     color: #fff;
 }
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-stage-outer{
+    max-height: 350px;
+}
+
 
 .owl-theme .owl-controls .owl-page span {
     background: none repeat scroll 0 0 #869791;
@@ -74,9 +91,38 @@ body{
 
 /*MODIFIED: Resized to avoid image overlap on mobile*/
 @media(max-width: 641px) {
-    .slider-card :not([active]) :not([center]) {
-        max-width: 100%;
-        overflow: hidden;
+    .owl-item [active] :not([center]) {
+        display: none;
+    }
+    .slider-card [active] :not([center]) {
+        display: none;
+    }
+}
+
+
+@media (max-width: 640px){
+    .owl-item img{
+        width: 100% !important;
+        height: auto !important;
+        margin: auto 0;
+    }
+    .owl-stage-outer{
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 540px){
+    .owl-stage-outer{
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 420px){
+    .owl-stage-outer{
+        max-height: 300px;
+    }
+    .owl-controls{
+        margin-bottom: 2rem;
     }
 }
 
@@ -98,16 +144,6 @@ body{
     z-index: 1;
     left: -3rem; 
     font-size: 40px !important;
-}
-
-@media screen and (max-width: 641px){
-    .owl-nav .owl-next{
-        right: -2rem;
-    }
-
-    .owl-nav .owl-prev{
-        left: -2rem;
-    }
 }
 
 @media screen and (max-width: 641px){

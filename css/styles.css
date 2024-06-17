@@ -98,8 +98,7 @@ a:hover {
 .col-md-4 {
     position: relative;
     width: 100%;
-    padding-right: 0.75rem;
-    padding-left: 0.75rem;
+    padding: 0rem 0.75rem;
 }
 
 
@@ -166,12 +165,25 @@ a:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .col-md-4 {
+        padding: 0;
+    }
+}
+
 
 @media (max-width: 575.98px) {
 
     .col-md-4 .card .card-body img {
-        width: 350px !important;
-        height: 350px !important;
+        width: 250px !important;
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 380px) {
+    .row .col-md-4 .card .card-body img {
+        max-width: 150px;
+        max-height: 150px;
     }
 }
 
@@ -309,7 +321,7 @@ a:hover {
 .middle-text {
     flex-grow: 1;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 5%;
     color: white;
 }
 
@@ -344,17 +356,6 @@ a:hover {
     }
 }
 
-
-.navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    font-family: "Montserrat", Sans-serif;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    display: flex;
-    align-items: center;
-}
 
 @media (min-width: 1300px) {
     .navbar-expand-lg {
@@ -435,6 +436,16 @@ a:hover {
     }
 }
 
+#email-text {
+    font-size: 1.75em;
+}
+
+@media (max-width: 400px) {
+    #email-text{
+        font-size: 1.4em;
+    }
+}
+
 .card>hr {
     margin-right: 0;
     margin-left: 0;
@@ -497,11 +508,16 @@ a.text-primary:focus {
 }
 
 #mainNav .navbar-toggler {
-    font-size: 80%;
     padding: 0.75rem;
-    color: #dbdbdb;
-    border: 1px solid #5b0000;
-    background-color: #5b0000;
+    font-size: 80%;
+    font-family: "Montserrat", Sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    background-color: #212529;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -1516,43 +1532,12 @@ input {
 }
 
 #model {
+    padding: 6vh 0 !important;
     background-color: #fafafa;
     font-family: montserrat !important;
     text-align: center;
     text-transform: capitalize;
     font-weight: 600;
-}
-
-.slider {
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.slider .slider-card {
-    background-color: #fff;
-    margin: 50px 15px 90px 15px;
-    border-radius: 5px;
-    box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
-    transform: scale(0.8);
-    opacity: 0.7;
-    transition: all 0.5s ease-in-out;
-}
-
-/*MODIFIED: Remove describing text in the blog on mobile*/
-
-/*MODIFIED: Remove scaling transformation on mobile, incorporate fade*/
-@media(max-width: 641px) {
-    .slider .slider-card {
-        transform: none;
-    }
-}
-
-/*MODIFIED: Resized to avoid image overlap on mobile*/
-@media(max-width: 641px) {
-    .slider-card :not([active]) :not([center]) {
-        max-width: 100%;
-        overflow: hidden;
-    }
 }
 
 

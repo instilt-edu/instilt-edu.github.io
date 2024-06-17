@@ -31,7 +31,7 @@ $(document).ready(function(){
             0:{
                 items:1,
             },
-            600:{
+            641:{
                 items:3,
             },
             1000:{
