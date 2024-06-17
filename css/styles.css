@@ -291,6 +291,145 @@ a:hover {
     padding-top: 10px;
 }
 
+
+
+#mainNav {
+    min-height: 3.5rem;
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    padding: 0.75rem;
+    font-size: 80%;
+    font-family: "Montserrat", Sans-serif;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    background-color: #212529;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-weight: 700;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+ .navbar-nav .nav-item:hover {
+    color: fade(#fff, 80%);
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-nav .nav-item:active,
+.navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+@media (min-width: 1300px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: transparent;
+        transition: background-color 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
+    }
+
+    #mainNav .nav-link {
+        transition: color 0.5s ease-in-out;
+        padding: 1.5rem 1.5rem 1.25rem;
+        color: rgba(255, 255, 255, 0.75);
+        border-bottom: 0.25rem solid transparent;
+    }
+
+    #mainNav .nav-link:active {
+        color: #fff;
+    }
+
+    #mainNav.navbar-shrink {
+        background-color: #222222;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #FFFFFF;
+    }
+
+    #mainNav.navbar-shrink .nav-link {
+        color: #FFF;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+        transition: color 0.5s ease-in-out;
+    }
+
+    #mainNav.navbar-shrink .nav-link:hover,
+    #mainNav .nav-link:hover {
+        transition: color 0.5s ease-in-out;
+    }
+
+    #mainNav.navbar-shrink .nav-link:after,
+    #mainNav .nav-link:after {
+        border-bottom: 0.25rem solid;
+        content: "";
+        display: block;
+        width: 0%;
+        transition: width 0.5s ease-in-out;
+    }
+
+    #mainNav.navbar-shrink .nav-link:hover:after,
+    #mainNav .nav-link:hover:after {
+        width: 100%;
+    }
+
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #dc3545;
+        transition: color 0.5s ease-in-out;
+    }
+
+    #mainNav .fa-facebook,
+    #mainNav .fa-linkedin,
+    #mainNav .fa-instagram,
+    #mainNav .fa-envelope {
+        transition: color 0.3s ease-in-out;
+        color: rgb(255, 255, 255, 0.75);
+        background-color: transparent;
+    }
+
+    #mainNav .fa-facebook:hover,
+    #mainNav .fa-linkedin:hover,
+    #mainNav .fa-instagram:hover,
+    #mainNav .fa-envelope:hover {
+        transition: color 0.5s ease-in-out;
+        background-color: transparent;
+        color: #dc3545;
+    }
+
+    #mainNav.navbar-shrink .fa-facebook,
+    #mainNav.navbar-shrink .fa-linkedin,
+    #mainNav.navbar-shrink .fa-instagram,
+    #mainNav.navbar-shrink .fa-envelope {
+        transition: color 0.3s ease-in-out;
+        color: rgb(255, 255, 255, 1);
+    }
+
+    #mainNav.navbar-shrink .fa-facebook:hover,
+    #mainNav.navbar-shrink .fa-linkedin:hover,
+    #mainNav.navbar-shrink .fa-instagram:hover,
+    #mainNav.navbar-shrink .fa-envelope:hover {
+        transition: color 0.5s ease-in-out;
+        background-color: transparent;
+        color: #dc3545;
+    }
+}
+
 @media (max-device-width: 576px) {
     .navbar-nav {
         top: 9.5vh;
@@ -337,16 +476,8 @@ a:hover {
     align-items: center;
 }
 
-
-@media (min-width: 769px) {
-    .navbar-toggler {
-        display: none;
-        /* Hide menu button in full-screen view */
-    }
-
-    .navbar-brand {
-        display: none;
-    }
+.logo-img {
+    margin-left: 0.5em;
 }
 
 @media (max-width: 500px) {
@@ -501,143 +632,6 @@ a.text-primary:focus {
     color: rgba(255, 255, 255, 0.5) !important;
 }
 
-
-#mainNav {
-    min-height: 3.5rem;
-    background-color: transparent;
-}
-
-#mainNav .navbar-toggler {
-    padding: 0.75rem;
-    font-size: 80%;
-    font-family: "Montserrat", Sans-serif;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    border-radius: 0.25rem;
-    display: flex;
-    align-items: center;
-    background-color: #212529;
-}
-
-#mainNav .navbar-toggler:focus {
-    outline: none;
-}
-
-#mainNav .navbar-brand {
-    color: #000000;
-    font-weight: 700;
-    padding: 0rem 0rem 0rem 0rem;
-}
-
-#mainNav .navbar-nav .nav-item:hover {
-    color: fade(#fff, 80%);
-    outline: none;
-    background-color: transparent;
-}
-
-#mainNav .navbar-nav .nav-item:active,
-#mainNav .navbar-nav .nav-item:focus {
-    outline: none;
-    background-color: transparent;
-}
-
-@media (min-width: 1300px) {
-    #mainNav {
-        padding-top: 0;
-        padding-bottom: 0;
-        border-bottom: none;
-        background-color: transparent;
-        transition: background-color 0.3s ease-in-out;
-        display: flex;
-        align-items: center;
-    }
-
-    #mainNav .nav-link {
-        transition: color 0.5s ease-in-out;
-        padding: 1.5rem 1.5rem 1.25rem;
-        color: rgba(255, 255, 255, 0.75);
-        border-bottom: 0.25rem solid transparent;
-    }
-
-    #mainNav .nav-link:active {
-        color: #fff;
-    }
-
-    #mainNav.navbar-shrink {
-        background-color: #222222;
-    }
-
-    #mainNav.navbar-shrink .navbar-brand {
-        color: #FFFFFF;
-    }
-
-    #mainNav.navbar-shrink .nav-link {
-        color: #FFF;
-        padding: 1.5rem 1.5rem 1.25rem;
-        border-bottom: 0.25rem solid transparent;
-        transition: color 0.5s ease-in-out;
-    }
-
-    #mainNav.navbar-shrink .nav-link:hover,
-    #mainNav .nav-link:hover {
-        transition: color 0.5s ease-in-out;
-    }
-
-    #mainNav.navbar-shrink .nav-link:after,
-    #mainNav .nav-link:after {
-        border-bottom: 0.25rem solid;
-        content: "";
-        display: block;
-        width: 0%;
-        transition: width 0.5s ease-in-out;
-    }
-
-    #mainNav.navbar-shrink .nav-link:hover:after,
-    #mainNav .nav-link:hover:after {
-        width: 100%;
-    }
-
-    #mainNav.navbar-shrink .nav-link.active {
-        color: #dc3545;
-        transition: color 0.5s ease-in-out;
-    }
-
-    #mainNav .fa-facebook,
-    #mainNav .fa-linkedin,
-    #mainNav .fa-instagram,
-    #mainNav .fa-envelope {
-        transition: color 0.3s ease-in-out;
-        color: rgb(255, 255, 255, 0.75);
-        background-color: transparent;
-    }
-
-    #mainNav .fa-facebook:hover,
-    #mainNav .fa-linkedin:hover,
-    #mainNav .fa-instagram:hover,
-    #mainNav .fa-envelope:hover {
-        transition: color 0.5s ease-in-out;
-        background-color: transparent;
-        color: #dc3545;
-    }
-
-    #mainNav.navbar-shrink .fa-facebook,
-    #mainNav.navbar-shrink .fa-linkedin,
-    #mainNav.navbar-shrink .fa-instagram,
-    #mainNav.navbar-shrink .fa-envelope {
-        transition: color 0.3s ease-in-out;
-        color: rgb(255, 255, 255, 1);
-    }
-
-    #mainNav.navbar-shrink .fa-facebook:hover,
-    #mainNav.navbar-shrink .fa-linkedin:hover,
-    #mainNav.navbar-shrink .fa-instagram:hover,
-    #mainNav.navbar-shrink .fa-envelope:hover {
-        transition: color 0.5s ease-in-out;
-        background-color: transparent;
-        color: #dc3545;
-    }
-}
 
 .btn {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -1539,7 +1533,6 @@ input {
     text-transform: capitalize;
     font-weight: 600;
 }
-
 
 @media (max-width: 1299px) {
     .navbar .container {
