@@ -64,6 +64,15 @@ a:hover {
 }
 
 /* ADJUSTED MAX-WIDTHS */
+@media (min-width: 1000px) {
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1000px;
+    }
+}
+
 
 @media (min-width: 992px) {
     .container-lg,
@@ -302,10 +311,9 @@ a:hover {
     padding: 0.75rem;
     font-size: 80%;
     font-family: "Montserrat", Sans-serif;
-    background-color: transparent;
     border: 2px solid white;
-    color: white;
     border-radius: 0.25rem;
+    border-color: white !important;
     display: flex;
     align-items: center;
     background-color: #212529;
@@ -1002,7 +1010,7 @@ a.text-primary:focus {
     color: #212529;
 }
 
-#model p {
+.model-text {
     text-shadow: none;
     text-transform: none;
     font-weight: normal;
@@ -1481,7 +1489,7 @@ a.text-primary:focus {
             padding: 2rem;
         }
 
-        #model {
+        .model-text {
             font-size: 3.5rem;
         }
 
@@ -1530,7 +1538,6 @@ input {
     background-color: #fafafa;
     font-family: montserrat !important;
     text-align: center;
-    text-transform: capitalize;
     font-weight: 600;
 }
 
