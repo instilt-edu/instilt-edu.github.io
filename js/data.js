@@ -63,6 +63,15 @@ var teamData = [
         "image": "https://drive.google.com/thumbnail?id=13DjzMPE1CLD7yWpcvfSo56pzaLZUHNHi"
     },
     {
+        "id": 9,
+        "name": "Agrim Gulaty",
+        "email": "agrimgulaty@gmail.com",
+        "division": "Project Manager",
+        "team": "Admin",
+        "location": "Dubai, UAE",
+        "image": "https://drive.google.com/thumbnail?id=1LUwOCh3YnhSRUjGOqVF39tGmEucsOMXy"
+    },
+    {
         "id": 10,
         "name": "Kaavya Dasgupta",
         "email": "dasgupta.kaavya@gmail.com",

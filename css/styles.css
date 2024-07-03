@@ -480,7 +480,6 @@ a:hover {
 }
 
 .navbar-container a {
-    display: flex;
     align-items: center;
 }
 
@@ -1279,6 +1278,7 @@ a.text-primary:focus {
 
 #join-us-page {
     padding-top: 6vh;
+    padding-bottom: 6vh;
     background-color: #fafafa;
 }
 
