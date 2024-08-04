@@ -1,12 +1,13 @@
 $(document).ready(function(){
     // dynamically add images to the carousel
-    const numberOfImages = 12;
+    const numberOfImages = 13;
     const imgSubs = {
         'img1': 'Presenting batch completion certificates to the accomplished students of Shri Krishna Hindu Vidhyalaya in Tamil Nadu.',
         'img2': "Students of Salaam Baalak Trust Delhi performing brilliantly at the Shakti Samman event in New Delhi, hosted by the District Magistrate's Office.",
         'img3': "Students of Salaam Baalak Trust Delhi performing brilliantly at the Shakti Samman event in New Delhi, hosted by the District Magistrate's Office.",
         'img4': "Students of Salaam Baalak Trust Delhi receiving several awards at the Shakti Samman event, celebrating International Women's Day.",
-        'img5': "Students of Salaam Baalak Trust Delhi celebrating International Women's Day."
+        'img5': "Students of Salaam Baalak Trust Delhi celebrating International Women's Day.",
+        'img13': "Presenting batch complletion certificates to the accomplished students of Shri rishna Hindu Vidhyalaya in Tamil Nadu.",
     }
 
     for (let i = 1; i <= numberOfImages; i++) {
@@ -17,7 +18,6 @@ $(document).ready(function(){
         // Create the image element
         let imgElement = $('<img>').attr('src', 'assets/img/our_model_carousel/img' + i + '.png')
                                     .attr('alt', '#')
-                                    .attr('title', i)
                                     .attr('onerror', 'this.alt="NF"');
         imgElement.on('error', function() {
             // remove the image from the carousel

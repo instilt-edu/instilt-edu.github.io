@@ -46,10 +46,11 @@ a:hover {
     font-size: 3rem;
 }
 
-.container {
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 !important;
 }
 
 /* ADJUSTED MAX-WIDTH */

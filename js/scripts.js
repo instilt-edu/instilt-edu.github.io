@@ -78,10 +78,11 @@ async function onPageLoad() {
 	// if (data != null) {
 	//   console.log(data);
 	//   document.getElementById("loading_text").hidden = true;
-	// //   Display the fetched data
+	//   // Display the fetched data
 	//   loadImages(data);	
 	// } else {
 	//   document.getElementById("loading_text").hidden = true;
+	// }
 	// import data from data.js
 	var teamData;
 	var partnerData;
