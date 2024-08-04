@@ -907,6 +907,15 @@ var teamData = [
         "team": "Academics",
         "location": "United Arab Emirates",
         "image": "https://drive.google.com/thumbnail?id=13JP_w2x34wO8lS5iQzSA0rxNG9P_OreR"
+    },
+    {
+        "id": 153,
+        "name": "Vibodh Nanda",
+        "email": "vibodhnanda02@gmail.com",
+        "division": "Communications",
+        "team": "Communications",
+        "location": "Dubai, United Arab Emirates",
+        "image": "https://drive.google.com/thumbnail?id=1b8AssVyHjB755HPQvNq8DlbIUcZLW0ur"
     }
 ]
 
