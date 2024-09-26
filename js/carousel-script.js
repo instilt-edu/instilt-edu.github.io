@@ -1,13 +1,12 @@
 $(document).ready(function(){
     // dynamically add images to the carousel
-    const numberOfImages = 13;
+    const numberOfImages = 11;
     const imgSubs = {
         'img1': 'Presenting batch completion certificates to the accomplished students of Shri Krishna Hindu Vidhyalaya in Tamil Nadu.',
         'img2': "Students of Salaam Baalak Trust Delhi performing brilliantly at the Shakti Samman event in New Delhi, hosted by the District Magistrate's Office.",
         'img3': "Students of Salaam Baalak Trust Delhi performing brilliantly at the Shakti Samman event in New Delhi, hosted by the District Magistrate's Office.",
-        'img4': "Students of Salaam Baalak Trust Delhi receiving several awards at the Shakti Samman event, celebrating International Women's Day.",
-        'img5': "Students of Salaam Baalak Trust Delhi celebrating International Women's Day.",
-        'img13': "Presenting batch completion certificates to the accomplished students of Shri rishna Hindu Vidhyalaya in Tamil Nadu.",
+        // 'img5': "Students of Salaam Baalak Trust Delhi celebrating International Women's Day.",
+        'img11': "Presenting batch completion certificates to the accomplished students of Shri Krishna Hindu Vidhyalaya in Tamil Nadu.",
     }
 
     for (let i = 1; i <= numberOfImages; i++) {

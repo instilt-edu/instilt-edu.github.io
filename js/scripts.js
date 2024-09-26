@@ -53,6 +53,25 @@
 })(jQuery); // End of use strict
 
 window.addEventListener("DOMContentLoaded", onPageLoad);
+window.addEventListener("DOMContentLoaded", showPopup);
+
+function showPopup() {
+	const popup = document.getElementById("popup");
+	const closeButton = document.getElementById("close");
+	const overlay = document.getElementById("overlay");
+	const navButton = document.getElementById("nav-button");
+
+	popup.classList.add("active");
+	overlay.classList.add("active");
+	navButton.disabled = true;
+
+	closeButton.addEventListener("click", () => {
+		popup.classList.remove("active");
+		overlay.classList.remove("active");
+		navButton.disabled = false;
+	});
+}
+
 
 async function getTeamData() {
 	try {
@@ -184,6 +203,7 @@ function removeElement(element) {
 
 // Display partners by generating html
 function loadPartners(partnerData) {
+
 	partnerData.forEach((partner) => {
 		var div = document.createElement("div");
 		div.setAttribute("class", "partner-box");
@@ -196,11 +216,13 @@ function loadPartners(partnerData) {
 		anchor.setAttribute("target", "_blank");
 
 		// Create an img element
-		var img = document.createElement("img");
-		img.setAttribute("id", "partner-img");
-		img.setAttribute("src", partner.imageUrl);
-		img.setAttribute("alt", partner.name);
-
+		if (partner.image){
+			var img = document.createElement("img");
+			img.setAttribute("id", "partner-img");
+			img.setAttribute("src", partner.image);
+			img.setAttribute("alt", partner.name);
+		}
+		
 		// Create a div for text content
 		var textDiv = document.createElement("div");
 
@@ -226,7 +248,6 @@ function loadPartners(partnerData) {
 
 		// Append the anchor and text div to the div
 		div.appendChild(anchor);
-
 		document.getElementById("partner-card").appendChild(div);
 	});
 
