@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="google-site-verification" content="nlm6GDVzxGLEuxAwOO5RCRSexiywHyRmAlbROch6oMc" />
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -17,8 +18,16 @@
     <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.7"
         type="text/css" media="all">
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/milestone.css" rel="stylesheet">
-    <link href="css/styles-master.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/milestone.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/gallery/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/gallery/owl.theme.default.css ">
+    <link rel="stylesheet" href="css/gallery/gallery-style.css">
+    <link rel="stylesheet" href="css/gallery/animate.css">
+
     <script src="https://kit.fontawesome.com/21cad11b53.js" crossorigin="anonymous"></script>
     <script src="js/mapdata.js"></script>
     <script src="js/worldmap.js"></script>
@@ -26,31 +35,62 @@
 
 <body id="page-top" data-new-gr-c-s-check-loaded="14.1006.0" data-gr-ext-installed="">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-family:montserrat !important;letter-spacing:0px;font-weight:450; margin-left: 10px">Instilt Educate</a>
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <svg style="margin-left: 5px;" class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
-                    </path>
-                </svg><!-- <i class="fas fa-bars"></i> Font Awesome fontawesome.com -->
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#mission">Mission</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#model">Model</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#method">Method</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#join-us-page">Join Us</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#partners">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link-butn btn-danger js-scroll-trigger btn" href="https://bank.hackclub.com/donations/start/instilt-educate" onclick="this.blur();" target="_blank">Donate</a></li>
-                </ul>
+    <div class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="navbar-container">
+                <div class="left-section">
+                    <button id="nav-button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-bars" style="color:white"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/transparent.png" class="logo-img" width="50" height="100%" alt="Instilt Educate">
+                    </a> 
+                </div>
+                <div class="middle-text">
+                    <span>Instilt Educate</span>
+                </div>
+                <div class="right-section">
+                    <a class="social-icon" href="https://www.linkedin.com/company/78017229" target="_blank">
+                        <svg class="svg-inline--fa fa-linkedin fa-w-14 sm-icons" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                    </a>
+                    <a class="social-icon" href="https://www.instagram.com/edu.instilt" target="_blank">
+                        <svg class="svg-inline--fa fa-instagram fa-w-14 sm-icons" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                    </a>
+                    <a class="social-icon" href="https://www.youtube.com/@instilteducate280" target="_blank">
+                        <svg class="svg-inline--fa fa-youtube fa-w-18 sm-icons" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                    </a>
+                    <a id="nav-btn" class="nav-item nav-link-butn btn-danger js-scroll-trigger" href="https://bank.hackclub.com/donations/start/instilt-educate">Donate</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navContent">
+                    <ul class="navbar-nav ml-auto mr-0">
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#mission">Mission</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#model">Model</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#method">Method</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#join-us-page">Join Us</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#partners">Partners</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#newsletter">Newsletter</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap js-scroll-trigger" href="#team">Team</a></li>
+                        <li id="big-nav-donate" class="nav-item"><a class="nav-link-butn btn-danger btn js-scroll-trigger" href="https://bank.hackclub.com/donations/start/instilt-educate">Donate</a></li>
+                        <div class="menu-icons">
+                            <a href="https://www.linkedin.com/company/78017229" target="_blank">
+                                <svg class="svg-inline--fa fa-linkedin fa-w-14 sm-icons" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                            </a>
+                            <a href="https://www.instagram.com/edu.instilt" target="_blank">
+                                <svg class="svg-inline--fa fa-instagram fa-w-14 sm-icons" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                            </a>
+                            <a href="https://www.youtube.com/@instilteducate280" target="_blank">
+                                <svg class="svg-inline--fa fa-youtube fa-w-18 sm-icons" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+    
+
     <!-- Masthead-->
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
@@ -58,26 +98,29 @@
                 <h1 class="mx-auto my-0" style="font-family:montserrat !important;letter-spacing: 0px; font-weight:600; " id="title">Instilt Educate</h1>
                 <h2 class="text-white-50 mx-auto mt-4 mb-5" id="subtitle">Help us help children everywhere have equal opportunities at a bright future, no matter their background! </h2>    
                 <a class="btn btn-primary js-scroll-trigger" href="#join-us-page">Join us</a>
-                <div id="join-us-icons">
-                    <b>
-                        <a href="https://www.linkedin.com/company/78017229" target="_blank">
-                            <i class="sm-icons fab fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </b>
-                    <b>
-                        <a href="https://www.instagram.com/edu.instilt" target="_blank">
-                            <i class="sm-icons fab fa-instagram" aria-hidden="true"></i>
-                        </a>
-                    </b>
-                    <b>
-                        <a href="https://www.youtube.com/@instilteducate280" target="_blank">
-                            <i class="sm-icons fab fa-youtube" aria-hidden="true"></i>
-                        </a>
-                    </b>
-                </div>
             </div>
             
     </header>
+    <div id="overlay"></div>  
+
+    <section class="newsletter-popup">
+        <div id="popup" class="popup">
+            <div class="popup-header">
+                <h2 class="title" style="text-align: center; margin: 0;">Instilt Educate
+                    <button id="close" class="close">&times;</button>
+                </h2>
+            </div>
+            <div class="popup-body">
+                <img id="popup-image" src="assets/img/bg-popup.jpg">
+                <h3 class="popup-title">Be Informed. Get&nbsp;Involved.</h3>
+                <p class="popup-text">Sign up to our newsletter to see what we're doing.</p>
+                <iframe id="popup-form" src="https://embeds.beehiiv.com/a680c89c-9285-47aa-bc5b-8bb4d0a0fb31?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no"></iframe>
+
+                <p class="popup-subtitle">By submitting this form, you are consenting to receive emails from us.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- About-->
     <section class="about-section text-center" id="mission">
         <div class="container" id="mission-section">
@@ -85,8 +128,7 @@
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-white mb-4 heading" id="our-mission" >Our Mission</h2>
                     <p class="text-white" id="mission-subtitle">
-                        Instilt Educate is a fiscally sponsored 501(c)(3) nonprofit providing free, quality, online tutoring to students from underprivileged backgrounds.
-                        Our mission is to level the playing field between children that come from more fortunate backgrounds and those who do not possess the same privilege.
+                        Instilt Educate is a fiscally sponsored 501(c)(3) nonprofit that provides free online tutoring to students from underprivileged backgrounds. The mission of the organization is to give those who may not possess the same opportunities as others more possibilities through quality lessons.
                     </p>
                 </div>
             </div>
@@ -98,6 +140,69 @@
         </div>
     </section>
 
+    <!--Blog Slider-->
+    <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="true">
+            <ol class="carousel-indicators">
+                <li type="button" data-target="#myCarousel" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                <li type="button" data-target="#myCarousel" data-slide-to="1" aria-label="Slide 2"></li>
+                <li type="button" data-target="#myCarousel" data-slide-to="2" aria-label="Slide 3"></li>
+                <li type="button" data-target="#myCarousel" data-slide-to="3" aria-label="Slide 4"></li>
+                </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/our_model_carousel/img1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <div class="container text">
+                        <center><h1>Blog 1</h1></center> 
+                        <center class="inline-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit? Ratione cupiditate, quo at pariatur incidunt amet eaque dolore modi sit expedita aspernatur labore voluptate quod quidem omnis. Non, atque.</p></center> 
+                        <center><a href="#" class="btn btn-lg btn-primary">Read Blog</a></center>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/our_model_carousel/img2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <div class="container text">
+                        <center><h1>Blog 2</h1></center> 
+                        <center class="inline-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit? Ratione cupiditate, quo at pariatur incidunt amet eaque dolore modi sit expedita aspernatur labore voluptate quod quidem omnis. Non, atque.</p></center> 
+                        <center><a href="#" class="btn btn-lg btn-primary">Read Blog</a></center>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/our_model_carousel/img1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <div class="container text">
+                        <center><h1>Blog 3</h1></center> 
+                        <center class="inline-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit? Ratione cupiditate, quo at pariatur incidunt amet eaque dolore modi sit expedita aspernatur labore voluptate quod quidem omnis. Non, atque.</p></center> 
+                        <center><a href="#" class="btn btn-lg btn-primary">Read Blog</a></center>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/our_model_carousel/img1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <div class="container text">
+                        <center><h1>Blog 4</h1></center> 
+                        <center class="inline-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit? Ratione cupiditate, quo at pariatur incidunt amet eaque dolore modi sit expedita aspernatur labore voluptate quod quidem omnis. Non, atque.</p></center> 
+                        <center><a href="#" class="btn btn-lg btn-primary">Read Blog</a></center>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+    </div>
+    </section>
+ -->
+
     <!-- Milestones -->
     <section id="milestone">
         <ul id = "milestone-unorder">
@@ -108,7 +213,7 @@
                 </div>
                 <br>
                 <div class="milestone-details">
-                    <h4 class="milestone-title"><span class="count">2800</span>+</h4>
+                    <h4 class="milestone-title"><span class="count">5000</span>+</h4>
                     <p class="milestone-text">Students</p>
                 </div>
                 <div class="milestone-line">
@@ -174,76 +279,33 @@
     <h2 id="maptext" style="text-transform: none; text-align: center;">Diverse Community of Members</h2>
     <br>
     <div id="map"></div>
-    
 
-
-    <section class="projects-section bg-light" id="model">
+    <!-- Owl Carousel Gallery -->
+    <section id="model">
         <div class="container">
-            <!-- Featured Project Row-->
-            <div class="heading" id="ourmodel">Our Model</div>
-            <div id="image_slideshow">
-                <div class="wrapper">
-                    <input checked type=radio name="slider" id="slide1" />
-                    <input type=radio name="slider" id="slide2" />
-                    <input type=radio name="slider" id="slide3" />
-                    <input type=radio name="slider" id="slide4" />
-                    <input type=radio name="slider" id="slide5" />
-                  
-                    <div class="slider-wrapper">
-                      <div class="inner">
-                        <article>
-                          <img src="assets/img/our_model_carousel/Instilt - Educate Gallery (1).png" />
-                        </article>
-                  
-                        <article>
-                          <img src="assets/img/our_model_carousel/Instilt - Educate Gallery (2).png">
-                        </article>
-                  
-                        <article>
-                          <img src="assets/img/our_model_carousel/Instilt - Educate Gallery (3).png" />
-                        </article>
-                  
-                        <article>
-                          <img src="assets/img/our_model_carousel/Instilt - Educate Gallery (4).png" />
-                        </article>
-                  
-                        <article>
-                          <img src="assets//img/our_model_carousel/Instilt - Educate Gallery (5).png" />
-                        </article>
-                      </div>
-                      <!-- .inner -->
-                    </div>
-                    <!-- .slider-wrapper -->
-                  
-                    <div class="slider-prev-next-control">
-                      <label for=slide1></label>
-                      <label for=slide2></label>
-                      <label for=slide3></label>
-                      <label for=slide4></label>
-                      <label for=slide5></label>
-                    </div>
-                    <!-- .slider-prev-next-control -->
-                  
-                    <div class="slider-dot-control">
-                      <label for=slide1></label>
-                      <label for=slide2></label>
-                      <label for=slide3></label>
-                      <label for=slide4></label>
-                      <label for=slide5></label>
-                    </div>
-                    <!-- .slider-dot-control -->
-                </div>
-                <div class="featured-text text-center text-lg-left">
-                    <p class="text-black-50 mb-0" id="ourmodel-subtitle">In an effort to grow and deepen the understanding of our students, we use a unique model. For our faculty, we pair one native English speaker with another tutor proficient in the language of the students. This way students are able to enjoy the best of both worlds as they are pushed to communicate seamlessly with a qualified tutor who speaks English in their day-to-day, allowing them some great outside exposure. At the same time, the other tutor is always to ensure that the students are following, maintaining a comfortable and familiar environment for the children.
-                    </p>
-                </div>
-            </div>
-        
+        <div class="heading">Our Model</div>
+        <p class="model-text">In an effort to grow and deepen the understanding of our students, we use a unique model. For our faculty, we pair one native English speaker with another tutor proficient in the language of the students. This way students are able to enjoy the best of both worlds as they are pushed to communicate seamlessly with a qualified tutor who speaks English in their day-to-day, allowing them some great outside exposure. At the same time, the other tutor is always to ensure that the students are following, maintaining a comfortable and familiar environment for the children.</p>
+        <div class="slider">
+            <div class="owl-carousel owl-theme"></div>
+        </div>
+        </div>
+    </section>
 
+<!-- Partners -->  
     <section class="projects-section bg-light" id="partners" style="padding-top: 0rem !important;">
         <div class="container">
           <div class="heading">Our Partners</div>
-            <div class="partner-row" id="partner-card">
+            <div class="partner-row">
+                <script id="partner-content" type="text/html">
+                    <a href="" id="partner-link" target="_blank">
+                        <div class="partner-column">
+                            <img id="partner-img" src="" alt="{NAME}">
+                            <h2 class="partner-heading"><span class="highlight-orange">{NAME}</span></h2>
+                        </div>
+                    </a>      
+                    <br>
+                </script>
+                <div class="partner-row" id="partner-card"></div>
             </div>
         </div>
     </section>
@@ -262,8 +324,7 @@
                                         <hr class="my-4">
                                         <h2 class="method-heading" id="interactive"><span class="highlight-orange">Online experience made interactive</span></h2>
                                         <p class="method-about small" id="interactive-about" style="color: rgba(0, 0, 0, 1) !important;  text-align: center;">
-                                            Utilizing Zoom as our primary learning interface, we facilitate an interactive and comfortable environment where students can communicate, collaborate, and inquire effectively, complementing the continuous interaction outside of class through Whatsapp.
-                                        </p>
+                                            Through our primary learning interface Zoom, we make sure to facilitate an environment where students can interact, collaborate, and inquire comfortably and effectively. Outside of class, we ensure continuous interaction through Whatsapp.</p>
                                     </div>
                                 </div>
                             </div>
@@ -275,8 +336,7 @@
                                         <hr class="my-4">
                                         <h2 class="method-heading" id="application"><span class="highlight-blue">Learning by application</span></h2>
                                         <p class="method-about small" id="application-about" style="color: rgba(0, 0, 0, 1) !important;  text-align: center;">
-                                            As part of our teaching curriculum, we strive to incorporate all content into engaging application-based activities designed to strengthen and enhance the students’ knowledge. 
-                                        </p>
+                                            We work to ensure that all lesson plans include a variety of engaging activities that allow students to apply their knowledge in order to strengthen and enhance their understanding.</p>
                                     </div>
                                 </div>
                             </div>
@@ -288,8 +348,7 @@
                                         <hr class="my-4">
                                         <h2 class="method-heading" id="curriculum"><span class="highlight-green">Cohesive curriculum with a wide scope</span></h2>
                                         <p class="method-about small" id="curriculum-about" style="    color: rgba(0, 0, 0, 1) !important;  text-align: center;">
-                                            Our team works diligently to create comprehensive lesson plans inclusive of content inspired by reputed sources: Indian Boards (CBSE), American Schooling Systems, Khan Academy, etc.
-                                        </p>
+                                            Our organization works to ensure that lesson plans are fully comprehensive and include varied content, inspired by reputable sources such as Indian Boards (CBSE), American Schooling Systems, Khan Academy, etc.</p>
                                     </div>
                                 </div>
                             </div>
@@ -301,8 +360,7 @@
                                         <hr class="my-4">
                                         <h2 class="method-heading" id="learning"><span class="highlight-yellow">Tailored to their learning needs</span></h2>
                                         <p class="method-about small" id="learning-about" style="color: rgba(0, 0, 0, 1) !important;  text-align: center;">
-                                            To ensure the success of the students, we have constructed an incredibly flexible curriculum, adaptable approach, and action-packed lessons suited to meet the needs of the students – always.
-                                        </p>
+                                            To ensure the success of the students, we have constructed a flexible curriculum that can be tailored to individual learning needs. With an adaptable approach and action-packed lessons, the students come first — always. </p>
                                     </div>
                                 </div>
                             </div>
@@ -320,8 +378,7 @@
                       <p class="mb-0 text-black-50"  id="join-us-subtitle" style="color: black !important; font-weight: 500;">To apply as a tutor, fill out the form below ↓</p>
                   </div>
               </div>
-<!--              <div class="typeform-widget" data-url="https://form.typeform.com/to/P5Ad1DrB?typeform-medium=embed-snippet" style="margin: 0 20px; height:800px;"></div>-->
-                <div class="typeform-widget" data-url="https://tally.so/embed/w4Jx0k" style="margin: 0 20px; height:800px;"></div>
+                <div class="typeform-widget" data-url="https://tally.so/embed/w4Jx0k"></div>
             </section>
               <script>
                   (function() {
@@ -342,6 +399,16 @@
               </script>
           </div>
         </section>  
+
+    <!-- Newsletter Signup -->
+     <section id="newsletter">
+        <h5 id="newsletter-text" style="background: transparent;">Join our Newsletter</h5>
+        <div style="text-align: center">
+            <iframe src="https://embeds.beehiiv.com/5cdb4eac-bacb-4b7e-afa4-ce28f5230f71" id="news-embed" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
+            <p class="news-footer">By submitting this form, you are consenting to receive marketing emails from us. You can revoke your consent to receive emails at any time by unsubscribing.</p>
+        </div>
+     </section>
+    
     <!-- Signup-->
     <section class="signup-section" id="signup">
         <section class="contact-section" id="contact">
@@ -390,7 +457,7 @@
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr style="margin: auto" class="my-4">
                                 <a href="#!"></a>
-                                <a href="mailto:edu@instilt.com":hover{text-decoration:none;} style="font-size: 1.75em" class="small text-black-50">edu@instilt.com</a>
+                                <a id="email-text" href="mailto:edu@instilt.com":hover{text-decoration:none;} class="small">edu@instilt.com</a>
                             </div>
                         </div>
                     </div>
@@ -471,7 +538,7 @@
                             free speech.</p>
                         <p style="text-align: left;font-size:17px;font-weight: 200;">Plagiarism of content is a punishable offence and will not be tolerated. All articles are the original work of the owners of the website unless explicitly stated.</p>
                         <a href="https://instilt.com/" style="text-decoration: none;text-align: left;font-size:17px;color: #A9A7A7;font-weight: 200;">
-                            <p>Copyright © 2023 Instilt | Powered by Instilt</p>
+                            <p>Copyright © 2024 Instilt | Powered by Instilt</p>
                         </a>
                     </div>
                 </div>
@@ -479,7 +546,7 @@
             <div>
                 <div id="right-footer">
                     <a href="https://instilt.com/">
-                        <img class="footer-logo" src="https://instilt.com/wp-content/uploads/2021/02/logoogogogogogogo-1-150x150.png">
+                        <img class="footer-logo" src="assets/img/logo-1-150x150.png">
                     </a>
                     <div style="margin-bottom: 20px;font-size:17px;font-weight: 200;">Let's instill a tilted perspective.</div>
                     <div class="footer-icon">
@@ -498,7 +565,7 @@
                                 <span class="fab fa-instagram" style="width:32px;height:32px;position: relative; color: #222222;top: 9px;"></span>
                             </div>
                         </a>
-                        <a href="https://www.youtube.com/@instilteducate280" target="_blank">
+                        <a href="https://www.youtube.com/channel/UCUIHT4aOWq7wPXqjNwHR2wA" target="_blank">
                             <div class="footer-icon-1">
                                 <span class="fab fa-youtube" style="width:32px;height:32px;position: relative; color: #222222;top: 9px;"></span>
                             </div>
@@ -509,18 +576,24 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/carousel-script.js"></script>
 
     <script>
         
         let c = document.getElementById("counter");
-        c.innerHTML = (Math.round(250 / 10) * 10).toString();
+        c.innerHTML = Math.round(250).toString();
     </script>
+    <script type="text/javascript" async src="https://embeds.beehiiv.com/attribution.js"></script>
 
 </body>
 <script>
