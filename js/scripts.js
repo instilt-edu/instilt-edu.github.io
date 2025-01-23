@@ -53,24 +53,30 @@
 })(jQuery); // End of use strict
 
 window.addEventListener("DOMContentLoaded", onPageLoad);
-window.addEventListener("DOMContentLoaded", showPopup);
+// window.addEventListener("DOMContentLoaded", showPopup);
+window.addEventListener("DOMContentLoaded", removePopupImage);
 
-function showPopup() {
-	const popup = document.getElementById("popup");
-	const closeButton = document.getElementById("close");
-	const overlay = document.getElementById("overlay");
-	const navButton = document.getElementById("nav-button");
-
-	popup.classList.add("active");
-	overlay.classList.add("active");
-	navButton.disabled = true;
-
-	closeButton.addEventListener("click", () => {
-		popup.classList.remove("active");
-		overlay.classList.remove("active");
-		navButton.disabled = false;
-	});
+function removePopupImage() {
+	const img = document.getElementsByClassName("sc-1a30cb0b-1 fmhGQz");
+	console.log(img);
 }
+
+// function showPopup() {
+// 	const popup = document.getElementById("popup");
+// 	const closeButton = document.getElementById("close");
+// 	const overlay = document.getElementById("overlay");
+// 	const navButton = document.getElementById("nav-button");
+
+// 	popup.classList.add("active");
+// 	overlay.classList.add("active");
+// 	navButton.disabled = true;
+
+// 	closeButton.addEventListener("click", () => {
+// 		popup.classList.remove("active");
+// 		overlay.classList.remove("active");
+// 		navButton.disabled = false;
+// 	});
+// }
 
 
 async function getTeamData() {
