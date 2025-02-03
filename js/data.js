@@ -555,7 +555,7 @@ var teamData = [
         "division": "Partnerships",
         "team": "Partnerships",
         "location": "Tripoli, Libya",
-        "image": "https://drive.google.com/thumbnail?id=1wy6j9a2XfVR1o1nCZZ6LZWbTVCZzn6tF"
+        "image": ""
     },
     {
         "id": 71,
