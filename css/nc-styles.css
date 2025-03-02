@@ -1,0 +1,177 @@
+.news-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.news-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.news-col-md-4 {
+    margin-bottom: 3rem;
+    margin: auto;
+}
+.news-card1 {
+    width: 320px;
+    height: 620px;
+    border: 0.6px solid #700000;
+    box-shadow: 0 3px 4px #700000;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+.news-card1:hover {
+    transform: translateY(-10px); /* Moves the card up slightly */
+}
+
+.news-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0.5;
+    padding: 1rem 1.5rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 90%;
+    font-weight: 350;
+    letter-spacing: 0.02rem;
+    position: relative;
+}
+
+.news-card-img {
+    height: 200px;
+    max-width: 250px;
+}
+
+@media (min-width: 768px) {
+    .news-col-md-4 {
+        flex: 0 0 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .news-card1:hover {
+        transform: none;
+    }
+}
+/* @media (min-width: 992px) {
+    .news-col-md-4 {
+        flex: 0 0 30%;
+    }
+} */
+
+.news-appIcon{
+    position: absolute;
+    top: 228px;
+    right: 34px;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.news-text-container {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.news-heading-container {
+    width: 100%;
+    padding-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.news-button1 {
+    background-color: white;
+    color:#272c30;
+    border: 2px solid #700000;
+    border-color: #700000;
+    /* bottom: 5px;
+    left: 60px;
+    position: absolute; */
+    padding: 15px 35px;
+    cursor: pointer;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.13rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.news-button1:hover{
+    color: white;
+    background: #700000;
+    border-color: #700000;
+}
+
+.article-about {
+    font-size: 0.8rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific styles for news carousel images */
+#news-carousel .owl-item img {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+}
+
+/* Ensure the stage is large enough */
+#news-carousel .owl-stage-outer {
+    height: auto !important;
+    max-height: 1000px !important;
+}
+
+#news-carousel .owl-stage {
+    height: auto !important;
+}
+
+#news-carousel .slider-card {
+    margin: 20px !important;
+    display: flex;
+    justify-content: center;
+}
+
+/* Center the cards */
+#news-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .news-text-container {
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .news-card-img {
+        width: 90% !important;
+    }
+}
