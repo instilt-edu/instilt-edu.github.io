@@ -21,12 +21,8 @@ $(document).ready(function(){
         imgElement.on('error', function() {
             // remove the image from the carousel
             let index = $(this).attr('title');
-            $(".owl-carousel").trigger('remove.owl.carousel', [index]).trigger('refresh.owl.carousel');;
+            $("#model-carousel").trigger('remove.owl.carousel', [index]).trigger('refresh.owl.carousel');;
         })
-        if (imgElement.alt == 'NF') {
-            console.log("hi")
-            continue;
-        }
         // Append image to inner div
         innerDiv.append(imgElement);
         // Append inner div to slider card div
@@ -35,10 +31,10 @@ $(document).ready(function(){
             sliderCardDiv.append('<p class="small caption" id="figcaption">' + imgSubs['img' + i] + '</p>');
         }
         // Append slider card div to owl-carousel
-        $('.owl-carousel').append(sliderCardDiv);
+        $('#model-carousel').append(sliderCardDiv);
     }
 
-    $('.owl-carousel').owlCarousel({
+    $('#model-carousel').owlCarousel({
         loop:true,
         responsiveClass:true,
         center:true,
@@ -63,13 +59,13 @@ $(document).ready(function(){
 })
 
 //Prevent autoplay when user clicks
-$('.owl-carousel').on('touchstart', 'img', function(e) {
+$('#model-carousel').on('touchstart', 'img', function(e) {
 	$(this).closest('.owl-carousel').trigger('stop.owl.autoplay');
 });
-$('.owl-carousel').on('touchend', 'img', function(e) {
+$('#model-carousel').on('touchend', 'img', function(e) {
 	$(this).closest('.owl-carousel').trigger('play.owl.autoplay');
 });
-$('.owl-carousel').on('click', '.owl-dots, .owl-nav', function(e) {
+$('#model-carousel').on('click', '.owl-dots, .owl-nav', function(e) {
 	$(this).closest('.owl-carousel').trigger('stop.owl.autoplay');
 	$(this).closest('.owl-carousel').trigger('play.owl.autoplay');
 });

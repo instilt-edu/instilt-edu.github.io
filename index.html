@@ -2,6 +2,22 @@
 <html>
 
 <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NRPPVF36');</script>
+        <!-- End Google Tag Manager -->
+    
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C97XZR5YN5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-C97XZR5YN5');
+    </script>
     <meta charset="utf-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <meta name="google-site-verification" content="nlm6GDVzxGLEuxAwOO5RCRSexiywHyRmAlbROch6oMc" />
@@ -21,12 +37,15 @@
     <link rel="stylesheet" href="css/milestone.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nc-styles.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/gallery/owl.carousel.min.css">
     <link rel="stylesheet" href="css/gallery/owl.theme.default.css ">
     <link rel="stylesheet" href="css/gallery/gallery-style.css">
     <link rel="stylesheet" href="css/gallery/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <script src="https://kit.fontawesome.com/21cad11b53.js" crossorigin="anonymous"></script>
     <script src="js/mapdata.js"></script>
@@ -49,6 +68,10 @@
 </head>
 
 <body id="page-top" data-new-gr-c-s-check-loaded="14.1006.0" data-gr-ext-installed="">
+     <!-- Google Tag Manager (noscript) -->
+     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRPPVF36"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Navigation-->
     <div class="bg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -116,7 +139,6 @@
             </div>
             
     </header>
-    
 
     
     <!-- About-->
@@ -221,7 +243,7 @@
         <div class="heading">Our Model</div>
         <p class="model-text">In an effort to grow and deepen the understanding of our students, we use a unique model. For our faculty, we pair one native English speaker with another tutor proficient in the language of the students. This way students are able to enjoy the best of both worlds as they are pushed to communicate seamlessly with a qualified tutor who speaks English in their day-to-day, allowing them some great outside exposure. At the same time, the other tutor is always to ensure that the students are following, maintaining a comfortable and familiar environment for the children.</p>
         <div class="slider">
-            <div class="owl-carousel owl-theme"></div>
+            <div id='model-carousel' class="owl-carousel owl-theme"></div>
         </div>
         </div>
     </section>
@@ -243,6 +265,18 @@
                 <div class="partner-row" id="partner-card"></div>
             </div>
         </div>
+    </section>
+
+    <!-- News --> 
+    <section id="news-updates">
+        <div class="heading">Our Stories</div>
+        <div class="news-container">
+            <div class="news-row" id="card-container"></div>
+        </div>
+        <div class="slider">
+            <div id='news-carousel' class="owl-carousel owl-theme d-none"></div>
+        </div>
+        <script src="/js/news-cards.js" type="module"></script>
     </section>
 
     <section class="signup-section" style="width: 100vw;background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), !important;margin-left: calc(50% - 50vw);">
@@ -525,6 +559,7 @@
     
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel-script.js"></script>
+    <script src="js/news-carousel-script.js" type="module"></script>
 
     <script>
         
@@ -532,6 +567,8 @@
         c.innerHTML = Math.round(250).toString();
     </script>
     <script type="text/javascript" async src="https://embeds.beehiiv.com/attribution.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/news-carousel-script.js" type="module"></script>
 
 </body>
 <script>
