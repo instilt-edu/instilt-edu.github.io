@@ -1024,6 +1024,12 @@ var partnerData = [
         link: "https://www.instagram.com/_mind.stance_/?hl=en",
         image: "assets/img/partners/mindstance.png",
     },
+    {
+        id: 9019,
+        name: "Study Hall Educational Foundation",
+        link: "https://studyhallfoundation.org/",
+        image: "assets/img/partners/SHEF.png",
+    }
 ];
 
 export {teamData, partnerData};
